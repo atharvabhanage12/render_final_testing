@@ -39,7 +39,7 @@ chromium_path = result.stdout.strip()
 print(result.stderr)
 
 # Add the Chromium path to the PATH environment variable
-os.environ['PATHCHROME'] +=  chromium_path
+os.environ['PATHCHROME'] =  chromium_path
 
 # Verify the updated PATH
 print(os.environ['PATH'])
