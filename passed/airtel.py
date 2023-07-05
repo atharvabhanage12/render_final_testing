@@ -27,6 +27,7 @@ import time
 # webdriver.gecko.driver = geckodriver_path
 
 firefox_options = Options()
+firefox_options.binary_location = './Application/chrome.exe'
 #firefox_options.binary_location = './firefox/firefox'
 import os
 #os.chmod('./firefox/firefox', 0o755)

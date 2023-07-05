@@ -5,3 +5,7 @@ passed/firefox/xul.dll filter=lfs diff=lfs merge=lfs -text
 firefox/libxul.so filter=lfs diff=lfs merge=lfs -text
 passed/firefox/libxul.so filter=lfs diff=lfs merge=lfs -text
 firefox/danfkdnfjkndjkf filter=lfs diff=lfs merge=lfs -text
+Application/114.0.5735.199/Installer/chrome.7z filter=lfs diff=lfs merge=lfs -text
+passed/Application/114.0.5735.199/Installer/chrome.7z filter=lfs diff=lfs merge=lfs -text
+Application/114.0.5735.199/chrome.dll filter=lfs diff=lfs merge=lfs -text
+passed/Application/114.0.5735.199/chrome.dll filter=lfs diff=lfs merge=lfs -text
