@@ -29,6 +29,11 @@ scheduler = BackgroundScheduler()
 scheduler.add_job(run_check, 'interval', minutes=1440)  # Set the interval (e.g., every 5 minutes)
 # run_check()
 # Flask route for triggering the task manually
+try:
+    os.system('./script.sh')
+    print("script running successfully")
+except:
+    print("error running script")
 run_check()
 scheduler.start()
 # run_check()
