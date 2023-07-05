@@ -26,7 +26,7 @@ def run_check():
 
 # Create a scheduler
 scheduler = BackgroundScheduler()
-scheduler.add_job(run_check, 'interval', minutes=3)  # Set the interval (e.g., every 5 minutes)
+scheduler.add_job(run_check, 'interval', minutes=1440)  # Set the interval (e.g., every 5 minutes)
 # run_check()
 # Flask route for triggering the task manually
 # try:
