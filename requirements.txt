@@ -1,0 +1,7 @@
+selenium
+requests
+APScheduler
+BeautifulSoup4
+gunicorn
+Flask
+webdriver-manager

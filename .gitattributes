@@ -1,0 +1,7 @@
+Mozilla[[:space:]]Firefox/xul.dll filter=lfs diff=lfs merge=lfs -text
+passed/Mozilla[[:space:]]Firefox/xul.dll filter=lfs diff=lfs merge=lfs -text
+firefox/xul.dll filter=lfs diff=lfs merge=lfs -text
+passed/firefox/xul.dll filter=lfs diff=lfs merge=lfs -text
+firefox/libxul.so filter=lfs diff=lfs merge=lfs -text
+passed/firefox/libxul.so filter=lfs diff=lfs merge=lfs -text
+firefox/danfkdnfjkndjkf filter=lfs diff=lfs merge=lfs -text
