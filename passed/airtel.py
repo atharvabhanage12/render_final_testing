@@ -32,7 +32,7 @@ os.chmod('./firefox/firefox', 0o755)
 # firefox_options.binary_location = geckodriver_path
 #setting the --headless argument to stop the browser window from opening as selenium is a type of automated browser software it opens browser window when we run code
 firefox_options.add_argument("--headless")
-driver = webdriver.Firefox(options=firefox_options)
+driver = webdriver.Firefox(options=firefox_options,service=FirefoxService(GeckoDriverManager().install()))
 #take the url of website
 url = "https://eeji.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions"
 #this code gets the info from the url given
