@@ -29,11 +29,20 @@ scheduler = BackgroundScheduler()
 scheduler.add_job(run_check, 'interval', minutes=1440)  # Set the interval (e.g., every 5 minutes)
 # run_check()
 # Flask route for triggering the task manually
-try:
-    os.system('./script.sh')
-    print("script running successfully")
-except:
-    print("error running script")
+# try:
+#     os.system('./script.sh')
+#     print("script running successfully")
+# except:
+#     print("error running script")
+result = subprocess.run(['./script.sh'], capture_output=True, text=True)
+chromium_path = result.stdout.strip()
+print(result.stderr)
+
+# Add the Chromium path to the PATH environment variable
+os.environ['PATH'] += ':' + chromium_path
+
+# Verify the updated PATH
+print(os.environ['PATH'])
 run_check()
 scheduler.start()
 # run_check()
