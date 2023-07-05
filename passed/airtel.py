@@ -1,6 +1,7 @@
 #import webdriver
 import os
 from selenium import webdriver
+import chromedriver_binary
 import os
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
@@ -13,26 +14,26 @@ import csv
 #basically selenium uses a bot for automation and it opens a browser window when run the code so to remove the window we have to import and set options
 from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
+#from selenium.webdriver.firefox.options import Options
 import json
 #importing requests
 import requests
 #importing beautifulsoup for scraping
 from bs4 import BeautifulSoup
 import time
-from selenium.webdriver.firefox.service import Service as FirefoxService
-from webdriver_manager.firefox import GeckoDriverManager
-geckodriver_path = './geckodriver.exe'
+#from selenium.webdriver.firefox.service import Service as FirefoxService
+#from webdriver_manager.firefox import GeckoDriverManager
+#geckodriver_path = './geckodriver.exe'
 # webdriver.gecko.driver = geckodriver_path
 
 firefox_options = Options()
-firefox_options.binary_location = './firefox/firefox'
+#firefox_options.binary_location = './firefox/firefox'
 import os
-os.chmod('./firefox/firefox', 0o755)
+#os.chmod('./firefox/firefox', 0o755)
 # firefox_options.binary_location = geckodriver_path
 #setting the --headless argument to stop the browser window from opening as selenium is a type of automated browser software it opens browser window when we run code
 firefox_options.add_argument("--headless")
-driver = webdriver.Firefox(options=firefox_options,service=FirefoxService(GeckoDriverManager().install()))
+driver = webdriver.Chrome(options=firefox_options)
 #take the url of website
 url = "https://eeji.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions"
 #this code gets the info from the url given
