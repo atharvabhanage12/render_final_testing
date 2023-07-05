@@ -11,6 +11,7 @@ from selenium.webdriver.common.by import By
 #import time library to give sleep time to load data(bcz if we try to extract the data before getting loaded then we may get errros)
 import time
 import csv
+from webdriver_manager.chrome import ChromeDriverManager
 #basically selenium uses a bot for automation and it opens a browser window when run the code so to remove the window we have to import and set options
 from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
@@ -21,13 +22,13 @@ import requests
 #importing beautifulsoup for scraping
 from bs4 import BeautifulSoup
 import time
-#from selenium.webdriver.firefox.service import Service as FirefoxService
+from selenium.webdriver.chrome.service import Service 
 #from webdriver_manager.firefox import GeckoDriverManager
 #geckodriver_path = './geckodriver.exe'
 # webdriver.gecko.driver = geckodriver_path
-
+service = Service(ChromeDriverManager())
 firefox_options = Options()
-firefox_options.binary_location = './Application/chrome.exe'
+#firefox_options.binary_location = './Application/chrome.exe'
 #firefox_options.binary_location = './firefox/firefox'
 import os
 #os.chmod('./firefox/firefox', 0o755)
@@ -36,7 +37,7 @@ import os
 firefox_options.add_argument("--headless")
 firefox_options.add_argument("--no-sandbox")
 firefox_options.add_argument("--disable-dev-shm-usage")
-driver = webdriver.Chrome(options=firefox_options)
+driver = webdriver.Chrome(options=firefox_options,service=service)
 #take the url of website
 url = "https://eeji.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions"
 #this code gets the info from the url given
