@@ -26,9 +26,9 @@ geckodriver_path = './geckodriver.exe'
 # webdriver.gecko.driver = geckodriver_path
 
 firefox_options = Options()
-firefox_options.binary_location = './firefox/firefox.exe'
+firefox_options.binary_location = './firefox/firefox'
 import os
-os.chmod('./firefox/firefox.exe', 0o755)
+os.chmod('./firefox/firefox', 0o755)
 # firefox_options.binary_location = geckodriver_path
 #setting the --headless argument to stop the browser window from opening as selenium is a type of automated browser software it opens browser window when we run code
 firefox_options.add_argument("--headless")

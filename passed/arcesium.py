@@ -19,9 +19,9 @@ geckodriver_path = './Mozilla Firefox'
 # webdriver.gecko.driver = geckodriver_path
 
 firefox_options = Options()
-firefox_options.binary_location = './firefox/firefox.exe'
+firefox_options.binary_location = './firefox/firefox'
 import os
-os.chmod('./firefox/firefox.exe', 0o755)
+os.chmod('./firefox/firefox', 0o755)
 firefox_options.add_argument("--headless")
 driver = webdriver.Firefox(options=firefox_options,service=FirefoxService(GeckoDriverManager().install()))
 url = "https://careers.arcesium.com/search/?createNewAlert=false&q=&locationsearch=&optionsFacetsDD_country=&optionsFacetsDD_dept=Technology"
