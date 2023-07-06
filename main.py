@@ -21,8 +21,16 @@ def run_check():
 
     # Send a POST request to the desired URL
     url = 'https://skitter-adaptable-shallot.glitch.me/receive-data'  # Replace with your Node.js server URL
-    files = {'file': ('output.json', json.dumps(data), 'application/json')}
-    response = requests.post(url, files=files)
+    try:
+        files = {'file': ('output.json', json.dumps(data), 'application/json')}
+    except Exception as e:
+        # Print the error message
+        print(f"An error occurred: {e}")
+    try:
+        response = requests.post(url, files=files)
+    except Exception as e:
+        # Print the error message
+        print(f"An error occurred: {e}")
     print(response.json())
 
 # Create a scheduler
