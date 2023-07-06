@@ -22,9 +22,9 @@ def run_check():
     files = {'file': ('output.json', json.dumps(data), 'application/json')}
     response = requests.post(url, files=files)
     print(response.json())
-    scheduler.remove_all_jobs()  # Terminate the previous job
-    # time.sleep(300)  # Sleep for 5 minutes (300 seconds)
-    start_new_cron_job()  # Start a new cron job instance
+    # scheduler.remove_all_jobs()  # Terminate the previous job
+    # # time.sleep(300)  # Sleep for 5 minutes (300 seconds)
+    # start_new_cron_job()  # Start a new cron job instance
 
 # Start a new cron job instance
 def start_new_cron_job():
@@ -43,19 +43,19 @@ def handle_sigterm(signal, frame):
         scheduler.shutdown()
     except:
         print("sigterm error")
-    scheduler.remove_all_jobs()
-    print("sigterm")
-    start_new_cron_job()
+    # scheduler.remove_all_jobs()
+    # print("sigterm")
+    # start_new_cron_job()
 
-    # Exit the application
-    # sys.exit(0)
+    # # Exit the application
+    # # sys.exit(0)
 
 # Register the SIGTERM signal handler
-signal.signal(signal.SIGTERM, handle_sigterm)
+# signal.signal(signal.SIGTERM, handle_sigterm)
 
 # Create a scheduler
 scheduler = BackgroundScheduler()
-scheduler.add_job(run_check, 'cron', minute='*/5', replace_existing=True)
+scheduler.add_job(run_check, 'cron', minute='*/30', replace_existing=True)
 result = subprocess.run(['./script.sh'], capture_output=True, text=True)
 chromium_path = result.stdout.strip()
 print(result.stderr)
