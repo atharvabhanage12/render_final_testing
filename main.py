@@ -22,6 +22,19 @@ def run_check():
     print("Scrapping Successful")
 
 # Schedule the task to run at intervals
+
+# Start a background thread to execute scheduled tasks
+def background_thread():
+    while True:
+        schedule.run_pending()
+        time.sleep(1)
+
+
+# Check if the background thread has started
+def check_background_thread():
+    # if not hasattr(app, 'background_thread') or not app.background_thread.is_alive():
+    app.background_thread = threading.Thread(target=background_thread)
+    app.background_thread.start()
 schedule.every(3).minutes.do(run_check)
 result = subprocess.run(['./script.sh'], capture_output=True, text=True)
 chromium_path = result.stdout.strip()
@@ -35,19 +48,6 @@ os.environ["PATH"]+=":"+chromium_path
 print(os.environ['PATH'])
 print("starting server")
 check_background_thread()
-# Start a background thread to execute scheduled tasks
-def background_thread():
-    while True:
-        schedule.run_pending()
-        time.sleep(1)
-
-
-# Check if the background thread has started
-def check_background_thread():
-    # if not hasattr(app, 'background_thread') or not app.background_thread.is_alive():
-    app.background_thread = threading.Thread(target=background_thread)
-    app.background_thread.start()
-
 @app.route('/', methods=['GET'])
 def start_server():
     print("starting server")
