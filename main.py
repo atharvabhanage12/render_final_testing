@@ -30,16 +30,7 @@ def background_thread():
         schedule.run_pending()
         time.sleep(1)
 
-result = subprocess.run(['./script.sh'], capture_output=True, text=True)
-chromium_path = result.stdout.strip()
-print(result.stderr)
 
-# Add the Chromium path to the PATH environment variable
-os.environ['PATHCHROME'] =  chromium_path
-os.environ["PATH"]+=":"+chromium_path
-
-# Verify the updated PATH
-print(os.environ['PATH'])
 # Check if the background thread has started
 def check_background_thread():
     if not hasattr(app, 'background_thread') or not app.background_thread.is_alive():
@@ -62,4 +53,14 @@ def send_data():
     return jsonify(data)
 
 if __name__ == '__main__':
+    result = subprocess.run(['./script.sh'], capture_output=True, text=True)
+    chromium_path = result.stdout.strip()
+    print(result.stderr)
+    
+    # Add the Chromium path to the PATH environment variable
+    os.environ['PATHCHROME'] =  chromium_path
+    os.environ["PATH"]+=":"+chromium_path
+    
+    # Verify the updated PATH
+    print(os.environ['PATH'])
     app.run()
