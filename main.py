@@ -14,6 +14,10 @@ def run_check():
     print("running process...")
     subprocess.run(['python', 'check.py'])
     print("Scrapping completed")
+    url = 'https://skitter-adaptable-shallot.glitch.me/receive-data'  # Replace with your Node.js server URL
+    files = {'file': ('output.json', json.dumps(data), 'application/json')}
+    response = requests.post(url, files=files)
+    print(response.json())
     # Read the output.json file
     
 
