@@ -22,7 +22,7 @@ def run_check():
     print("Scrapping Successful")
 
 # Schedule the task to run at intervals
-schedule.every(0.1).minutes.do(run_check)
+schedule.every(3).minutes.do(run_check)
 
 # Start a background thread to execute scheduled tasks
 def background_thread():
@@ -30,6 +30,16 @@ def background_thread():
         schedule.run_pending()
         time.sleep(1)
 
+result = subprocess.run(['./script.sh'], capture_output=True, text=True)
+chromium_path = result.stdout.strip()
+print(result.stderr)
+
+# Add the Chromium path to the PATH environment variable
+os.environ['PATHCHROME'] =  chromium_path
+os.environ["PATH"]+=":"+chromium_path
+
+# Verify the updated PATH
+print(os.environ['PATH'])
 # Check if the background thread has started
 def check_background_thread():
     if not hasattr(app, 'background_thread') or not app.background_thread.is_alive():
