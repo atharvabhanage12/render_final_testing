@@ -33,14 +33,14 @@ def background_thread():
 
 # Check if the background thread has started
 def check_background_thread():
-    if not hasattr(app, 'background_thread') or not app.background_thread.is_alive():
-        app.background_thread = threading.Thread(target=background_thread)
-        app.background_thread.start()
+    # if not hasattr(app, 'background_thread') or not app.background_thread.is_alive():
+    app.background_thread = threading.Thread(target=background_thread)
+    app.background_thread.start()
 
 @app.route('/', methods=['GET'])
 def start_server():
     print("starting server")
-    check_background_thread()  # Start the background thread if not already running
+      # Start the background thread if not already running
     return {"message": "server started successfully"}
 
 @app.route('/receive-data', methods=['GET'])
@@ -63,4 +63,6 @@ if __name__ == '__main__':
     
     # Verify the updated PATH
     print(os.environ['PATH'])
+    print("starting server")
+    check_background_thread()
     app.run()
