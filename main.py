@@ -20,29 +20,11 @@ def run_check():
         data = json.load(file)
 
     # Send a POST request to the desired URL
-    url = 'https://skitter-adaptable-shallot.glitch.me/receive-data'  # Replace with your Node.js server URL
-    try:
-        files = {'file': ('output.json', json.dumps(data), 'application/json')}
-    except Exception as e:
-        # Print the error message
-        print(f"An error occurred: {e}")
-    try:
-        response = requests.post(url, files=files)
-    except Exception as e:
-        # Print the error message
-        print(f"An error occurred: {e}")
-    print(response.json())
+    print("Scrapping Successful")
 
 # Create a scheduler
 scheduler = BackgroundScheduler()
-scheduler.add_job(run_check, 'interval', minutes=4)  # Set the interval (e.g., every 5 minutes)
-# run_check()
-# Flask route for triggering the task manually
-# try:
-#     os.system('./script.sh')
-#     print("script running successfully")
-# except:
-#     print("error running script")
+scheduler.add_job(run_check, 'interval', minutes=2)
 result = subprocess.run(['./script.sh'], capture_output=True, text=True)
 chromium_path = result.stdout.strip()
 print(result.stderr)
@@ -57,13 +39,14 @@ time.sleep(4)
 run_check()
 scheduler.start()
 # run_check()
-@app.route('/send-data', methods=['POST'])
+@app.route('/receive-data', methods=['GET'])
 def send_data():
-    run_check()  # Execute the task immediately
-    return jsonify({'status': 'Task executed'})
+    # Read the output.json file
+    with open('output.json', 'r') as file:
+        data = json.load(file)
+    
+    # Return the data as JSON response
+    return jsonify(data)
 
 if __name__ == '__main__':
-    # Start the scheduler
-
-    # Run the Flask app
     app.run()
