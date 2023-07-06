@@ -13,11 +13,9 @@ app = Flask(__name__)
 def run_check():
     # Execute check.py using subprocess
     print("running process...")
-    subprocess.run(['python', 'check.py'])
+    #subprocess.run(['python', 'check.py'])
     
     # Read the output.json file
-    with open('output.json', 'r') as file:
-        data = json.load(file)
 
     # Send a POST request to the desired URL
     print("Scrapping Successful")
