@@ -2,10 +2,9 @@ import time
 import os
 import requests
 from flask import Flask, jsonify
+from apscheduler.schedulers.background import BackgroundScheduler
 import json
 import subprocess
-import schedule
-import threading
 
 app = Flask(__name__)
 
@@ -13,41 +12,37 @@ app = Flask(__name__)
 def run_check():
     # Execute check.py using subprocess
     print("running process...")
-    # subprocess.run(['python', 'check.py'])
-    
+    subprocess.run(['python', 'check.py'])
+    print("Scrapping completed")
     # Read the output.json file
+    
 
-    # Send a POST request to the desired URL
-    print("Scrapping Successful")
+# Create a scheduler
+scheduler = BackgroundScheduler()
+scheduler.add_job(run_check, 'interval', minutes=1440)  # Set the interval (e.g., every 5 minutes)
+# run_check()
+# Flask route for triggering the task manually
+# try:
+#     os.system('./script.sh')
+#     print("script running successfully")
+# except:
+#     print("error running script")
+result = subprocess.run(['./script.sh'], capture_output=True, text=True)
+chromium_path = result.stdout.strip()
+print(result.stderr)
 
-# Schedule the task to run at intervals
-schedule.every(0.1).minutes.do(run_check)
+# Add the Chromium path to the PATH environment variable
+os.environ['PATHCHROME'] =  chromium_path
+os.environ["PATH"]+=":"+chromium_path
 
-# Flag to track if the background thread is running
-background_thread_started = False
-
-# Start a background thread to execute scheduled tasks
-def background_thread():
-    while True:
-        schedule.run_pending()
-        time.sleep(1)
-
-# Check if the background thread has started
-def check_background_thread():
-    global background_thread_started
-    if not background_thread_started:
-        background_thread_started = True
-        bg_thread = threading.Thread(target=background_thread)
-        bg_thread.start()
-
-@app.route('/', methods=['GET'])
-def start_server():
-      # Start the background thread if not already running
-    return {"message": "server started successfully"}
-
+# Verify the updated PATH
+print(os.environ['PATH'])
+time.sleep(4)
+run_check()
+scheduler.start()
+# run_check()
 @app.route('/receive-data', methods=['GET'])
 def send_data():
-    # Read the output.json file
     with open('output.json', 'r') as file:
         data = json.load(file)
     
@@ -55,14 +50,7 @@ def send_data():
     return jsonify(data)
 
 if __name__ == '__main__':
-    result = subprocess.run(['./script.sh'], capture_output=True, text=True)
-    chromium_path = result.stdout.strip()
-    
-    # Add the Chromium path to the PATH environment variable
-    os.environ['PATHCHROME'] = chromium_path
-    os.environ["PATH"] += ":" + chromium_path
-    
-    # Verify the updated PATH
-    print(os.environ['PATH'])
-    check_background_thread()
-    app.run(debug=True)
+    # Start the scheduler
+
+    # Run the Flask app
+    app.run()
