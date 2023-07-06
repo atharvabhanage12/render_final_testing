@@ -6,3 +6,4 @@ gunicorn
 Flask
 webdriver-manager
 chromedriver-binary
+schedule
