@@ -13,7 +13,7 @@ app = Flask(__name__)
 def run_check():
     # Execute check.py using subprocess
     print("running process...")
-    #subprocess.run(['python', 'check.py'])
+    # subprocess.run(['python', 'check.py'])
     
     # Read the output.json file
 
@@ -22,7 +22,7 @@ def run_check():
 
 # Create a scheduler
 scheduler = BackgroundScheduler()
-scheduler.add_job(run_check, 'interval', minutes=2)
+scheduler.add_job(run_check, 'interval', minutes=0.1)
 result = subprocess.run(['./script.sh'], capture_output=True, text=True)
 chromium_path = result.stdout.strip()
 print(result.stderr)
@@ -33,9 +33,9 @@ os.environ["PATH"]+=":"+chromium_path
 
 # Verify the updated PATH
 print(os.environ['PATH'])
-time.sleep(4)
-run_check()
-scheduler.start()
+
+# run_check()
+# scheduler.start()
 # run_check()
 @app.route('/receive-data', methods=['GET'])
 def send_data():
@@ -47,4 +47,6 @@ def send_data():
     return jsonify(data)
 
 if __name__ == '__main__':
+    run_check()
+    scheduler.start()
     app.run()
