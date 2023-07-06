@@ -5,7 +5,6 @@ from flask import Flask, jsonify
 import json
 import subprocess
 import schedule
-
 import threading
 
 app = Flask(__name__)
@@ -14,7 +13,7 @@ app = Flask(__name__)
 def run_check():
     # Execute check.py using subprocess
     print("running process...")
-    subprocess.run(['python', 'check.py'])
+    # subprocess.run(['python', 'check.py'])
     
     # Read the output.json file
 
@@ -22,6 +21,10 @@ def run_check():
     print("Scrapping Successful")
 
 # Schedule the task to run at intervals
+schedule.every(0.1).minutes.do(run_check)
+
+# Flag to track if the background thread is running
+background_thread_started = False
 
 # Start a background thread to execute scheduled tasks
 def background_thread():
@@ -29,29 +32,18 @@ def background_thread():
         schedule.run_pending()
         time.sleep(1)
 
-
 # Check if the background thread has started
 def check_background_thread():
-    # if not hasattr(app, 'background_thread') or not app.background_thread.is_alive():
-    app.background_thread = threading.Thread(target=background_thread)
-    app.background_thread.start()
-schedule.every(3).minutes.do(run_check)
-result = subprocess.run(['./script.sh'], capture_output=True, text=True)
-chromium_path = result.stdout.strip()
-print(result.stderr)
-    
-    # Add the Chromium path to the PATH environment variable
-os.environ['PATHCHROME'] =  chromium_path
-os.environ["PATH"]+=":"+chromium_path
-    
-    # Verify the updated PATH
-print(os.environ['PATH'])
-print("starting server")
-check_background_thread()
+    global background_thread_started
+    if not background_thread_started:
+        background_thread_started = True
+        bg_thread = threading.Thread(target=background_thread)
+        bg_thread.start()
+
 @app.route('/', methods=['GET'])
 def start_server():
     print("starting server")
-      # Start the background thread if not already running
+    check_background_thread()  # Start the background thread if not already running
     return {"message": "server started successfully"}
 
 @app.route('/receive-data', methods=['GET'])
@@ -64,5 +56,15 @@ def send_data():
     return jsonify(data)
 
 if __name__ == '__main__':
+    result = subprocess.run(['./script.sh'], capture_output=True, text=True)
+    chromium_path = result.stdout.strip()
+    print(result.stderr)
+    
+    # Add the Chromium path to the PATH environment variable
+    os.environ['PATHCHROME'] =  chromium_path
+    os.environ["PATH"] += ":" + chromium_path
+    
+    # Verify the updated PATH
+    print(os.environ['PATH'])
     
     app.run()
