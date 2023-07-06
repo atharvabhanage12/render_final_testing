@@ -21,8 +21,8 @@ def run_check():
     print("Scrapping Successful")
 
 # Create a scheduler
-scheduler = BackgroundScheduler()
-scheduler.add_job(run_check, 'interval', minutes=0.1)
+# scheduler = BackgroundScheduler()
+# scheduler.add_job(run_check, 'interval', minutes=0.1)
 result = subprocess.run(['./script.sh'], capture_output=True, text=True)
 chromium_path = result.stdout.strip()
 print(result.stderr)
@@ -37,6 +37,13 @@ print(os.environ['PATH'])
 # run_check()
 # scheduler.start()
 # run_check()
+@app.route('/',methods=['GET'])
+def start_server():
+    print("starting server")
+    scheduler = BackgroundScheduler()
+    scheduler.add_job(run_check, 'interval', minutes=0.1)
+    scheduler.start()
+    return {"message":"server started succesfully"}
 @app.route('/receive-data', methods=['GET'])
 def send_data():
     # Read the output.json file
@@ -47,6 +54,5 @@ def send_data():
     return jsonify(data)
 
 if __name__ == '__main__':
-    run_check()
-    scheduler.start()
+    # run_check()
     app.run()
