@@ -23,7 +23,18 @@ def run_check():
 
 # Schedule the task to run at intervals
 schedule.every(3).minutes.do(run_check)
-
+result = subprocess.run(['./script.sh'], capture_output=True, text=True)
+chromium_path = result.stdout.strip()
+print(result.stderr)
+    
+    # Add the Chromium path to the PATH environment variable
+os.environ['PATHCHROME'] =  chromium_path
+os.environ["PATH"]+=":"+chromium_path
+    
+    # Verify the updated PATH
+print(os.environ['PATH'])
+print("starting server")
+check_background_thread()
 # Start a background thread to execute scheduled tasks
 def background_thread():
     while True:
@@ -53,16 +64,5 @@ def send_data():
     return jsonify(data)
 
 if __name__ == '__main__':
-    result = subprocess.run(['./script.sh'], capture_output=True, text=True)
-    chromium_path = result.stdout.strip()
-    print(result.stderr)
     
-    # Add the Chromium path to the PATH environment variable
-    os.environ['PATHCHROME'] =  chromium_path
-    os.environ["PATH"]+=":"+chromium_path
-    
-    # Verify the updated PATH
-    print(os.environ['PATH'])
-    print("starting server")
-    check_background_thread()
     app.run()
