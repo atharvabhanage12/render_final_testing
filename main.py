@@ -7,7 +7,7 @@ import json
 import subprocess
 import signal
 import sys
-
+from waitress import serve
 app = Flask(__name__)
 
 # Define the task to run at intervals
@@ -55,7 +55,7 @@ def handle_sigterm(signal, frame):
 
 # Create a scheduler
 scheduler = BackgroundScheduler()
-scheduler.add_job(run_check, 'cron', minute='*/30', replace_existing=True)
+scheduler.add_job(run_check, 'cron', minute='*/5', replace_existing=True)
 result = subprocess.run(['./script.sh'], capture_output=True, text=True)
 chromium_path = result.stdout.strip()
 print(result.stderr)
@@ -80,4 +80,5 @@ def send_data():
 
 if __name__ == '__main__':
     # Run the Flask app
-    app.run()
+    # app.run()
+    serve(app,host='0.0.0.0',port=5000)
