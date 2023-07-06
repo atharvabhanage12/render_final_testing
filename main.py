@@ -43,7 +43,7 @@ def check_background_thread():
 @app.route('/', methods=['GET'])
 def start_server():
     print("starting server")
-    check_background_thread()  # Start the background thread if not already running
+     # Start the background thread if not already running
     return {"message": "server started successfully"}
 
 @app.route('/receive-data', methods=['GET'])
@@ -66,5 +66,6 @@ if __name__ == '__main__':
     
     # Verify the updated PATH
     print(os.environ['PATH'])
+    check_background_thread() 
     
     app.run()
