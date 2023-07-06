@@ -42,8 +42,7 @@ def check_background_thread():
 
 @app.route('/', methods=['GET'])
 def start_server():
-    print("starting server")
-     # Start the background thread if not already running
+      # Start the background thread if not already running
     return {"message": "server started successfully"}
 
 @app.route('/receive-data', methods=['GET'])
@@ -58,14 +57,12 @@ def send_data():
 if __name__ == '__main__':
     result = subprocess.run(['./script.sh'], capture_output=True, text=True)
     chromium_path = result.stdout.strip()
-    print(result.stderr)
     
     # Add the Chromium path to the PATH environment variable
-    os.environ['PATHCHROME'] =  chromium_path
+    os.environ['PATHCHROME'] = chromium_path
     os.environ["PATH"] += ":" + chromium_path
     
     # Verify the updated PATH
     print(os.environ['PATH'])
-    check_background_thread() 
-    
-    app.run()
+    check_background_thread()
+    app.run(debug=True)
