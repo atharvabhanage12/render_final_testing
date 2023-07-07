@@ -10,7 +10,9 @@ from waitress import serve
 import requests
 app = Flask(__name__)
 
-
+@app.route('/',methods=['GET','POST'])
+def health():
+    return "health success"
 
 
 @app.route('/update_output', methods=['POST'])
