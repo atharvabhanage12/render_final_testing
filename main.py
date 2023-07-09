@@ -13,7 +13,7 @@ executor = ThreadPoolExecutor()
 async def run_check():
     # Execute check.py using subprocess
     print("Running process...")
-    await subprocess.run(['python', 'check.py'])
+    await subprocess.run(['python', 'check.py'],timeout=10800)
     print("Scraping completed")
 
 def install_chrome():
@@ -36,7 +36,7 @@ async def scrape():
     asyncio.create_task(run_check())
 @app.route('/cronjob', methods=['GET'])
 def run_task():
-    asyncio.run(scrape())
+    asyncio.run(asyncio.wait_for(scrape(),10800))
     return {"message": "Pinged server successfully"}
 
 
