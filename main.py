@@ -1,36 +1,74 @@
 import time
 import os
 import requests
-from flask import Flask, jsonify,request
+from flask import Flask, jsonify
+from apscheduler.schedulers.background import BackgroundScheduler
 import json
 import subprocess
 import signal
 import sys
 from waitress import serve
-import requests
 app = Flask(__name__)
 
-@app.route('/',methods=['GET','POST'])
-def health():
-    return "health success"
+# Define the task to run at intervals
+def run_check():
+    # Execute check.py using subprocess
+    print("running process...")
+    subprocess.run(['python', 'check.py'])
+    print("Scrapping completed")
+    with open('output.json', 'r') as file:
+        data = json.load(file)
+    url = 'https://skitter-adaptable-shallot.glitch.me/receive-data'  # Replace with your Node.js server URL
+    files = {'file': ('output.json', json.dumps(data), 'application/json')}
+    response = requests.post(url, files=files)
+    print(response.json())
+    # scheduler.remove_all_jobs()  # Terminate the previous job
+    # # time.sleep(300)  # Sleep for 5 minutes (300 seconds)
+    # start_new_cron_job()  # Start a new cron job instance
 
+# Start a new cron job instance
+def start_new_cron_job():
+    global scheduler
+    scheduler = BackgroundScheduler()
+    scheduler.add_job(run_check, 'cron', minute='*/5', replace_existing=True)
+    scheduler.start()
 
-@app.route('/update_output', methods=['POST'])
-def update_output():
-    # Check if a file is included in the request
-    if 'output.json' not in request.files:
-        return 'No file provided', 400
-
-    file = request.files['output.json']
-
-    # # Check if output.json already exists
-    if os.path.exists('output.json'):
-        os.remove('output.json')
-
-    # Save the file to the server's folder
-    file.save('output.json')
+# Catch the SIGTERM signal
+def handle_sigterm(signal, frame):
+    # Perform any necessary cleanup or shutdown procedures here
+    # For example, stop the scheduler and release any resources
     
-    return 'File uploaded and replaced successfully'
+    # Stop the scheduler
+    try:
+        scheduler.shutdown()
+    except:
+        print("sigterm error")
+    # scheduler.remove_all_jobs()
+    # print("sigterm")
+    # start_new_cron_job()
+
+    # # Exit the application
+    # # sys.exit(0)
+
+# Register the SIGTERM signal handler
+# signal.signal(signal.SIGTERM, handle_sigterm)
+
+# Create a scheduler
+scheduler = BackgroundScheduler()
+scheduler.add_job(run_check, 'cron', minute='*/5', replace_existing=True)
+result = subprocess.run(['./script.sh'], capture_output=True, text=True)
+chromium_path = result.stdout.strip()
+print(result.stderr)
+
+# Add the Chromium path to the PATH environment variable
+os.environ['PATHCHROME'] =  chromium_path
+os.environ["PATH"]+=":"+chromium_path
+
+# Verify the updated PATH
+print(os.environ['PATH'])
+
+# Start the scheduler
+scheduler.start()
 
 @app.route('/receive-data', methods=['GET'])
 def send_data():
@@ -42,4 +80,5 @@ def send_data():
 
 if __name__ == '__main__':
     # Run the Flask app
-    app.run()
+    # app.run()
+    serve(app,host='0.0.0.0',port=5000)
