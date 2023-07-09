@@ -8,3 +8,5 @@ webdriver-manager
 chromedriver-binary
 schedule
 waitress
+asyncio
+futures
