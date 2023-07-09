@@ -10,10 +10,10 @@ import time
 app = Flask(__name__)
 executor = ThreadPoolExecutor()
 
-def run_check():
+async def run_check():
     # Execute check.py using subprocess
     print("Running process...")
-    subprocess.run(['python', 'check.py'])
+    await subprocess.run(['python', 'check.py'])
     print("Scraping completed")
 
 def install_chrome():
@@ -29,12 +29,14 @@ install_chrome()
 #     asyncio.set_event_loop(loop)
 #     loop.run_in_executor(executor, install_chrome)
 #     return {"message": "Browser Installation Started"}
-
+async def scrape():
+    # loop = asyncio.new_event_loop()
+    # asyncio.set_event_loop(loop)
+    # loop.run_in_executor(executor, run_check)
+    asyncio.create_task(run_check())
 @app.route('/cronjob', methods=['GET'])
-def scrape():
-    loop = asyncio.new_event_loop()
-    asyncio.set_event_loop(loop)
-    loop.run_in_executor(executor, run_check)
+def run_task():
+    asyncio.run(scrape())
     return {"message": "Pinged server successfully"}
 
 

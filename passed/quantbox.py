@@ -5,7 +5,7 @@ import json
 
 html_text = requests.get('https://www.quantboxresearch.com/jobs').text
 final_data = list()
-soup = BeautifulSoup(html_text, 'lxml')
+soup = BeautifulSoup(html_text, 'html.parser')
 jobs = soup.find_all('div', class_='job-item')
 
 for index, job in enumerate(jobs):
