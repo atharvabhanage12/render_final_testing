@@ -46,6 +46,8 @@ def run_python_file(file_name):
             # Print the error message and the filename for which the error occurred
             print(f"Error running file: {file_name}")
             print(e.stderr)
+        with open('output.json', 'w') as file:
+            json.dump(result_dict, file, indent=4)
 
         print("==============================================")
 
