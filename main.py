@@ -17,7 +17,7 @@ def run_check():
     print("Scraping completed")
 
 def install_chrome():
-    result = subprocess.rin(['python','temp.py'])
+    result = subprocess.run(['python','temp.py'])
     # print(result.stdout)
 
 # run_check()
