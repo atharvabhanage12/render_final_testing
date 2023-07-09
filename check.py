@@ -50,7 +50,7 @@ def run_python_file(file_name):
         print("==============================================")
 
 # Use a ThreadPoolExecutor to run multiple files concurrently
-with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
+with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
     executor.map(run_python_file, file_list)
 print(result_dict["company_name_list"])
 # Write the final dictionary to output.json

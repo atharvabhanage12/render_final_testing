@@ -5,6 +5,7 @@ import json
 import subprocess
 from waitress import serve
 import os
+import time
 
 app = Flask(__name__)
 executor = ThreadPoolExecutor()
@@ -27,7 +28,8 @@ os.environ["PATH"]+=":"+chromium_path
 # Verify the updated PATH
 print(os.environ['PATH'])
 
-
+time.sleep(4)
+run_check()
 
 
 @app.route('/cronjob', methods=['GET'])
