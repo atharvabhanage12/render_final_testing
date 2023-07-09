@@ -16,9 +16,17 @@ def run_check():
     subprocess.run(['python', 'check.py'])
     print("Scraping completed")
 
-
+def install_chrome():
+    result = subprocess.rin(['python','temp.py'])
+    print(result.stdout)
 
 # run_check()
+
+@app.route('/setupbrowser',methods=['GET'])
+def setupbrowser():
+    loop = asyncio.new_event_loop()
+    asyncio.set_event_loop(loop)
+    loop.run_in_executor(executor, install_chrome)
 
 
 @app.route('/cronjob', methods=['GET'])
