@@ -18,16 +18,17 @@ def run_check():
 
 def install_chrome():
     result = subprocess.rin(['python','temp.py'])
-    print(result.stdout)
+    # print(result.stdout)
 
 # run_check()
+install_chrome()
 
-@app.route('/setupbrowser',methods=['GET'])
-def setupbrowser():
-    loop = asyncio.new_event_loop()
-    asyncio.set_event_loop(loop)
-    loop.run_in_executor(executor, install_chrome)
-    return {"message": "Browser Installation Started"}
+# @app.route('/setupbrowser',methods=['GET'])
+# def setupbrowser():
+#     loop = asyncio.new_event_loop()
+#     asyncio.set_event_loop(loop)
+#     loop.run_in_executor(executor, install_chrome)
+#     return {"message": "Browser Installation Started"}
 
 @app.route('/cronjob', methods=['GET'])
 def scrape():
@@ -49,4 +50,4 @@ def send_data():
     return jsonify(data)
 
 if __name__ == '__main__':
-    app.run(debug=True, threaded=True, host='0.0.0.0', port=5000)
+    app.run(debug=False, threaded=True)
