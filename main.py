@@ -29,14 +29,17 @@ install_chrome()
 #     asyncio.set_event_loop(loop)
 #     loop.run_in_executor(executor, install_chrome)
 #     return {"message": "Browser Installation Started"}
-async def scrape():
-    # loop = asyncio.new_event_loop()
-    # asyncio.set_event_loop(loop)
-    # loop.run_in_executor(executor, run_check)
-    asyncio.create_task(run_check())
+# async def scrape():
+#     loop = asyncio.new_event_loop()
+#     asyncio.set_event_loop(loop)
+#     loop.run_in_executor(executor, run_check)
+    # asyncio.create_task(run_check())
 @app.route('/cronjob', methods=['GET'])
-def run_task():
-    asyncio.run(asyncio.wait_for(scrape(),10800))
+async def run_task():
+    loop = asyncio.new_event_loop()
+    asyncio.set_event_loop(loop)
+    loop.run_in_executor(executor, run_check)
+    # asyncio.run(asyncio.wait_for(scrape(),10800))
     return {"message": "Pinged server successfully"}
 
 
