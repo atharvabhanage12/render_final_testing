@@ -18,7 +18,7 @@ def run_check():
 
 
 
-run_check()
+# run_check()
 
 
 @app.route('/cronjob', methods=['GET'])
