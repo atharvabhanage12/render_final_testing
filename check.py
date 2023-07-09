@@ -25,6 +25,7 @@ def run_python_file(file_name):
             # Run the Python file using subprocess
             result = subprocess.run(['python', file_path], capture_output=True, text=True)
             print(result.stderr)
+            result_dict["error-companies"].append({"name":file_name,"error":result.stderr,"output":result.stdout})
             # Convert the output to JSON
             output_json = json.loads(result.stdout)
 
@@ -47,7 +48,7 @@ def run_python_file(file_name):
             # Print the error message and the filename for which the error occurred
             print(f"Error running file: {file_name}")
             print(e.stderr)
-            result_dict["error-companies"].append({"name":file_name,"error":e.stderr})
+            # result_dict["error-companies"].append({"name":file_name,"error":e.stderr})
         with open('output.json', 'w') as file:
             json.dump(result_dict, file, indent=4)
 
