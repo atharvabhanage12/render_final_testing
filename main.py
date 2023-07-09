@@ -27,7 +27,7 @@ def setupbrowser():
     loop = asyncio.new_event_loop()
     asyncio.set_event_loop(loop)
     loop.run_in_executor(executor, install_chrome)
-
+    return {"message": "Browser Installation Started"}
 
 @app.route('/cronjob', methods=['GET'])
 def scrape():
