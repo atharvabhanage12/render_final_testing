@@ -56,6 +56,7 @@ async def run_check():
 def install_chrome():
     result = subprocess.run(['python', 'temp.py'])
     # print(result.stdout)
+install_chrome()
 
 @app.route('/cronjob', methods=['GET'])
 def run_task():
