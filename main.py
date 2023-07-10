@@ -33,11 +33,14 @@ async def run_check():
     print("running process " + L[count])
     result = subprocess.run(['python', L[count]], capture_output=True, text=True)
     result_dict["error-companies"].append({"name": L[count], "error": result.stderr, "output": result.stdout})
-    output_json = json.loads(result.stdout)
-    company_name = output_json['company']
-    jobs_data = output_json['data']
-    result_dict['company_name_list'].append(company_name)
-    result_dict['company_posting_array'].append(jobs_data)
+    try:
+        output_json = json.loads(result.stdout)
+        company_name = output_json['company']
+        jobs_data = output_json['data']
+        result_dict['company_name_list'].append(company_name)
+        result_dict['company_posting_array'].append(jobs_data)
+    except:
+        print("Error running file:",L[count])
     with open('output1.json', 'w') as file:
         json.dump(result_dict, file, indent=4)
     print("execution completed")
