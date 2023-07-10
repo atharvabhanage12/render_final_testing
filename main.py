@@ -1,36 +1,38 @@
-import time
-import os
-import requests
-from flask import Flask, jsonify,request
-import json
+from datetime import datetime, timedelta
+import asyncio
+from apscheduler.schedulers.asyncio import AsyncIOScheduler
+from flask import Flask, jsonify
+import os, json
 import subprocess
-import signal
-import sys
-from waitress import serve
-import requests
+
 app = Flask(__name__)
 
-@app.route('/',methods=['GET','POST'])
-def health():
-    return "health success"
+scheduler = AsyncIOScheduler()
 
+def long_running_task():
+    # Your long-running task logic here
+    print("Running long-running task...")
+    result = subprocess.run(['python', 'check.py'], capture_output=True, text=True)
+    print("Task completed successfully")
 
-@app.route('/update_output', methods=['POST'])
-def update_output():
-    # Check if a file is included in the request
-    if 'output.json' not in request.files:
-        return 'No file provided', 400
+def schedule_job():
+    scheduler.add_job(long_running_task, 'interval', minutes=0.1)
+    scheduler.start()
 
-    file = request.files['output.json']
+@app.route('/')
+def home():
+    return "Flask Server with Cron Job Example"
 
-    # # Check if output.json already exists
-    if os.path.exists('output.json'):
-        os.remove('output.json')
+# result = subprocess.run(['./script.sh'], capture_output=True, text=True)
+# chromium_path = result.stdout.strip()
+# print(result.stderr)
 
-    # Save the file to the server's folder
-    file.save('output.json')
-    
-    return 'File uploaded and replaced successfully'
+# # Add the Chromium path to the PATH environment variable
+# os.environ['PATHCHROME'] =  chromium_path
+# os.environ["PATH"]+=":"+chromium_path
+
+# # Verify the updated PATH
+# print(os.environ['PATH'])
 
 @app.route('/receive-data', methods=['GET'])
 def send_data():
@@ -41,5 +43,5 @@ def send_data():
     return jsonify(data)
 
 if __name__ == '__main__':
-    # Run the Flask app
+    schedule_job()
     app.run()
