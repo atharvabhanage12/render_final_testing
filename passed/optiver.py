@@ -28,7 +28,7 @@ from selenium.webdriver.chrome.service import Service
 #from webdriver_manager.firefox import GeckoDriverManager
 #geckodriver_path = './geckodriver.exe'
 # webdriver.gecko.driver = geckodriver_path
-service = Service(ChromeDriverManager().install())
+service = Service("/opt/render/project/.render/chrome/opt/google/chrome")
 firefox_options = Options()
 #firefox_options.binary_location = os.environ["PATHCHROME"]
 #firefox_options.binary_location = './firefox/firefox'
