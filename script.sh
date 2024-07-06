@@ -12,14 +12,15 @@ if [[ ! -d $STORAGE_DIR/chrome ]]; then
   wget -P ./ https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
   dpkg -x ./google-chrome-stable_current_amd64.deb $STORAGE_DIR/chrome
   rm ./google-chrome-stable_current_amd64.deb
-  cd $HOME/project/src # Make sure we return to where we were
-
+  # cd $HOME/project/src # Make sure we return to where we were
+  cd $STORAGE_DIR
   # Change permissions to read and write for all users
+  ls -l .
   chmod -R 777 $STORAGE_DIR/chrome
   echo "check Atharva"
   echo "$STORAGE_DIR/chrome/opt/google/chrome"  +" Atharva "
   echo $PWD +" Atharva "
-  ls -l $STORAGE_DIR/chrome/ +" Atharva "
+  ls -l $STORAGE_DIR/chrome/ +"    Atharva "
   echo $PWD +" Atharva "
 
   # Output the path to Chromium
