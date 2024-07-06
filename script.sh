@@ -3,6 +3,7 @@
 set -o errexit
 
 STORAGE_DIR=/opt/render/project/.render
+echo "Running Script.sh .."
 
 if [[ ! -d $STORAGE_DIR/chrome ]]; then
   echo "...Downloading Chrome"
@@ -21,6 +22,8 @@ if [[ ! -d $STORAGE_DIR/chrome ]]; then
 else
   ls -l $STORAGE_DIR/chrome/opt/google/chrome
   ls -l $STORAGE_DIR/chrome/
-  
+
   echo "...Using Chrome from cache"
 fi
+
+echo "Ended Script.sh .."
