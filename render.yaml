@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: Joble_render_web_scrape_service_V1
+Python 3
+    env: python
+    region: Singapore (Southeast Asia)
+    buildCommand: 
+      - pip install -r requirements.txt
+      - python temp.py
+    startCommand: gunicorn app:app
+    envVars:
+      - key: PATH
+        value: ${PATH}:/opt/render/project/.render/chrome/opt/google/chrome
+      - key: PATHCHROME
+        value: /opt/render/project/.render/chrome/opt/google/chrome
