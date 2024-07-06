@@ -13,3 +13,5 @@ Python 3
         value: ${PATH}:/opt/render/project/.render/chrome/opt/google/chrome
       - key: PATHCHROME
         value: /opt/render/project/.render/chrome/opt/google/chrome
+      - key: PORT
+        value: 10000
