@@ -2,10 +2,10 @@ import os
 import time
 import subprocess
 result = subprocess.run(['./script.sh'], capture_output=True, text=True)
-chromium_path = result.stdout.strip()
+chromium_path = "/opt/render/project/.render/chrome/opt/google/chrome"
 
 print(" ATHARVA DEBUG chromium_path")
-print(result.stderr)
+print(chromium_path)
 
 # Add the Chromium path to the PATH environment variable
 os.environ['PATHCHROME'] =  chromium_path
