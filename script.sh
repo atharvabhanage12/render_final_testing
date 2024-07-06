@@ -17,12 +17,13 @@ if [[ ! -d $STORAGE_DIR/chrome ]]; then
   
   echo "check Atharva"
   echo "$STORAGE_DIR/chrome/opt/google/chrome"  +" Atharva "
+   echo $PWD +" Atharva "
   ls -l $STORAGE_DIR/chrome/ +" Atharva "
   echo $PWD +" Atharva "
 
   # Output the path to Chromium
-  echo "check"
-  echo $PATH
+  echo "check" +" Atharva "
+  echo $PATH +" Atharva "
   ls -l $STORAGE_DIR/chrome/opt/google/chrome  +" Atharva "
 
 
