@@ -14,10 +14,11 @@ if [[ ! -d $STORAGE_DIR/chrome ]]; then
   rm ./google-chrome-stable_current_amd64.deb
   cd $HOME/project/src # Make sure we return to where we were
 
-  
+  # Change permissions to read and write for all users
+  chmod -R 777 $STORAGE_DIR/chrome
   echo "check Atharva"
   echo "$STORAGE_DIR/chrome/opt/google/chrome"  +" Atharva "
-   echo $PWD +" Atharva "
+  echo $PWD +" Atharva "
   ls -l $STORAGE_DIR/chrome/ +" Atharva "
   echo $PWD +" Atharva "
 
