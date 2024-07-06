@@ -14,15 +14,17 @@ if [[ ! -d $STORAGE_DIR/chrome ]]; then
   rm ./google-chrome-stable_current_amd64.deb
   cd $HOME/project/src # Make sure we return to where we were
 
+  
+  echo "check Atharva"
+  echo "$STORAGE_DIR/chrome/opt/google/chrome"  +" Atharva "
+  ls -l $STORAGE_DIR/chrome/ +" Atharva "
+  echo $PWD +" Atharva "
+
   # Output the path to Chromium
   echo "check"
   echo $PATH
   ls -l $STORAGE_DIR/chrome/opt/google/chrome  +" Atharva "
 
-  echo "check"
-  echo "$STORAGE_DIR/chrome/opt/google/chrome"  +" Atharva "
-  ls -l $STORAGE_DIR/chrome/ +" Atharva "
-  echo $PWD +" Atharva "
 
 else
   ls -l $STORAGE_DIR/chrome/opt/google/chrome
