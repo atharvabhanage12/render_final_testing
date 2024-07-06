@@ -21,7 +21,7 @@ if [[ ! -d $STORAGE_DIR/chrome ]]; then
 
   echo "check"
   echo "$STORAGE_DIR/chrome/opt/google/chrome"  +" Atharva "
-  ls -l $STORAGE_DIR/chrome/
+  ls -l $STORAGE_DIR/chrome/ +" Atharva "
   echo $PWD +" Atharva "
 
 else
