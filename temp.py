@@ -9,7 +9,8 @@ print(result.stderr)
 os.environ['PATHCHROME'] =  chromium_path
 os.environ["PATH"]+=":"+chromium_path
 
-# Verify the updated PATH
+# Verify the updated PATsH
+print("checking just")
 print(os.environ['PATH'])
 
 time.sleep(4)

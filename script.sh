@@ -14,6 +14,9 @@ if [[ ! -d $STORAGE_DIR/chrome ]]; then
   cd $HOME/project/src # Make sure we return to where we were
 
   # Output the path to Chromium
+  echo "check"
+  echo $PATH
+  echo "check"
   echo "$STORAGE_DIR/chrome/opt/google/chrome"
 else
   echo "...Using Chrome from cache"
