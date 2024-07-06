@@ -19,5 +19,7 @@ if [[ ! -d $STORAGE_DIR/chrome ]]; then
   echo "check"
   echo "$STORAGE_DIR/chrome/opt/google/chrome"
 else
+  ls -l $STORAGE_DIR/chrome/opt/google/chrome
+  ls -l $STORAGE_DIR/chrome/
   echo "...Using Chrome from cache"
 fi
