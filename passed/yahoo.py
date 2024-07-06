@@ -14,6 +14,7 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
 # Run the script and capture the output
+print("hello")
 result = subprocess.run(['./script.sh'], capture_output=True, text=True)
 
 # Print the captured stdout and stderr
