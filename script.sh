@@ -14,6 +14,7 @@ if [[ ! -d $STORAGE_DIR/chrome ]]; then
   rm ./google-chrome-stable_current_amd64.deb
   chmod -R 777 .
   chmod -R 777 $STORAGE_DIR/chrome
+  ls 
   cd $HOME/project/src # Make sure we return to where we were
 
   # Change permissions to read and write for all users
