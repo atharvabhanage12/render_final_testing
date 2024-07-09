@@ -22,7 +22,7 @@ try:
     logging.info("Starting script...")
 
     # Define the path to the Chrome binary
-    chrome_binary_path = "/opt/render/project/.render/chrome/opt/google/chrome/chrome"
+    chrome_binary_path = "/opt/render/project/.render/chrome"
     
     # Set up Chrome options
     chrome_options = Options()
