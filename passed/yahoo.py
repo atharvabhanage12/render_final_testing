@@ -69,6 +69,7 @@ for job_row in job_rows:
     jobs.append({"job_title": title, "job_location": location, "job_link": link})
 
 json_data = json.dumps({"company": "yahoo", "data": jobs}, indent=4)
+print("yahooo")
 print(json_data)
 
 driver.quit()
