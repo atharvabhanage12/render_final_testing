@@ -1,0 +1,291 @@
+2024-07-09 22:03:55,808 - INFO - Starting script...
+2024-07-09 22:03:55,808 - INFO - ====== WebDriver manager ======
+2024-07-09 22:03:55,858 - INFO - There is no [mac_arm64] chromedriver "latest" for browser google-chrome "126.0.6478" in cache
+2024-07-09 22:03:55,858 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-09 22:03:55,908 - DEBUG - Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+2024-07-09 22:03:56,345 - DEBUG - https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_126.0.6478 HTTP/1.1" 404 200
+2024-07-09 22:03:56,346 - ERROR - An error occurred
+Traceback (most recent call last):
+  File "/Users/atharvabhanage/Desktop/joble/webscrapeJoble/render_final_testing/passed/yahoo.py", line 137, in <module>
+    service = Service(ChromeDriverManager().install())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/chrome.py", line 39, in install
+    driver_path = self._get_driver_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/manager.py", line 30, in _get_driver_path
+    file = self._download_manager.download_file(driver.get_driver_download_url())
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/drivers/chrome.py", line 40, in get_driver_download_url
+    driver_version_to_download = self.get_driver_version_to_download()
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/driver.py", line 51, in get_driver_version_to_download
+    self._driver_to_download_version = self._version if self._version not in (None, "latest") else self.get_latest_release_version()
+                                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/drivers/chrome.py", line 62, in get_latest_release_version
+    resp = self._http_client.get(url=latest_release_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/http.py", line 37, in get
+    self.validate_response(resp)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/http.py", line 16, in validate_response
+    raise ValueError(f"There is no such driver by url {resp.url}")
+ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_126.0.6478
+2024-07-09 22:04:33,470 - INFO - Starting script...
+2024-07-09 22:04:33,470 - INFO - Initializing WebDriver...
+2024-07-09 22:04:33,473 - DEBUG - Started executable: `/Applications/Chromium.app/Contents/MacOS/Chromium` in a child process with pid: 11007
+2024-07-09 22:04:47,627 - ERROR - An error occurred
+Traceback (most recent call last):
+  File "/Users/atharvabhanage/Desktop/joble/webscrapeJoble/render_final_testing/passed/yahoo.py", line 141, in <module>
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/chrome/webdriver.py", line 80, in __init__
+    super().__init__(
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/chromium/webdriver.py", line 101, in __init__
+    self.service.start()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 106, in start
+    self.assert_process_still_running()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 119, in assert_process_still_running
+    raise WebDriverException(f"Service {self.path} unexpectedly exited. Status code was: {return_code}")
+selenium.common.exceptions.WebDriverException: Message: Service /Applications/Chromium.app/Contents/MacOS/Chromium unexpectedly exited. Status code was: -9
+
+2024-07-09 22:05:02,847 - INFO - Starting script...
+2024-07-09 22:05:02,848 - INFO - Initializing WebDriver...
+2024-07-09 22:05:02,849 - DEBUG - driver not found in PATH, trying Selenium Manager
+2024-07-09 22:05:02,849 - DEBUG - Executing: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/common/macos/selenium-manager --browser chrome --output json
+2024-07-09 22:05:10,236 - INFO - Starting script...
+2024-07-09 22:05:10,237 - INFO - Initializing WebDriver...
+2024-07-09 22:05:10,244 - DEBUG - driver not found in PATH, trying Selenium Manager
+2024-07-09 22:05:10,244 - DEBUG - Executing: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/common/macos/selenium-manager --browser chrome --output json
+2024-07-09 22:05:45,279 - DEBUG - Unable to obtain driver using Selenium Manager: Selenium manager failed for: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/common/macos/selenium-manager --browser chrome --output json.
+The chromedriver version cannot be discovered
+2024-07-09 22:05:45,285 - ERROR - An error occurred
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 97, in start
+    path = SeleniumManager().driver_location(browser)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/common/selenium_manager.py", line 81, in driver_location
+    result = self.run((binary, browser_flag, browser, output_flag, output))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/common/selenium_manager.py", line 102, in run
+    raise SeleniumManagerException(f"Selenium manager failed for: {command}.\n{result}{stderr}")
+selenium.common.exceptions.SeleniumManagerException: Message: Selenium manager failed for: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/common/macos/selenium-manager --browser chrome --output json.
+The chromedriver version cannot be discovered
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/atharvabhanage/Desktop/joble/webscrapeJoble/render_final_testing/passed/yahoo.py", line 141, in <module>
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/chrome/webdriver.py", line 80, in __init__
+    super().__init__(
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/chromium/webdriver.py", line 101, in __init__
+    self.service.start()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 100, in start
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 90, in start
+    self._start_process(self.path)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 218, in _start_process
+    raise WebDriverException(
+selenium.common.exceptions.WebDriverException: Message: 'Chromium' executable needs to be in PATH. Please see https://chromedriver.chromium.org/home
+
+2024-07-09 22:06:11,345 - INFO - Starting script...
+2024-07-09 22:06:11,345 - INFO - Initializing WebDriver...
+2024-07-09 22:06:11,346 - DEBUG - driver not found in PATH, trying Selenium Manager
+2024-07-09 22:06:11,347 - DEBUG - Executing: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/common/macos/selenium-manager --browser chrome --output json
+2024-07-09 22:06:14,058 - DEBUG - Unable to obtain driver using Selenium Manager: Selenium manager failed for: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/common/macos/selenium-manager --browser chrome --output json.
+The chromedriver version cannot be discovered
+2024-07-09 22:06:14,059 - ERROR - An error occurred
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 97, in start
+    path = SeleniumManager().driver_location(browser)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/common/selenium_manager.py", line 81, in driver_location
+    result = self.run((binary, browser_flag, browser, output_flag, output))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/common/selenium_manager.py", line 102, in run
+    raise SeleniumManagerException(f"Selenium manager failed for: {command}.\n{result}{stderr}")
+selenium.common.exceptions.SeleniumManagerException: Message: Selenium manager failed for: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/common/macos/selenium-manager --browser chrome --output json.
+The chromedriver version cannot be discovered
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/atharvabhanage/Desktop/joble/webscrapeJoble/render_final_testing/passed/yahoo.py", line 141, in <module>
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/chrome/webdriver.py", line 80, in __init__
+    super().__init__(
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/chromium/webdriver.py", line 101, in __init__
+    self.service.start()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 100, in start
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 90, in start
+    self._start_process(self.path)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 218, in _start_process
+    raise WebDriverException(
+selenium.common.exceptions.WebDriverException: Message: 'Chromium' executable needs to be in PATH. Please see https://chromedriver.chromium.org/home
+
+2024-07-09 22:07:44,911 - INFO - Starting script...
+2024-07-09 22:07:44,913 - INFO - ====== WebDriver manager ======
+2024-07-09 22:07:44,964 - INFO - There is no [mac_arm64] chromedriver "latest" for browser google-chrome "126.0.6478" in cache
+2024-07-09 22:07:44,964 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-09 22:07:44,971 - DEBUG - Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+2024-07-09 22:07:45,349 - DEBUG - https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_126.0.6478 HTTP/1.1" 404 200
+2024-07-09 22:07:45,349 - ERROR - An error occurred
+Traceback (most recent call last):
+  File "/Users/atharvabhanage/Desktop/joble/webscrapeJoble/render_final_testing/passed/yahoo.py", line 237, in <module>
+    service = Service(ChromeDriverManager().install())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/chrome.py", line 39, in install
+    driver_path = self._get_driver_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/manager.py", line 30, in _get_driver_path
+    file = self._download_manager.download_file(driver.get_driver_download_url())
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/drivers/chrome.py", line 40, in get_driver_download_url
+    driver_version_to_download = self.get_driver_version_to_download()
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/driver.py", line 51, in get_driver_version_to_download
+    self._driver_to_download_version = self._version if self._version not in (None, "latest") else self.get_latest_release_version()
+                                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/drivers/chrome.py", line 62, in get_latest_release_version
+    resp = self._http_client.get(url=latest_release_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/http.py", line 37, in get
+    self.validate_response(resp)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/http.py", line 16, in validate_response
+    raise ValueError(f"There is no such driver by url {resp.url}")
+ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_126.0.6478
+2024-07-09 22:08:42,721 - INFO - Starting script...
+2024-07-09 22:08:42,722 - INFO - ====== WebDriver manager ======
+2024-07-09 22:08:42,762 - INFO - There is no [mac_arm64] chromedriver "latest" for browser google-chrome "126.0.6478" in cache
+2024-07-09 22:08:42,762 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-09 22:08:42,768 - DEBUG - Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+2024-07-09 22:08:43,228 - DEBUG - https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_126.0.6478 HTTP/1.1" 404 200
+2024-07-09 22:08:43,230 - ERROR - An error occurred
+Traceback (most recent call last):
+  File "/Users/atharvabhanage/Desktop/joble/webscrapeJoble/render_final_testing/passed/yahoo.py", line 237, in <module>
+    service = Service(ChromeDriverManager().install())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/chrome.py", line 39, in install
+    driver_path = self._get_driver_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/manager.py", line 30, in _get_driver_path
+    file = self._download_manager.download_file(driver.get_driver_download_url())
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/drivers/chrome.py", line 40, in get_driver_download_url
+    driver_version_to_download = self.get_driver_version_to_download()
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/driver.py", line 51, in get_driver_version_to_download
+    self._driver_to_download_version = self._version if self._version not in (None, "latest") else self.get_latest_release_version()
+                                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/drivers/chrome.py", line 62, in get_latest_release_version
+    resp = self._http_client.get(url=latest_release_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/http.py", line 37, in get
+    self.validate_response(resp)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/http.py", line 16, in validate_response
+    raise ValueError(f"There is no such driver by url {resp.url}")
+ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/LATEST_RELEASE_126.0.6478
+2024-07-09 22:11:32,186 - INFO - Starting script...
+2024-07-09 22:11:32,186 - INFO - ====== WebDriver manager ======
+2024-07-09 22:11:32,236 - INFO - There is no [mac_arm64] chromedriver "126.0.6478.127" for browser google-chrome "126.0.6478" in cache
+2024-07-09 22:11:32,236 - INFO - About to download new driver from https://chromedriver.storage.googleapis.com/126.0.6478.127/chromedriver_mac_arm64.zip
+2024-07-09 22:11:32,298 - DEBUG - Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+2024-07-09 22:11:32,697 - DEBUG - https://chromedriver.storage.googleapis.com:443 "GET /126.0.6478.127/chromedriver_mac_arm64.zip HTTP/1.1" 404 216
+2024-07-09 22:11:32,697 - ERROR - An error occurred
+Traceback (most recent call last):
+  File "/Users/atharvabhanage/Desktop/joble/webscrapeJoble/render_final_testing/passed/yahoo.py", line 37, in <module>
+    service = Service(ChromeDriverManager(version=chromium_version).install())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/chrome.py", line 39, in install
+    driver_path = self._get_driver_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/manager.py", line 30, in _get_driver_path
+    file = self._download_manager.download_file(driver.get_driver_download_url())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/download_manager.py", line 28, in download_file
+    response = self._http_client.get(url)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/http.py", line 37, in get
+    self.validate_response(resp)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/http.py", line 16, in validate_response
+    raise ValueError(f"There is no such driver by url {resp.url}")
+ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/126.0.6478.127/chromedriver_mac_arm64.zip
+2024-07-09 22:11:53,863 - INFO - Starting script...
+2024-07-09 22:11:53,864 - INFO - ====== WebDriver manager ======
+2024-07-09 22:11:53,929 - INFO - There is no [mac_arm64] chromedriver "126.0.6478.127" for browser google-chrome "126.0.6478" in cache
+2024-07-09 22:11:53,929 - INFO - About to download new driver from https://chromedriver.storage.googleapis.com/126.0.6478.127/chromedriver_mac_arm64.zip
+2024-07-09 22:11:53,935 - DEBUG - Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+2024-07-09 22:11:54,297 - DEBUG - https://chromedriver.storage.googleapis.com:443 "GET /126.0.6478.127/chromedriver_mac_arm64.zip HTTP/1.1" 404 216
+2024-07-09 22:11:54,298 - ERROR - An error occurred
+Traceback (most recent call last):
+  File "/Users/atharvabhanage/Desktop/joble/webscrapeJoble/render_final_testing/passed/yahoo.py", line 37, in <module>
+    service = Service(ChromeDriverManager(version=chromium_version).install())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/chrome.py", line 39, in install
+    driver_path = self._get_driver_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/manager.py", line 30, in _get_driver_path
+    file = self._download_manager.download_file(driver.get_driver_download_url())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/download_manager.py", line 28, in download_file
+    response = self._http_client.get(url)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/http.py", line 37, in get
+    self.validate_response(resp)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/http.py", line 16, in validate_response
+    raise ValueError(f"There is no such driver by url {resp.url}")
+ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/126.0.6478.127/chromedriver_mac_arm64.zip
+2024-07-09 22:15:10,620 - INFO - Starting script...
+2024-07-09 22:15:10,621 - INFO - ====== WebDriver manager ======
+2024-07-09 22:15:10,669 - INFO - There is no [mac_arm64] chromedriver "126.0.6478.127" for browser google-chrome "126.0.6478" in cache
+2024-07-09 22:15:10,670 - INFO - About to download new driver from https://chromedriver.storage.googleapis.com/126.0.6478.127/chromedriver_mac_arm64.zip
+2024-07-09 22:15:10,675 - DEBUG - Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+2024-07-09 22:15:11,342 - DEBUG - https://chromedriver.storage.googleapis.com:443 "GET /126.0.6478.127/chromedriver_mac_arm64.zip HTTP/1.1" 404 216
+2024-07-09 22:15:11,343 - ERROR - An error occurred
+Traceback (most recent call last):
+  File "/Users/atharvabhanage/Desktop/joble/webscrapeJoble/render_final_testing/passed/yahoo.py", line 37, in <module>
+    service = Service(ChromeDriverManager(version=chromium_version).install())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/chrome.py", line 39, in install
+    driver_path = self._get_driver_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/manager.py", line 30, in _get_driver_path
+    file = self._download_manager.download_file(driver.get_driver_download_url())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/download_manager.py", line 28, in download_file
+    response = self._http_client.get(url)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/http.py", line 37, in get
+    self.validate_response(resp)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/http.py", line 16, in validate_response
+    raise ValueError(f"There is no such driver by url {resp.url}")
+ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/126.0.6478.127/chromedriver_mac_arm64.zip
+2024-07-09 22:15:21,770 - INFO - Starting script...
+2024-07-09 22:15:21,770 - INFO - ====== WebDriver manager ======
+2024-07-09 22:15:21,814 - INFO - There is no [mac_arm64] chromedriver "126.0.6478.127" for browser google-chrome "126.0.6478" in cache
+2024-07-09 22:15:21,814 - INFO - About to download new driver from https://chromedriver.storage.googleapis.com/126.0.6478.127/chromedriver_mac_arm64.zip
+2024-07-09 22:15:21,820 - DEBUG - Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+2024-07-09 22:15:22,194 - DEBUG - https://chromedriver.storage.googleapis.com:443 "GET /126.0.6478.127/chromedriver_mac_arm64.zip HTTP/1.1" 404 216
+2024-07-09 22:15:22,194 - ERROR - An error occurred
+Traceback (most recent call last):
+  File "/Users/atharvabhanage/Desktop/joble/webscrapeJoble/render_final_testing/passed/yahoo.py", line 37, in <module>
+    service = Service(ChromeDriverManager(version=chromium_version).install())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/chrome.py", line 39, in install
+    driver_path = self._get_driver_path(self.driver)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/manager.py", line 30, in _get_driver_path
+    file = self._download_manager.download_file(driver.get_driver_download_url())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/download_manager.py", line 28, in download_file
+    response = self._http_client.get(url)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/http.py", line 37, in get
+    self.validate_response(resp)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/http.py", line 16, in validate_response
+    raise ValueError(f"There is no such driver by url {resp.url}")
+ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/126.0.6478.127/chromedriver_mac_arm64.zip
