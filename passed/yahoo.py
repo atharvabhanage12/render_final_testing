@@ -23,26 +23,41 @@ try:
     logging.info("Starting script...")
 
     # Define the path to the local Chromium binary
-    chrome_binary_path = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+    # chrome_binary_path = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
-    # Set up Chrome options
-    chrome_options = Options()
-    chrome_options.add_argument("--headless")
-    chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--disable-dev-shm-usage")
-    chrome_options.binary_location = chrome_binary_path
+    # # Set up Chrome options
+    # chrome_options = Options()
+    # chrome_options.add_argument("--headless")
+    # chrome_options.add_argument("--no-sandbox")
+    # chrome_options.add_argument("--disable-dev-shm-usage")
+    # chrome_options.binary_location = chrome_binary_path
 
-    # Set up the Chrome service using webdriver-manager to manage chromedriver
-    chromium_version = '126.0.6478.127'  # Your Chrome version
-    service = Service(ChromeDriverManager(version=chromium_version).install())
+    # # Set up the Chrome service using webdriver-manager to manage chromedriver
+    # chromium_version = '126.0.6478.127'  # Your Chrome version
+    # service = Service(ChromeDriverManager(version=chromium_version).install(), options=chrome_options)
 
-    # Initialize the WebDriver
-    logging.info("Initializing WebDriver...")
-    driver = webdriver.Chrome(service=service, options=chrome_options)
+    # # Initialize the WebDriver
+    # logging.info("Initializing WebDriver...")
+    # driver = webdriver.Chrome(service=service)
+    options = Options()
+    options.add_experimental_option("detach", True)
+    driver = webdriver.Chrome(options=options)
+    
+
 
     url = "https://www.yahooinc.com/careers/search.html"
     logging.info(f"Navigating to {url}...")
     driver.get(url)
+
+
+
+
+
+
+
+
+
+
     driver.implicitly_wait(20)
 
     # Click the necessary buttons and select filters
