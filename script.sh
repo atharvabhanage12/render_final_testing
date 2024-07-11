@@ -14,7 +14,8 @@ if [[ ! -d $STORAGE_DIR/chrome ]]; then
   rm ./google-chrome-stable_current_amd64.deb
   chmod -R 777 .
   chmod -R 777 $STORAGE_DIR/chrome
-  ls 
+  ls
+  ls -l $STORAGE_DIR/chrome/opt/google/chrome
   cd $HOME/project/src # Make sure we return to where we were
 
   # Change permissions to read and write for all users
@@ -22,7 +23,7 @@ if [[ ! -d $STORAGE_DIR/chrome ]]; then
   chmod -R 777 $STORAGE_DIR/chrome
   echo "check Atharva"
   echo "$STORAGE_DIR/chrome/opt/google/chrome"  +" Atharva "
-  $STORAGE_DIR/chrome/opt/google/chrome --version
+  $STORAGE_DIR/chrome/opt/google/chrome/google-chrome --version
   echo $PWD +" Atharva "
   ls -l $STORAGE_DIR/chrome/ 
   echo $PWD +" Atharva "
