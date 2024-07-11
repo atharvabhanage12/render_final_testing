@@ -22,6 +22,7 @@ if [[ ! -d $STORAGE_DIR/chrome ]]; then
   chmod -R 777 $STORAGE_DIR/chrome
   echo "check Atharva"
   echo "$STORAGE_DIR/chrome/opt/google/chrome"  +" Atharva "
+  $STORAGE_DIR/chrome/opt/google/chrome --version
   echo $PWD +" Atharva "
   ls -l $STORAGE_DIR/chrome/ 
   echo $PWD +" Atharva "
