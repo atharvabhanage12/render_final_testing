@@ -9,16 +9,26 @@ if [[ ! -d $STORAGE_DIR/chrome ]]; then
   echo "...Downloading Chrome"
   mkdir -p $STORAGE_DIR/chrome
   cd $STORAGE_DIR/chrome
-  wget -P ./ https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-  dpkg -x ./google-chrome-stable_current_amd64.deb $STORAGE_DIR/chrome
-  rm ./google-chrome-stable_current_amd64.deb
+
+
+ # Download and unzip Chrome
+  wget -P ./ https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/linux64/chrome-linux64.zip
+  unzip chrome-linux64.zip
+  rm chrome-linux64.zip
+
+  # Download and unzip ChromeDriver
+  wget -P ./ https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/linux64/chromedriver-linux64.zip
+  unzip chromedriver-linux64.zip
+  rm chromedriver-linux64.zip
+
+  
   chmod -R 777 .
   chmod -R 777 $STORAGE_DIR/chrome
   ls
   ls -l $STORAGE_DIR/chrome/opt/google/chrome
   cd $HOME/project/src # Make sure we return to where we were
 
-  # Change permissions to read and write for all users
+  # Change permissions to read and write for all users 
   ls -l . 
   chmod -R 777 $STORAGE_DIR/chrome
   echo "check Atharva"
