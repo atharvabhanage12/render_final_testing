@@ -1,94 +1,217 @@
+
+# import os
+# from selenium import webdriver
+# from selenium.webdriver.common.keys import Keys
+# from selenium.webdriver.support.ui import WebDriverWait
+# from selenium.webdriver.support import expected_conditions as EC
+# from selenium.webdriver.common.by import By
+# import time
+# import json
+# from webdriver_manager.chrome import ChromeDriverManager
+# from selenium.webdriver.chrome.options import Options
+# from selenium.webdriver.chrome.service import Service
+# import requests
+# from bs4 import BeautifulSoup
+
+# # Set up Chrome options``
+# chrome_options = Options()
+# chrome_options.add_argument("--headless")  # Run headless if needed
+# chrome_options.add_argument("--no-sandbox")
+# chrome_options.add_argument("--disable-dev-shm-usage")
+
+
+# driver = webdriver.Chrome(service=Service(ChromeDriverManager(version="126.0.6478.183").install()),options=chrome_options)
+# # URL to scrape
+# url = "https://www.yahooinc.com/careers/search.html"
+# driver.get(url)
+# driver.implicitly_wait(20)
+# time.sleep(3)
+
+# L = []
+# soup = BeautifulSoup(driver.page_source, "html.parser")
+
+# # Expand the job categories
+# var0 = driver.find_element(By.XPATH, "//button[@data-target='#collapseJC']")
+# driver.execute_script("arguments[0].click()", var0)
+# time.sleep(2)
+
+# # Select specific job categories
+# job_categories = ["engineering", "softwaredevelopment", "design", "informationsystems", "internship", "research"]
+# for category in job_categories:
+#     try:
+#         checkbox = driver.find_element(By.ID, category)
+#         driver.execute_script("arguments[0].click()", checkbox)
+#     except Exception as e:
+#         print(f"Error selecting category {category}: {e}")
+
+# # Submit the job search form
+# submit = driver.find_element(By.XPATH, "//button[@id='search-page-find-jobs']")
+# driver.execute_script("arguments[0].click()", submit)
+# time.sleep(3)
+
+# # Load more results if available
+# while True:
+#     try:
+#         load_more = driver.find_element(By.XPATH, "//button[@class='btn my-3 loadMore']")
+#         driver.execute_script("arguments[0].click();", load_more)
+#         time.sleep(2)
+#     except:
+#         break
+
+# # Parse the job listings
+# soup2 = BeautifulSoup(driver.page_source, "html.parser")
+# total = soup2.find_all("tr", class_='jobTitle')
+
+# # Extract job links
+# script = """
+#     var elements = document.querySelectorAll("a");
+#     var href = [];
+#     for (var i = 0 ; i < elements.length; i++){
+#         href.push(elements[i].href);
+#     }
+#     return href;
+# """
+# L1 = driver.execute_script(script)
+# hrefs = [i for i in L1 if "/careers/job/" in i]
+
+# # Collect job data
+# count = 0
+# for job in total:
+#     soup3 = BeautifulSoup(str(job), "html.parser")
+#     job_title = soup3.find("td", class_='col-6').text.strip()
+#     job_link = hrefs[count]
+#     job_location = soup3.find("div", class_="tableLocPrimary").text.strip()
+#     L.append({"job_title": job_title, "job_location": job_location, "job_link": job_link})
+#     count += 1
+
+# # Save the data as JSON
+# json_data = json.dumps({"company": "yahoo", "data": L}, indent=4)
+# print(json_data)
+
+# # Quit the driver
+# driver.quit()
+
+
 import os
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from bs4 import BeautifulSoup
+from selenium.webdriver.common.by import By
+import time
 import json
-import logging
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+import requests
+from bs4 import BeautifulSoup
 
-# Configure logging
-logging.basicConfig(level=logging.DEBUG,
-                    format='%(asctime)s - %(levelname)s - %(message)s',
-                    handlers=[
-                        logging.FileHandler('scraper.log'),
-                        logging.StreamHandler()
-                    ])
+# Set up Chrome options
+chrome_options = Options()
+# chrome_options.add_argument("--headless")  # Run headless if needed
+chrome_options.add_argument("--no-sandbox")
+chrome_options.add_argument("--disable-dev-shm-usage")
 
-try:
-    logging.info("Starting script...")
+print("starting")
+# Path to the manually downloaded ChromeDriver
+chrome_driver_path = "driver/chromedriver-mac-arm64/chromedriver"
 
-    # Set up Chrome options
-    chrome_options = Options()
-    chrome_options.add_argument("--headless")
-    chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--disable-dev-shm-usage")
-    chrome_options.binary_location = "/opt/render/project/.render/chrome/chrome-linux64/chrome"
 
-    # Initialize the WebDriver
-    logging.info("Initializing WebDriver...")
-    driver = webdriver.Chrome(service=Service("/opt/render/project/.render/chrome/chromedriver-linux64"), options=chrome_options)
 
-    url = "https://www.yahooinc.com/careers/search.html"
-    logging.info(f"Navigating to {url}...")
-    driver.get(url)
+# Initialize WebDriver
+driver = webdriver.Chrome(service=Service(chrome_driver_path), options=chrome_options)
 
-    driver.implicitly_wait(20)
+print("driver")
+# URL to scrape
+url = "https://www.yahooinc.com/careers/search.html"
+driver.get(url)
+print("hitting url")
+driver.implicitly_wait(20)
+time.sleep(3)
+print("sleeping done")
+L = []
+soup = BeautifulSoup(driver.page_source, "html.parser")
 
-    # Click the necessary buttons and select filters
-    WebDriverWait(driver, 20).until(
-        EC.element_to_be_clickable((By.XPATH, "//button[@data-target='#collapseJC']"))
-    ).click()
-    logging.info("Expanded job categories.")
+print("beautiful soup")
+# Expand the job categories
+var0 = driver.find_element(By.XPATH, "//button[@data-target='#collapseJC']")
+driver.execute_script("arguments[0].click()", var0)
+time.sleep(2)
 
-    filter_ids = ["engineering", "softwaredevelopment", "design", "informationsystems", "internship", "research"]
-    for filter_id in filter_ids:
-        checkbox = driver.find_element(By.ID, filter_id)
-        if not checkbox.is_selected():
-            checkbox.click()
-    logging.info("Applied filters.")
+# Select specific job categories
+job_categories = ["engineering", "softwaredevelopment", "design", "informationsystems", "internship", "research"]
+for category in job_categories:
+    try:
+        checkbox = driver.find_element(By.ID, category)
+        driver.execute_script("arguments[0].click()", checkbox)
+    except Exception as e:
+        print(f"Error selecting category {category}: {e}")
+print("categories selected")
 
-    submit_button = driver.find_element(By.ID, "search-page-find-jobs")
-    submit_button.click()
-    logging.info("Submitted job search.")
 
-    # Wait for results to load
-    WebDriverWait(driver, 20).until(
-        EC.presence_of_element_located((By.XPATH, "//p[@class='resultsTotal']"))
-    )
-    logging.info("Results loaded.")
+# Submit the job search form
+submit = driver.find_element(By.XPATH, "//button[@id='search-page-find-jobs']")
+driver.execute_script("arguments[0].click()", submit)
+time.sleep(3)
 
-    # Load more results if available
-    while True:
-        try:
-            load_more_button = driver.find_element(By.XPATH, "//button[@class='btn my-3 loadMore']")
-            load_more_button.click()
-            time.sleep(2)
-        except Exception as e:
-            logging.info("No more 'Load More' button found.")
+print("submit clicked")
+# Load more results if available
+# Load more results if available
+previous_count = 0
+while True:
+    try:
+        load_more = driver.find_element(By.XPATH, "//button[@class='btn my-3 loadMore']")
+        driver.execute_script("arguments[0].click();", load_more)
+        time.sleep(2)
+        
+        # Get the current number of job listings
+        soup2 = BeautifulSoup(driver.page_source, "html.parser")
+        total = soup2.find_all("tr", class_='jobTitle')
+        current_count = len(total)
+        
+        # Check if the number of listings has increased
+        if current_count == previous_count:
             break
+        previous_count = current_count
+    except Exception as e:
+        # If the "Load More" button is not found, exit the loop
+        print(f"Exiting loop: {e}")
+        break
 
-    # Parse the job listings
-    soup = BeautifulSoup(driver.page_source, "html.parser")
-    job_rows = soup.find_all("tr", class_='jobTitle')
 
-    jobs = []
-    for job_row in job_rows:
-        title = job_row.find("td", class_='col-6').text.strip()
-        location = job_row.find("div", class_="tableLocPrimary").text.strip()
-        link = job_row.find("a")['href']
-        jobs.append({"job_title": title, "job_location": location, "job_link": link})
+print("loading done")
+# Parse the job listings
+soup2 = BeautifulSoup(driver.page_source, "html.parser")
+total = soup2.find_all("tr", class_='jobTitle')
 
-    json_data = json.dumps({"company": "yahoo", "data": jobs}, indent=4)
-    logging.info("Job data collected.")
-    print(json_data)
+print("parsing done")
 
-    driver.quit()
 
-except Exception as e:
-    logging.error("An error occurred", exc_info=True)
-    if 'driver' in locals():
-        driver.quit()
-    print(f"Error: {str(e)}")
+# Extract job links
+script = """
+    var elements = document.querySelectorAll("a");
+    var href = [];
+    for (var i = 0 ; i < elements.length; i++){
+        href.push(elements[i].href);
+    }
+    return href;
+"""
+L1 = driver.execute_script(script)
+hrefs = [i for i in L1 if "/careers/job/" in i]
+
+# Collect job data
+count = 0
+for job in total:
+    soup3 = BeautifulSoup(str(job), "html.parser")
+    job_title = soup3.find("td", class_='col-6').text.strip()
+    job_link = hrefs[count]
+    job_location = soup3.find("div", class_="tableLocPrimary").text.strip()
+    L.append({"job_title": job_title, "job_location": job_location, "job_link": job_link})
+    count += 1
+
+print("data collected")
+# Save the data as JSON
+json_data = json.dumps({"company": "yahoo", "data": L}, indent=4)
+print(json_data)
+
+# Quit the driver
+driver.quit()
