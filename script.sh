@@ -18,12 +18,14 @@ if [[ ! -d $CHROME_DIR || ! -d $CHROMEDRIVER_DIR ]]; then
   wget -P $CHROME_DIR https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/linux64/chrome-linux64.zip
   unzip $CHROME_DIR/chrome-linux64.zip -d $CHROME_DIR
   rm $CHROME_DIR/chrome-linux64.zip
+
   
   # Download and unzip ChromeDriver
   wget -P $CHROMEDRIVER_DIR https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/linux64/chromedriver-linux64.zip
   unzip $CHROMEDRIVER_DIR/chromedriver-linux64.zip -d $CHROMEDRIVER_DIR
   rm $CHROMEDRIVER_DIR/chromedriver-linux64.zip
 
+  
   # Change permissions to read and write for all users 
   chmod -R 777 $CHROME_DIR
   chmod -R 777 $CHROMEDRIVER_DIR
