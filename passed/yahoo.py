@@ -20,14 +20,31 @@ chrome_options.add_argument("--disable-dev-shm-usage")
 print("starting")
 # Path to the manually downloaded ChromeDriver
 chrome_driver_path = os.path.expanduser("~/project/src/chromedriver/chromedriver")
+print(f"ChromeDriver Path: {chrome_driver_path}")
 
-# Initialize WebDriver
-driver = webdriver.Chrome(service=Service(chrome_driver_path), options=chrome_options)
+# Ensure the ChromeDriver is executable
+if not os.path.isfile(chrome_driver_path):
+    raise FileNotFoundError(f"ChromeDriver not found at {chrome_driver_path}")
+
+os.chmod(chrome_driver_path, 0o755)  # Ensure it's executable
+
+# Initialize WebDriver with exception handling
+try:
+    driver = webdriver.Chrome(service=Service(chrome_driver_path), options=chrome_options)
+except Exception as e:
+    print(f"Error initializing WebDriver: {e}")
+    raise
 
 print("driver")
 # URL to scrape
 url = "https://www.yahooinc.com/careers/search.html"
-driver.get(url)
+try:
+    driver.get(url)
+except Exception as e:
+    print(f"Error accessing URL {url}: {e}")
+    driver.quit()
+    raise
+
 print("hitting url")
 driver.implicitly_wait(20)
 time.sleep(3)
@@ -37,8 +54,14 @@ soup = BeautifulSoup(driver.page_source, "html.parser")
 
 print("beautiful soup")
 # Expand the job categories
-var0 = driver.find_element(By.XPATH, "//button[@data-target='#collapseJC']")
-driver.execute_script("arguments[0].click()", var0)
+try:
+    var0 = driver.find_element(By.XPATH, "//button[@data-target='#collapseJC']")
+    driver.execute_script("arguments[0].click()", var0)
+except Exception as e:
+    print(f"Error expanding job categories: {e}")
+    driver.quit()
+    raise
+
 time.sleep(2)
 
 # Select specific job categories
@@ -49,11 +72,18 @@ for category in job_categories:
         driver.execute_script("arguments[0].click()", checkbox)
     except Exception as e:
         print(f"Error selecting category {category}: {e}")
+
 print("categories selected")
 
 # Submit the job search form
-submit = driver.find_element(By.XPATH, "//button[@id='search-page-find-jobs']")
-driver.execute_script("arguments[0].click()", submit)
+try:
+    submit = driver.find_element(By.XPATH, "//button[@id='search-page-find-jobs']")
+    driver.execute_script("arguments[0].click()", submit)
+except Exception as e:
+    print(f"Error submitting search form: {e}")
+    driver.quit()
+    raise
+
 time.sleep(3)
 
 print("submit clicked")
