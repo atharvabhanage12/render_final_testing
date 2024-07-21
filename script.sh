@@ -2,54 +2,39 @@
 # exit on error
 set -o errexit
 
-STORAGE_DIR=/opt/render/project/.render
+STORAGE_DIR=$HOME/project/src
+CHROME_DIR=$STORAGE_DIR/chrome
+CHROMEDRIVER_DIR=$STORAGE_DIR/chromedriver
 echo "Running Script.sh .."
 
-if [[ ! -d $STORAGE_DIR/chrome ]]; then
-  echo "...Downloading Chrome"
-  mkdir -p $STORAGE_DIR/chrome
-  cd $STORAGE_DIR/chrome
-
-
- # Download and unzip Chrome
-  wget -P ./ https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/linux64/chrome-linux64.zip
-  unzip chrome-linux64.zip
-  rm chrome-linux64.zip
-
-  # Download and unzip ChromeDriver
-  wget -P ./ https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/linux64/chromedriver-linux64.zip
-  unzip chromedriver-linux64.zip
-  rm chromedriver-linux64.zip
-
+if [[ ! -d $CHROME_DIR || ! -d $CHROMEDRIVER_DIR ]]; then
+  echo "...Downloading Chrome and ChromeDriver"
   
-  chmod -R 777 .
-  chmod -R 777 $STORAGE_DIR/chrome
-  ls
-  ls -l $STORAGE_DIR/chrome/opt/google/chrome
-  cd $HOME/project/src # Make sure we return to where we were
+  # Create directories if they do not exist
+  mkdir -p $CHROME_DIR
+  mkdir -p $CHROMEDRIVER_DIR
+
+  # Download and unzip Chrome
+  wget -P $CHROME_DIR https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/linux64/chrome-linux64.zip
+  unzip $CHROME_DIR/chrome-linux64.zip -d $CHROME_DIR
+  rm $CHROME_DIR/chrome-linux64.zip
+  
+  # Download and unzip ChromeDriver
+  wget -P $CHROMEDRIVER_DIR https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/linux64/chromedriver-linux64.zip
+  unzip $CHROMEDRIVER_DIR/chromedriver-linux64.zip -d $CHROMEDRIVER_DIR
+  rm $CHROMEDRIVER_DIR/chromedriver-linux64.zip
 
   # Change permissions to read and write for all users 
-  ls -l . 
-  chmod -R 777 $STORAGE_DIR/chrome
-  echo "check Atharva"
-  echo "$STORAGE_DIR/chrome/opt/google/chrome"  +" Atharva "
-  $STORAGE_DIR/chrome/opt/google/chrome/google-chrome --version
-  echo $PWD +" Atharva "
-  ls -l $STORAGE_DIR/chrome/ 
-  echo $PWD +" Atharva "
-
-  # Output the path to Chromium
-  echo "check" +" Atharva "
-  echo $PATH +" Atharva "
-  ls -l $STORAGE_DIR/chrome/opt/google/chrome 
-
-
+  chmod -R 777 $CHROME_DIR
+  chmod -R 777 $CHROMEDRIVER_DIR
+  
+  ls -l $CHROME_DIR
+  ls -l $CHROMEDRIVER_DIR
+  $CHROME_DIR/chrome-linux64/chrome --version
 else
-  ls -l $STORAGE_DIR/chrome/opt/google/chrome
-  ls -l $STORAGE_DIR/chrome/
-
-  echo "...Using Chrome from cache"
+  echo "...Using Chrome and ChromeDriver from cache"
+  ls -l $CHROME_DIR
+  ls -l $CHROMEDRIVER_DIR
 fi
 
 echo "Ended Script.sh .."
-
