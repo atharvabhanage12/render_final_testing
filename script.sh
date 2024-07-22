@@ -34,8 +34,8 @@ if [[ ! -d $CHROME_DIR || ! -d $CHROMEDRIVER_DIR ]]; then
   echo " atharva home "+ $HOME 
   pwd $CHROME_DIR
   pwd $CHROMEDRIVER_DIR
-  ls -l $CHROME_DIR
-  ls -l $CHROMEDRIVER_DIR
+  ls -l $CHROME_DIR/chrome-linux64
+  ls -l $CHROMEDRIVER_DIR/chromedriver-linux64
 
   echo "Atharva Done printing directories"
   $CHROME_DIR/chrome-linux64/chrome --version
