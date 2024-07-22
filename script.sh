@@ -25,13 +25,19 @@ if [[ ! -d $CHROME_DIR || ! -d $CHROMEDRIVER_DIR ]]; then
   unzip $CHROMEDRIVER_DIR/chromedriver-linux64.zip -d $CHROMEDRIVER_DIR
   rm $CHROMEDRIVER_DIR/chromedriver-linux64.zip
 
-  
+
   # Change permissions to read and write for all users 
   chmod -R 777 $CHROME_DIR
   chmod -R 777 $CHROMEDRIVER_DIR
-  
+
+  echo "Atharva Chrome and ChromeDriver downloaded"
+  echo " atharva home "+$Home 
+  pwd $CHROME_DIR
+  pwd $CHROMEDRIVER_DIR
   ls -l $CHROME_DIR
   ls -l $CHROMEDRIVER_DIR
+
+  echo "Atharva Done printing directories"
   $CHROME_DIR/chrome-linux64/chrome --version
 else
   echo "...Using Chrome and ChromeDriver from cache"
