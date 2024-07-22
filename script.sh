@@ -31,7 +31,7 @@ if [[ ! -d $CHROME_DIR || ! -d $CHROMEDRIVER_DIR ]]; then
   chmod -R 777 $CHROMEDRIVER_DIR
 
   echo "Atharva Chrome and ChromeDriver downloaded"
-  echo " atharva home "+$Home 
+  echo " atharva home "+ $HOME 
   pwd $CHROME_DIR
   pwd $CHROMEDRIVER_DIR
   ls -l $CHROME_DIR
