@@ -78,11 +78,11 @@ def send_data():
 
 @app.route('/receive-test-data', methods=['GET'])
 def send_dataone():
-    # with open('output1.json', 'r') as file:
-    #     data = json.load(file)
+    with open('output1.json', 'r') as file:
+        data = json.load(file)
     
-    # # Return the data as a JSON response
-    # return jsonify(data)
+    # Return the data as a JSON response
+    return jsonify(data)
     return jsonify(result_dict)
 
 if __name__ == '__main__':
