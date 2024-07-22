@@ -10,7 +10,7 @@ print("ATHARVA DEBUG: script.sh output")
 print(result.stdout)
 print(result.stderr)
 
-chromium_path = "/opt/render/project/src/chrome/chrome-linux64/chrome"
+chromium_path = "/opt/render/project/src/chrome/chrome-linux64"
 print("ATHARVA DEBUG: chromium_path")
 print(chromium_path)
 
