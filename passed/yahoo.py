@@ -160,6 +160,8 @@
 # driver.quit()
 # logger.info("Driver quit, script completed")
 
+
+
 import os
 import logging
 from selenium import webdriver
