@@ -160,8 +160,6 @@
 # driver.quit()
 # logger.info("Driver quit, script completed")
 
-
-
 import os
 import logging
 from selenium import webdriver
@@ -173,7 +171,6 @@ import time
 import json
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
-import requests
 from bs4 import BeautifulSoup
 
 # Set up logging configuration
@@ -187,13 +184,14 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+logger.info("Starting script")
+
 # Set up Chrome options
 chrome_options = Options()
 chrome_options.add_argument("--headless")  # Run headless if needed
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-dev-shm-usage")
 
-logger.info("Starting script")
 # Path to the manually downloaded ChromeDriver
 chrome_driver_path = os.path.expanduser("/project/src/chromedriver/chromedriver-linux64/chromedriver")
 logger.info(f"ChromeDriver Path: {chrome_driver_path}")
