@@ -195,7 +195,7 @@ chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-dev-shm-usage")
 
 # Path to the manually downloaded ChromeDriver
-chrome_driver_path = os.path.expanduser("/project/src/chromedriver/chromedriver-linux64/chromedriver")
+chrome_driver_path = os.path.expanduser("/opt/render/project/src/chromedriver/chromedriver-linux64/chromedriver")
 logger.info(f"ChromeDriver Path: {chrome_driver_path}")
 
 # Ensure the ChromeDriver is executable
