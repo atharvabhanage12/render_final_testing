@@ -36,7 +36,7 @@ if [[ ! -d $CHROME_DIR || ! -d $CHROMEDRIVER_DIR ]]; then
   pwd $CHROMEDRIVER_DIR
   ls -l $CHROME_DIR/chrome-linux64
   ls -l $CHROMEDRIVER_DIR/chromedriver-linux64
-
+  ls -l $STORAGE_DIR
   echo "Atharva Done printing directories"
   $CHROME_DIR/chrome-linux64/chrome --version
 else
