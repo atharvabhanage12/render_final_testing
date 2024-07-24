@@ -30,7 +30,11 @@ chrome_options.add_argument("--disable-dev-shm-usage")
 chrome_options.binary_location = chrome_binary_path
 
 # Path to the manually downloaded ChromeDriver
+
 chrome_driver_path = os.path.expanduser("/opt/render/project/src/chromedriver/chromedriver-linux64/chromedriver")
+
+# chrome_driver_path = os.path.expanduser("driver/chromedriver-mac-arm64/chromedriver")
+
 logger.info(f"ChromeDriver Path: {chrome_driver_path}")
 
 # Ensure the ChromeDriver is executable

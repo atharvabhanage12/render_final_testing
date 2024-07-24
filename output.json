@@ -1,4 +1,15 @@
 {
-    "company": "arcesium",
-    "data": []
+    "company": "byjus",
+    "data": [
+        {
+            "job_title": "Member Technical Staff \u2013 Site Reliability Engineer \n\t\t\t\t\t\t\t\t\t\tPermanent\n",
+            "job_link": "https://byjus.com/careers/all-openings/job/byjus-bangalore-permanent-member-technical-staff-site-reliability-engineer/",
+            "job_location": "unknown"
+        },
+        {
+            "job_title": "Member Technical Staff \u2013 Cloud Engineering \n\t\t\t\t\t\t\t\t\t\tPermanent\n",
+            "job_link": "https://byjus.com/careers/all-openings/job/byjus-bangalore-permanent-member-technical-staff-cloud-engineering/",
+            "job_location": "unknown"
+        }
+    ]
 }

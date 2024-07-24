@@ -378,3 +378,125 @@ Stacktrace:
 2024-07-24 20:16:26,455 - __main__ - INFO - Data collection complete
 2024-07-24 20:16:26,456 - __main__ - INFO - Data saved to JSON: output.json
 2024-07-24 20:16:26,548 - __main__ - INFO - Driver quit, script completed
+2024-07-24 22:51:14,894 - __main__ - INFO - Starting script
+2024-07-24 22:51:14,895 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-24 22:51:15,978 - __main__ - INFO - WebDriver initialized
+2024-07-24 22:51:17,220 - __main__ - INFO - Accessed URL: https://www.atlassian.com/company/careers/all-jobs?team=Engineering&location=&search=
+2024-07-24 22:51:40,448 - __main__ - INFO - Starting script
+2024-07-24 22:51:40,448 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-24 22:51:41,891 - __main__ - INFO - WebDriver initialized
+2024-07-24 22:51:42,939 - __main__ - INFO - Accessed URL: https://www.atlassian.com/company/careers/all-jobs?team=Engineering&location=&search=
+2024-07-24 22:52:16,060 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
+2024-07-24 22:52:16,061 - __main__ - INFO - Collected job: Senior Principal Software Engineer - Enterprise Technology - Customer Support, Austin or Remote, https://www.atlassian.com/company/careers/details/12036
+2024-07-24 22:52:16,061 - __main__ - INFO - Collected job: Principal Software Engineer, Trust, Bengaluru, https://www.atlassian.com/company/careers/details/15013
+2024-07-24 22:52:16,062 - __main__ - INFO - Collected job: Senior Software Engineer, Bengaluru, https://www.atlassian.com/company/careers/details/15012
+2024-07-24 22:52:16,062 - __main__ - INFO - Collected job: Software Development Engineer II, Trust, Bengaluru, https://www.atlassian.com/company/careers/details/15007
+2024-07-24 22:52:16,062 - __main__ - INFO - Collected job: Senior Engineering Manager - Reliability, Bengaluru or Remote, https://www.atlassian.com/company/careers/details/14927
+2024-07-24 22:52:16,062 - __main__ - INFO - Collected job: Senior Engineering Manager - Transform and Metrics Platform, Bengaluru or Remote, https://www.atlassian.com/company/careers/details/14909
+2024-07-24 22:52:16,062 - __main__ - INFO - Collected job: Senior Engineering Manager, Bengaluru or Remote, https://www.atlassian.com/company/careers/details/14866
+2024-07-24 22:52:16,062 - __main__ - INFO - Collected job: Principal Software Developement Engineer - Micros, Bengaluru or Remote, https://www.atlassian.com/company/careers/details/14865
+2024-07-24 22:52:16,063 - __main__ - INFO - Collected job: Senior Software Engineer for Micros, Bengaluru or Remote, https://www.atlassian.com/company/careers/details/14864
+2024-07-24 22:52:16,063 - __main__ - INFO - Collected job: Senior Engineering Manager, Bengaluru or Remote, https://www.atlassian.com/company/careers/details/14585
+2024-07-24 22:52:16,063 - __main__ - INFO - Collected job: Senior Machine Learning Systems Engineer, Bengaluru or Remote, https://www.atlassian.com/company/careers/details/14484
+2024-07-24 22:52:16,063 - __main__ - INFO - Collected job: Senior Engineering Manager, Bengaluru or Remote, https://www.atlassian.com/company/careers/details/14392
+2024-07-24 22:52:16,063 - __main__ - INFO - Collected job: Senior Principal Engineer, Bengaluru or Remote, https://www.atlassian.com/company/careers/details/14361
+2024-07-24 22:52:16,063 - __main__ - INFO - Collected job: Senior Program Manager, Bengaluru, https://www.atlassian.com/company/careers/details/14298
+2024-07-24 22:52:16,063 - __main__ - INFO - Collected job: Software Engineer, Bengaluru or Remote, https://www.atlassian.com/company/careers/details/13985
+2024-07-24 22:52:16,064 - __main__ - INFO - Collected job: Senior Engineering Manager, ACE-Finance Technology, Bengaluru or Remote, https://www.atlassian.com/company/careers/details/13951
+2024-07-24 22:52:16,064 - __main__ - INFO - Collected job: DevOps - Senior Engineer, Bengaluru or Remote, https://www.atlassian.com/company/careers/details/13873
+2024-07-24 22:52:16,064 - __main__ - INFO - Collected job: Senior Engineering Manager, Bengaluru or Remote, https://www.atlassian.com/company/careers/details/13869
+2024-07-24 22:52:16,064 - __main__ - INFO - Collected job: Senior Technical Program Manager, Bengaluru or Remote, https://www.atlassian.com/company/careers/details/13648
+2024-07-24 22:52:16,064 - __main__ - INFO - Collected job: Senior Engineering Manager - Search Infrastructure, India, Bengaluru or Remote, https://www.atlassian.com/company/careers/details/13455
+2024-07-24 22:52:16,064 - __main__ - INFO - Collected job: Senior Technical Program Manager, Bengaluru or Remote, https://www.atlassian.com/company/careers/details/13286
+2024-07-24 22:52:16,064 - __main__ - INFO - Collected job: Principal Engineer, Bengaluru or Remote, https://www.atlassian.com/company/careers/details/12738
+2024-07-24 22:52:16,064 - __main__ - INFO - Collected job: Threat Detection - Senior Engineer, Security, Bengaluru or Remote, https://www.atlassian.com/company/careers/details/12734
+2024-07-24 22:52:16,065 - __main__ - INFO - Collected job: Senior Fullstack Developer, Bengaluru or Remote, https://www.atlassian.com/company/careers/details/12679
+2024-07-24 22:52:16,065 - __main__ - INFO - Collected job: Principal Full Stack Software Engineer, Bengaluru or Remote, https://www.atlassian.com/company/careers/details/12031
+2024-07-24 22:52:16,065 - __main__ - INFO - Collected job: Senior Frontend Engineer, Bengaluru or Remote, https://www.atlassian.com/company/careers/details/11276
+2024-07-24 22:52:16,065 - __main__ - INFO - Collected job: Principal Backend Engineer, Bengaluru or Remote, https://www.atlassian.com/company/careers/details/10624
+2024-07-24 22:52:16,065 - __main__ - INFO - Collected job: Senior Backend Software Engineer, Bengaluru or Remote, https://www.atlassian.com/company/careers/details/10590
+2024-07-24 22:52:16,066 - __main__ - INFO - Collected job: Senior Principal Engineer, Enterprise Cloud, Bengaluru or Remote, https://www.atlassian.com/company/careers/details/8264
+2024-07-24 22:52:16,066 - __main__ - INFO - Collected job: Principal Software Engineer, Bengaluru or Remote, https://www.atlassian.com/company/careers/details/8241
+2024-07-24 22:52:16,066 - __main__ - INFO - Collected job: Principal Software Engineer - AI & ML Platform, Bengaluru, https://www.atlassian.com/company/careers/details/8181
+2024-07-24 22:52:16,066 - __main__ - INFO - Collected job: Principal Software Engineer - Search Platform, Bengaluru, https://www.atlassian.com/company/careers/details/8119
+2024-07-24 22:52:16,066 - __main__ - INFO - Collected job: Full Stack Software Engineer, Canada or Remote, https://www.atlassian.com/company/careers/details/14922
+2024-07-24 22:52:16,066 - __main__ - INFO - Collected job: Senior Full Stack Software Engineer, Canada or Remote, https://www.atlassian.com/company/careers/details/14921
+2024-07-24 22:52:16,067 - __main__ - INFO - Collected job: Backend Software Engineer, Canada or Remote, https://www.atlassian.com/company/careers/details/14920
+2024-07-24 22:52:16,067 - __main__ - INFO - Collected job: Senior Backend Software Engineer, Canada or Remote, https://www.atlassian.com/company/careers/details/14919
+2024-07-24 22:52:16,067 - __main__ - INFO - Collected job: Principal Backend Software Engineer, Gdańsk or Remote, https://www.atlassian.com/company/careers/details/14639
+2024-07-24 22:52:16,067 - __main__ - INFO - Collected job: Full Stack Software Engineer, Gdańsk or Remote, https://www.atlassian.com/company/careers/details/14596
+2024-07-24 22:52:16,067 - __main__ - INFO - Collected job: Senior Principal Engineer - Enterprise Engineering, Gdańsk or Remote, https://www.atlassian.com/company/careers/details/12778
+2024-07-24 22:52:16,067 - __main__ - INFO - Collected job: Senior Backend Software Engineer, Gdańsk or Remote, https://www.atlassian.com/company/careers/details/10658
+2024-07-24 22:52:16,067 - __main__ - INFO - Collected job: Senior Engineering Manager, Mountain View or Remote, https://www.atlassian.com/company/careers/details/14646
+2024-07-24 22:52:16,068 - __main__ - INFO - Collected job: Senior Principal Software Engineer, Growth, Mountain View or Remote, https://www.atlassian.com/company/careers/details/13878
+2024-07-24 22:52:16,068 - __main__ - INFO - Collected job: Senior Site Reliability Engineer, Mountain View or Remote, https://www.atlassian.com/company/careers/details/13635
+2024-07-24 22:52:16,068 - __main__ - INFO - Collected job: Principal Technical Program Manager, Identity, Mountain View or Remote, https://www.atlassian.com/company/careers/details/13382
+2024-07-24 22:52:16,068 - __main__ - INFO - Collected job: Senior Principal Machine Learning Engineer, Mountain View or Remote, https://www.atlassian.com/company/careers/details/12691
+2024-07-24 22:52:16,069 - __main__ - INFO - Collected job: Senior Principal Software Engineer - Enterprise Trust, Mountain View or Remote, https://www.atlassian.com/company/careers/details/8047
+2024-07-24 22:52:16,069 - __main__ - INFO - Collected job: Lead Principal Software Engineer, Enterprise Trust, Mountain View or Remote, https://www.atlassian.com/company/careers/details/8027
+2024-07-24 22:52:16,069 - __main__ - INFO - Collected job: Senior Software Engineer, Media & Intelligence at Loom, Remote or Remote, https://www.atlassian.com/company/careers/details/14915
+2024-07-24 22:52:16,069 - __main__ - INFO - Collected job: Principal Engineer, Distribution at Loom, Remote or Remote, https://www.atlassian.com/company/careers/details/14616
+2024-07-24 22:52:16,069 - __main__ - INFO - Collected job: Senior Engineer, Infrastructure at Loom, Remote or Remote, https://www.atlassian.com/company/careers/details/14322
+2024-07-24 22:52:16,069 - __main__ - INFO - Collected job: Senior Principal Software Engineer - Search Platform, Remote or Remote, https://www.atlassian.com/company/careers/details/13968
+2024-07-24 22:52:16,070 - __main__ - INFO - Collected job: Principal Engineer, Remote or Remote, https://www.atlassian.com/company/careers/details/13544
+2024-07-24 22:52:16,070 - __main__ - INFO - Collected job: Senior Client Platform Engineer (Linux, macOS, Windows), Remote or Remote, https://www.atlassian.com/company/careers/details/12517
+2024-07-24 22:52:16,070 - __main__ - INFO - Collected job: Head of Product Partnerships, San Francisco or Remote, https://www.atlassian.com/company/careers/details/14888
+2024-07-24 22:52:16,070 - __main__ - INFO - Collected job: Senior Principal Software Engineer, People & Legal Technology, San Francisco or Remote, https://www.atlassian.com/company/careers/details/14862
+2024-07-24 22:52:16,070 - __main__ - INFO - Collected job: Senior Principal Product Manager, API and Extensibility, San Francisco or Remote, https://www.atlassian.com/company/careers/details/14688
+2024-07-24 22:52:16,070 - __main__ - INFO - Collected job: Machine Learning Engineer, Core AI, San Francisco or Remote, https://www.atlassian.com/company/careers/details/14617
+2024-07-24 22:52:16,070 - __main__ - INFO - Collected job: Principal Machine Learning Engineer, Developer AI, San Francisco or Remote, https://www.atlassian.com/company/careers/details/14567
+2024-07-24 22:52:16,071 - __main__ - INFO - Collected job: Sr. Machine Learning Engineer, Developer AI, San Francisco or Remote, https://www.atlassian.com/company/careers/details/14565
+2024-07-24 22:52:16,071 - __main__ - INFO - Collected job: Senior Engineering Manager, Content Lifecycle Group, Confluence Cloud, San Francisco or Remote, https://www.atlassian.com/company/careers/details/14562
+2024-07-24 22:52:16,071 - __main__ - INFO - Collected job: Senior Engineering Manager, Loom Distribution, San Francisco or Remote, https://www.atlassian.com/company/careers/details/14369
+2024-07-24 22:52:16,071 - __main__ - INFO - Collected job: Senior Engineering Manager, Growth, San Francisco or Remote, https://www.atlassian.com/company/careers/details/13644
+2024-07-24 22:52:16,071 - __main__ - INFO - Collected job: Technical Program Manager, Developer Productivity, San Francisco or Remote, https://www.atlassian.com/company/careers/details/13601
+2024-07-24 22:52:16,071 - __main__ - INFO - Collected job: Senior Engineering Manager, Product, San Francisco or Remote, https://www.atlassian.com/company/careers/details/13439
+2024-07-24 22:52:16,072 - __main__ - INFO - Collected job: Principal Machine Learning System Engineer, San Francisco or Remote, https://www.atlassian.com/company/careers/details/13270
+2024-07-24 22:52:16,072 - __main__ - INFO - Collected job: Senior Machine Learning System Engineer, San Francisco or Remote, https://www.atlassian.com/company/careers/details/13269
+2024-07-24 22:52:16,072 - __main__ - INFO - Collected job: Principal Machine Learning Engineer, San Francisco or Remote, https://www.atlassian.com/company/careers/details/13267
+2024-07-24 22:52:16,072 - __main__ - INFO - Collected job: Senior Machine Learning Engineer, San Francisco or Remote, https://www.atlassian.com/company/careers/details/13265
+2024-07-24 22:52:16,072 - __main__ - INFO - Collected job: Senior Software Engineer, Integrations at Loom, San Francisco or Remote, https://www.atlassian.com/company/careers/details/13200
+2024-07-24 22:52:16,072 - __main__ - INFO - Collected job: Senior Software Engineer, Outreach at Loom, San Francisco or Remote, https://www.atlassian.com/company/careers/details/13092
+2024-07-24 22:52:16,072 - __main__ - INFO - Collected job: Lead Principal Machine Learning Software Engineer, San Francisco or Remote, https://www.atlassian.com/company/careers/details/12641
+2024-07-24 22:52:16,072 - __main__ - INFO - Collected job: Lead Principal Engineer, Enterprise, San Francisco or Remote, https://www.atlassian.com/company/careers/details/11831
+2024-07-24 22:52:16,072 - __main__ - INFO - Collected job: Frontend Software Engineer, San Francisco or Remote, https://www.atlassian.com/company/careers/details/10783
+2024-07-24 22:52:16,073 - __main__ - INFO - Collected job: Senior Frontend Engineer, San Francisco or Remote, https://www.atlassian.com/company/careers/details/10782
+2024-07-24 22:52:16,073 - __main__ - INFO - Collected job: Principal Backend Software Engineer, San Francisco or Remote, https://www.atlassian.com/company/careers/details/10674
+2024-07-24 22:52:16,073 - __main__ - INFO - Collected job: Principal Full Stack Software Engineer, San Francisco or Remote, https://www.atlassian.com/company/careers/details/10656
+2024-07-24 22:52:16,073 - __main__ - INFO - Collected job: Head of TPM, Seattle or Remote, https://www.atlassian.com/company/careers/details/14658
+2024-07-24 22:52:16,073 - __main__ - INFO - Collected job: Principal Machine Learning Engineer, Developer AI, Seattle or Remote, https://www.atlassian.com/company/careers/details/14566
+2024-07-24 22:52:16,073 - __main__ - INFO - Collected job: Senior Principal Technical Program Manager, Seattle or Remote, https://www.atlassian.com/company/careers/details/14368
+2024-07-24 22:52:16,073 - __main__ - INFO - Collected job: Senior Network Engineer, Sydney or Remote, https://www.atlassian.com/company/careers/details/15104
+2024-07-24 22:52:16,073 - __main__ - INFO - Collected job: Senior Engineering Manager - Cloud Provisioning, Sydney or Remote, https://www.atlassian.com/company/careers/details/15020
+2024-07-24 22:52:16,073 - __main__ - INFO - Collected job: Senior Backend Software Engineer, Sydney or Remote, https://www.atlassian.com/company/careers/details/14950
+2024-07-24 22:52:16,073 - __main__ - INFO - Collected job: Senior Engineering Manager - Atlassian Cloud Storage, Sydney or Remote, https://www.atlassian.com/company/careers/details/14845
+2024-07-24 22:52:16,074 - __main__ - INFO - Collected job: FinOps Analyst, Sydney, https://www.atlassian.com/company/careers/details/14775
+2024-07-24 22:52:16,074 - __main__ - INFO - Collected job: FinOps Analyst, Sydney, https://www.atlassian.com/company/careers/details/14774
+2024-07-24 22:52:16,074 - __main__ - INFO - Collected job: Senior Machine Learning Systems Engineer, Sydney or Remote, https://www.atlassian.com/company/careers/details/14489
+2024-07-24 22:52:16,074 - __main__ - INFO - Collected job: Principal Software Engineer - Elastic Search, Sydney, https://www.atlassian.com/company/careers/details/14299
+2024-07-24 22:52:16,074 - __main__ - INFO - Collected job: Senior Engineering Manager - Automation Platform, Sydney or Remote, https://www.atlassian.com/company/careers/details/14249
+2024-07-24 22:52:16,074 - __main__ - INFO - Collected job: Senior Systems Engineer - Kubernetes Infrastructure, Sydney or Remote, https://www.atlassian.com/company/careers/details/13978
+2024-07-24 22:52:16,074 - __main__ - INFO - Collected job: Senior Principal Software Engineer - Jira, Sydney or Remote, https://www.atlassian.com/company/careers/details/13598
+2024-07-24 22:52:16,074 - __main__ - INFO - Collected job: Principal Machine Learning System Engineer, Sydney or Remote, https://www.atlassian.com/company/careers/details/13278
+2024-07-24 22:52:16,075 - __main__ - INFO - Collected job: Senior Machine Learning System Engineer, Sydney or Remote, https://www.atlassian.com/company/careers/details/13277
+2024-07-24 22:52:16,075 - __main__ - INFO - Collected job: Principal Machine Learning Engineer, Sydney or Remote, https://www.atlassian.com/company/careers/details/13276
+2024-07-24 22:52:16,075 - __main__ - INFO - Collected job: Principal Engineer - Transactional Data Platform, Sydney or Remote, https://www.atlassian.com/company/careers/details/12907
+2024-07-24 22:52:16,075 - __main__ - INFO - Collected job: Principal Machine Learning Systems Engineer, Sydney or Remote, https://www.atlassian.com/company/careers/details/12730
+2024-07-24 22:52:16,075 - __main__ - INFO - Collected job: Principal Software Engineer, Transactional Data Platform, Sydney or Remote, https://www.atlassian.com/company/careers/details/12008
+2024-07-24 22:52:16,075 - __main__ - INFO - Collected job: Senior Technical Program Manager - Identity, Sydney or Remote, https://www.atlassian.com/company/careers/details/11861
+2024-07-24 22:52:16,075 - __main__ - INFO - Collected job: Senior Software Engineer - Observability, Sydney or Remote, https://www.atlassian.com/company/careers/details/11830
+2024-07-24 22:52:16,076 - __main__ - INFO - Collected job: Principal Frontend Software Engineer, Sydney, https://www.atlassian.com/company/careers/details/11434
+2024-07-24 22:52:16,076 - __main__ - INFO - Collected job: Senior Frontend Software Engineer, Sydney or Remote, https://www.atlassian.com/company/careers/details/10672
+2024-07-24 22:52:16,078 - __main__ - INFO - Collected job: Senior Backend Software Engineer, Sydney or Remote, https://www.atlassian.com/company/careers/details/10662
+2024-07-24 22:52:16,078 - __main__ - INFO - Collected job: Principal Backend Software Engineer, Sydney or Remote, https://www.atlassian.com/company/careers/details/10648
+2024-07-24 22:52:16,078 - __main__ - INFO - Collected job: Principal Site Reliability Engineer, Sydney or Remote, https://www.atlassian.com/company/careers/details/8303
+2024-07-24 22:52:16,079 - __main__ - INFO - Data saved to JSON: output.json
+2024-07-24 22:52:16,171 - __main__ - INFO - Driver quit, script completed
+2024-07-24 22:55:41,866 - __main__ - INFO - Starting script
+2024-07-24 22:55:41,867 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-24 22:55:43,498 - __main__ - INFO - WebDriver initialized
+2024-07-24 22:55:52,557 - __main__ - INFO - Accessed URL: https://byjus.com/careers/all-openings/job-category/tech/
+2024-07-24 22:55:52,584 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
+2024-07-24 22:55:55,587 - __main__ - INFO - Data collection complete
+2024-07-24 22:55:55,589 - __main__ - INFO - Data saved to JSON: output.json
+2024-07-24 22:55:55,674 - __main__ - INFO - Driver quit, script completed
