@@ -157,7 +157,7 @@ for job in total:
 logger.info("Data collection complete")
 
 # Save the data as JSON and log it
-output_path = "/opt/render/project/src/output.json"
+output_path = "/opt/render/project/src/output1.json"
 with open(output_path, "w") as f:
     json.dump({"company": "yahoo", "data": L}, f, indent=4)
 logger.info(f"Data saved to JSON: {output_path}")
