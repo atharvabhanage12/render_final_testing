@@ -1,3 +1,8 @@
+# The webiste has changed"
+
+
+
+
 import os
 import logging
 from selenium import webdriver
@@ -25,12 +30,13 @@ logger = logging.getLogger(__name__)
 logger.info("Starting script")
 
 chrome_binary_path = "/opt/render/project/src/chrome/chrome-linux64/chrome"
+# chrome_binary_path = "/driver/chrome-linux64/chrome"
 # Set up Chrome options
 chrome_options = Options()
 chrome_options.add_argument("--headless")  # Run headless if needed
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-dev-shm-usage")
-chrome_options.binary_location = chrome_binary_path
+# chrome_options.binary_location = chrome_binary_path
 
 # Path to the manually downloaded ChromeDriver
 chrome_driver_path = os.path.expanduser("/opt/render/project/src/chromedriver/chromedriver-linux64/chromedriver")

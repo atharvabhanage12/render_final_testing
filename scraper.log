@@ -289,3 +289,92 @@ Traceback (most recent call last):
   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/webdriver_manager/core/http.py", line 16, in validate_response
     raise ValueError(f"There is no such driver by url {resp.url}")
 ValueError: There is no such driver by url https://chromedriver.storage.googleapis.com/126.0.6478.127/chromedriver_mac_arm64.zip
+2024-07-24 20:10:58,962 - __main__ - INFO - Starting script
+2024-07-24 20:10:58,964 - __main__ - INFO - ChromeDriver Path: /driver/chromedriver-mac-arm64/chromedriver
+2024-07-24 20:10:58,964 - __main__ - ERROR - ChromeDriver not found at /driver/chromedriver-mac-arm64/chromedriver
+2024-07-24 20:11:08,588 - __main__ - INFO - Starting script
+2024-07-24 20:11:08,589 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-24 20:11:09,510 - __main__ - INFO - WebDriver initialized
+2024-07-24 20:11:14,536 - __main__ - INFO - Accessed URL: https://careers.arcesium.com/search/?createNewAlert=false&q=&locationsearch=&optionsFacetsDD_country=&optionsFacetsDD_dept=Technology
+2024-07-24 20:11:32,037 - __main__ - INFO - Starting script
+2024-07-24 20:11:32,037 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-24 20:11:33,475 - __main__ - INFO - WebDriver initialized
+2024-07-24 20:12:52,985 - __main__ - INFO - Accessed URL: https://careers.arcesium.com/search/?createNewAlert=false&q=&locationsearch=&optionsFacetsDD_country=&optionsFacetsDD_dept=Technology
+2024-07-24 20:13:16,045 - __main__ - ERROR - Error while extracting data: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='pagination']"}
+  (Session info: chrome=126.0.6478.183)
+Stacktrace:
+0   chromedriver                        0x0000000100552a0c chromedriver + 4385292
+1   chromedriver                        0x000000010054b318 chromedriver + 4354840
+2   chromedriver                        0x0000000100168b0c chromedriver + 281356
+3   chromedriver                        0x00000001001ab2f8 chromedriver + 553720
+4   chromedriver                        0x00000001001e3d24 chromedriver + 785700
+5   chromedriver                        0x000000010019feec chromedriver + 507628
+6   chromedriver                        0x00000001001a08c4 chromedriver + 510148
+7   chromedriver                        0x000000010051a3c8 chromedriver + 4154312
+8   chromedriver                        0x000000010051ee2c chromedriver + 4173356
+9   chromedriver                        0x00000001004fff84 chromedriver + 4046724
+10  chromedriver                        0x000000010051f718 chromedriver + 4175640
+11  chromedriver                        0x00000001004f2f44 chromedriver + 3993412
+12  chromedriver                        0x000000010053d1a8 chromedriver + 4297128
+13  chromedriver                        0x000000010053d324 chromedriver + 4297508
+14  chromedriver                        0x000000010054af10 chromedriver + 4353808
+15  libsystem_pthread.dylib             0x000000018dccef94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018dcc9d34 thread_start + 8
+
+2024-07-24 20:13:16,079 - __main__ - INFO - Data collection complete
+2024-07-24 20:14:02,553 - __main__ - INFO - Starting script
+2024-07-24 20:14:02,555 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-24 20:14:03,987 - __main__ - INFO - WebDriver initialized
+2024-07-24 20:14:07,632 - __main__ - INFO - Accessed URL: https://careers.arcesium.com/search/?createNewAlert=false&q=&locationsearch=&optionsFacetsDD_country=&optionsFacetsDD_dept=Technology
+2024-07-24 20:14:30,663 - __main__ - ERROR - Error while extracting data: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='pagination']"}
+  (Session info: chrome=126.0.6478.183)
+Stacktrace:
+0   chromedriver                        0x000000010491aa0c chromedriver + 4385292
+1   chromedriver                        0x0000000104913318 chromedriver + 4354840
+2   chromedriver                        0x0000000104530b0c chromedriver + 281356
+3   chromedriver                        0x00000001045732f8 chromedriver + 553720
+4   chromedriver                        0x00000001045abd24 chromedriver + 785700
+5   chromedriver                        0x0000000104567eec chromedriver + 507628
+6   chromedriver                        0x00000001045688c4 chromedriver + 510148
+7   chromedriver                        0x00000001048e23c8 chromedriver + 4154312
+8   chromedriver                        0x00000001048e6e2c chromedriver + 4173356
+9   chromedriver                        0x00000001048c7f84 chromedriver + 4046724
+10  chromedriver                        0x00000001048e7718 chromedriver + 4175640
+11  chromedriver                        0x00000001048baf44 chromedriver + 3993412
+12  chromedriver                        0x00000001049051a8 chromedriver + 4297128
+13  chromedriver                        0x0000000104905324 chromedriver + 4297508
+14  chromedriver                        0x0000000104912f10 chromedriver + 4353808
+15  libsystem_pthread.dylib             0x000000018dccef94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018dcc9d34 thread_start + 8
+
+2024-07-24 20:14:30,693 - __main__ - INFO - Data collection complete
+2024-07-24 20:14:30,695 - __main__ - INFO - Data saved to JSON: output.json
+2024-07-24 20:14:30,785 - __main__ - INFO - Driver quit, script completed
+2024-07-24 20:15:56,844 - __main__ - INFO - Starting script
+2024-07-24 20:15:56,846 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-24 20:15:58,461 - __main__ - INFO - WebDriver initialized
+2024-07-24 20:16:03,398 - __main__ - INFO - Accessed URL: https://careers.arcesium.com/search/?createNewAlert=false&q=&locationsearch=&optionsFacetsDD_country=&optionsFacetsDD_dept=Technology
+2024-07-24 20:16:26,424 - __main__ - ERROR - Error while extracting data: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='pagination']"}
+  (Session info: chrome=126.0.6478.183)
+Stacktrace:
+0   chromedriver                        0x0000000100ec6a0c chromedriver + 4385292
+1   chromedriver                        0x0000000100ebf318 chromedriver + 4354840
+2   chromedriver                        0x0000000100adcb0c chromedriver + 281356
+3   chromedriver                        0x0000000100b1f2f8 chromedriver + 553720
+4   chromedriver                        0x0000000100b57d24 chromedriver + 785700
+5   chromedriver                        0x0000000100b13eec chromedriver + 507628
+6   chromedriver                        0x0000000100b148c4 chromedriver + 510148
+7   chromedriver                        0x0000000100e8e3c8 chromedriver + 4154312
+8   chromedriver                        0x0000000100e92e2c chromedriver + 4173356
+9   chromedriver                        0x0000000100e73f84 chromedriver + 4046724
+10  chromedriver                        0x0000000100e93718 chromedriver + 4175640
+11  chromedriver                        0x0000000100e66f44 chromedriver + 3993412
+12  chromedriver                        0x0000000100eb11a8 chromedriver + 4297128
+13  chromedriver                        0x0000000100eb1324 chromedriver + 4297508
+14  chromedriver                        0x0000000100ebef10 chromedriver + 4353808
+15  libsystem_pthread.dylib             0x000000018dccef94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018dcc9d34 thread_start + 8
+
+2024-07-24 20:16:26,455 - __main__ - INFO - Data collection complete
+2024-07-24 20:16:26,456 - __main__ - INFO - Data saved to JSON: output.json
+2024-07-24 20:16:26,548 - __main__ - INFO - Driver quit, script completed
