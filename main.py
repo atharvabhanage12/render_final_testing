@@ -43,7 +43,7 @@ async def run_check():
         )
 
         stdout, stderr = await process.communicate()
-        
+        logger.info("{script_path}") 
         logger.debug(f"Script output: {stdout.decode()}")
         logger.debug(f"Script errors: {stderr.decode()}")
 
@@ -55,6 +55,7 @@ async def run_check():
             jobs_data = output_json['data']
             result_dict['company_name_list'].append(company_name)
             result_dict['company_posting_array'].append(jobs_data)
+            logger.info("data {company_name} {jobs_data}")
 
     except json.JSONDecodeError:
         logger.error(f"Error parsing JSON from output1.json")
