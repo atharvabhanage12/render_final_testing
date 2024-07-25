@@ -61,7 +61,7 @@ async def run_check():
     except Exception as e:
         logger.error(f"Exception running script {script_path}: {e}")
 
-    with open('output1.json', 'w') as file:
+    with open('output.json', 'w') as file:
         json.dump(result_dict, file, indent=4)
     logger.info("Execution completed")
 
