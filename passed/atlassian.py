@@ -87,7 +87,7 @@ for job_element in job_elements[1:]:  # Skip header row
     logger.info(f"Collected job: {job_title}, {job_location}, {job_link}")
 
 # Save the data as JSON and log it
-output_path = "/opt/render/project/src/output.json"
+output_path = "/opt/render/project/src/output1.json"
 with open(output_path, "w") as outfile:
     json.dump({"company": "atlassian", "data": final_data}, outfile, indent=4)
 logger.info(f"Data saved to JSON: {output_path}")
