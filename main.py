@@ -47,7 +47,7 @@ async def run_check():
         logger.debug(f"Script output: {stdout.decode()}")
         logger.debug(f"Script errors: {stderr.decode()}")
 
-        result_dict["error-companies"].append({"name": script_path, "error": stderr.decode(), "output": stdout.decode()})
+        # result_dict["error-companies"].append({"name": script_path, "error": stderr.decode(), "output": stdout.decode()})
 
         with open('output1.json', 'r') as file:
             output_json = json.load(file)
@@ -58,8 +58,8 @@ async def run_check():
 
     except json.JSONDecodeError:
         logger.error(f"Error parsing JSON from output1.json")
-    except Exception as e:
-        logger.error(f"Exception running script {script_path}: {e}")
+    # except Exception as e:
+    #     logger.error(f"Exception running script {script_path}: {e}")
 
     with open('output.json', 'w') as file:
         json.dump(result_dict, file, indent=4)
