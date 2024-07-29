@@ -35,7 +35,8 @@ async def run_check():
     logger.info(lengthL)
     script_path = L[count]
     logger.info(script_path)
-    
+   
+
     try:
         # Use asyncio's subprocess for better async handling
         process = await asyncio.create_subprocess_exec(
@@ -52,6 +53,8 @@ async def run_check():
         # result_dict["error-companies"].append({"name": script_path, "error": stderr.decode(), "output": stdout.decode()})
 
         with open('output1.json', 'r') as file:
+            logger.info(count)
+            logger.info(lengthL)
             output_json = json.load(file)
             company_name = output_json['company']
             jobs_data = output_json['data']
@@ -69,7 +72,7 @@ async def run_check():
     logger.info("Execution completed")
 
     count += 1
-    count = count % len(L)
+    # count = count % len(L)
     if count == 0:
         result_dict = {
             'company_name_list': [],
