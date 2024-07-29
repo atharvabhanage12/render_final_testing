@@ -51,7 +51,7 @@ async def run_check():
                     output_json = json.load(file)
                     company_name = output_json['company']
                     jobs_data = output_json['data']
-                    if(count!=0 & company_name ==result_dict['company_name_list'][-1]):
+                    if((count!=0) and (company_name ==result_dict['company_name_list'][-1])):
                          result_dict["error-companies"].append({"name": script_path, "error": stderr.decode(), "output": stdout.decode()})
 
                     else:
