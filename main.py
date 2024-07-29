@@ -33,7 +33,7 @@ async def run_check():
     lengthL= len(L)
     logger.info("L size {lengthL}")
     script_path = L[count]
-    logger.info(f"Running process: {script_path}")
+    logger.info(script_path)
     
     try:
         # Use asyncio's subprocess for better async handling
