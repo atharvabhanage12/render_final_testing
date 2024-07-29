@@ -30,7 +30,8 @@ count = 0
 async def run_check():
     global result_dict
     global count
-
+    lengthL= len(L)
+    logger.info("L size {lengthL}")
     script_path = L[count]
     logger.info(f"Running process: {script_path}")
     
