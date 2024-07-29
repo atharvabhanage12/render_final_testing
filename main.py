@@ -32,6 +32,7 @@ async def run_check():
     global count
     lengthL= len(L)
     logger.info("L size {lengthL}")
+    logger.info(lengthL)
     script_path = L[count]
     logger.info(script_path)
     
