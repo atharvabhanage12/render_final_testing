@@ -30,7 +30,7 @@ chrome_options = Options()
 chrome_options.add_argument("--headless")  # Run headless if needed
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-dev-shm-usage")
-# chrome_options.binary_location = chrome_binary_path
+chrome_options.binary_location = chrome_binary_path
 
 # Path to the manually downloaded ChromeDriver
 chrome_driver_path = os.path.expanduser("/opt/render/project/src/chromedriver/chromedriver-linux64/chromedriver")
