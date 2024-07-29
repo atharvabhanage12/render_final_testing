@@ -52,7 +52,7 @@ except Exception as e:
     raise
 
 # URL to scrape
-url = "https://eeji.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions"
+url = "https://airtel.darwinbox.in/ms/candidate/careers"
 try:
     driver.get(url)
     logger.info(f"Accessed URL: {url}")
