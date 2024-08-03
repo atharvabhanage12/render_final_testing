@@ -1,9 +1,9 @@
-#### CODENATION COMPANY HAS SHUTDOWN
-
 import os
 import logging
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
@@ -50,7 +50,7 @@ except Exception as e:
     raise
 
 # URL to scrape
-url = "https://codenation.org/careers/"
+url = "https://jobs.exxonmobil.com/search/?q=&department=engineering&sortColumn=referencedate&sortDirection=desc"
 try:
     driver.get(url)
     logger.info(f"Accessed URL: {url}")
@@ -59,31 +59,49 @@ except Exception as e:
     driver.quit()
     raise
 
-driver.implicitly_wait(10)
+driver.implicitly_wait(20)
 time.sleep(3)
 
-# Parse the page source with BeautifulSoup
-soup = BeautifulSoup(driver.page_source, "html.parser")
-logger.info("Page source obtained and parsed with BeautifulSoup")
+job_data = []
+page_number = 3
+last_page = int(int(driver.find_element(By.XPATH, "/html/body/div[2]/div[2]/div/div/div[3]/div/div/div/span[1]/b[2]").text.strip()) / 25 + 2)
 
-# Extract job listings
-job_elements = soup.find_all("h2", class_="blog-shortcode-post-title entry-title fusion-responsive-typography-calculated")
-data = []
-for job_element in job_elements:
-    link = job_element.find("a")
-    job_title = link.text.strip()
-    job_location = "Location not specified"  # Adjust based on actual content if available
-    job_link = link['href']
-    data.append({"job_title": job_title, "job_location": job_location, "job_link": job_link})
+def collect_job_details():
+    wait = WebDriverWait(driver, 10)
+    wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".searchResultsShell")))
+    job_elements = driver.find_elements(By.CSS_SELECTOR, ".data-row")
+    for job_element in job_elements:
+        job_title = job_element.find_element(By.CSS_SELECTOR, '.colTitle').text.strip()
+        job_location = job_element.find_element(By.CSS_SELECTOR, ".colLocation").text.strip()
+        job_description = job_element.find_element(By.CSS_SELECTOR, ".jobDepartment").text.strip()
+        job_details = {
+            'job_title': job_title,
+            'job_location': job_location,
+            'job_category': job_description,
+            "job_link": 'https://jobs.exxonmobil.com/'
+        }
+        job_data.append(job_details)
 
-logger.info("Job data extracted")
+collect_job_details()
+while True:
+    try:
+        page_number_element = driver.find_element(By.CSS_SELECTOR, f".pagination > li:nth-of-type({page_number}) a")
+        page_number_element.click()
+        page_number += 1
+        time.sleep(3)
+        collect_job_details()
+        if page_number >= last_page:
+            break
+    except Exception as e:
+        logger.info(f"No more pages or an error occurred: {e}")
+        break
 
 # Save the collected job listings as JSON
 output_path = "/opt/render/project/src/output1.json"
 with open(output_path, "w") as f:
-    json.dump({"company": "codenation", "data": data}, f, indent=4)
+    json.dump({"company": "exxonmobil", "data": job_data}, f, indent=4)
 logger.info(f"Data saved to JSON: {output_path}")
 
-# Quit the driver
+# Close the browser
 driver.quit()
 logger.info("Driver quit, script completed")

@@ -1,6 +1,3 @@
-##### ERRORRRR:::  WEBSITE DSIGN CHANGED #####
-
-
 import os
 import logging
 from selenium import webdriver
@@ -30,13 +27,13 @@ logger.info("Starting script")
 chrome_binary_path = "/opt/render/project/src/chrome/chrome-linux64/chrome"
 # Set up Chrome options
 chrome_options = Options()
-# chrome_options.add_argument("--headless")  # Run headless if needed
+chrome_options.add_argument("--headless")  # Run headless if needed
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-dev-shm-usage")
-# chrome_options.binary_location = chrome_binary_path
+chrome_options.binary_location = chrome_binary_path
 
 # Path to the manually downloaded ChromeDriver
-chrome_driver_path = os.path.expanduser("driver/chromedriver-mac-arm64/chromedriver")
+chrome_driver_path = os.path.expanduser("/opt/render/project/src/chromedriver/chromedriver-linux64/chromedriver")
 logger.info(f"ChromeDriver Path: {chrome_driver_path}")
 
 # Ensure the ChromeDriver is executable
@@ -55,61 +52,56 @@ except Exception as e:
     raise
 
 # URL to scrape
-url = "https://www.pinterestcareers.com/job-search-results/?primary_category=Engineering"
+website = "https://careers.jio.com/frmfttxjobs.aspx?func=w+cpdiT6wL4=&loc=/wASbQn4xyQ=&expreq=/wASbQn4xyQ=&flag=ODA1dRYKXFY="
 try:
-    driver.get(url)
-    logger.info(f"Accessed URL: {url}")
+    driver.get(website)
+    logger.info(f"Accessed URL: {website}")
 except Exception as e:
-    logger.error(f"Error accessing URL {url}: {e}")
+    logger.error(f"Error accessing URL {website}: {e}")
     driver.quit()
     raise
 
 driver.implicitly_wait(10)
+# Scroll down to load all jobs
+driver.execute_script("window.scrollTo(0, 0.95 * document.body.scrollHeight);")
 time.sleep(3)
 
-job_list = []
-link_list = []
+# Scrape job listings
+final_data = []
 
-# Function to scrape job data from the current page
-def scrape_jobs():
-    soup = BeautifulSoup(driver.page_source, "html.parser")
-    jobs = soup.find_all("a", id=lambda x: x and x.startswith("job-result"))
-    for job in jobs:
-        job_title = job.text
-        job_link = "https://www.pinterestcareers.com" + job["href"]
-        job_list.append(job_title)
-        link_list.append(job_link)
-        logger.info(f"Collected job: {job_title}")
+while True:
+    # Get the page source using Selenium
+    page_source = driver.page_source
+    # Create BeautifulSoup object
+    soup = BeautifulSoup(page_source, "html.parser")
+    total = soup.find_all("figure", class_="jobPointList")
+    for i in total:
+        soup2 = BeautifulSoup(str(i), "html.parser")
+        job_title = soup2.find("span").text
+        job_link = "https://careers.jio.com/frmfttxjobs.aspx?func=w+cpdiT6wL4%3d&loc=%2fwASbQn4xyQ%3d&expreq=%2fwASbQn4xyQ%3d&flag=ODA1dRYKXFY%3d"
+        job_location = ' '.join(soup2.find("p").find("span").text)
+        final_data.append({"job_title": job_title, "job_location": job_location, "job_link": job_link})
 
-# Scrape jobs from the first page
-scrape_jobs()
-
-# Navigate to the second page and scrape jobs
-try:
-    next_button = driver.find_element(By.XPATH, "//a[@id='pagination2']")
-    driver.execute_script("arguments[0].click();", next_button)
-    logger.info("Clicked next page button")
     time.sleep(3)
-    scrape_jobs()
-except Exception as e:
-    logger.info(f"No more pages to load or error encountered: {e}")
+    try:
+        check_page = soup.find("span", id="MainContent_lstJoblist_DataPager1_ctl00_CurrentPageLabel").text.split()
+        if check_page[1] == check_page[3]:
+            break
+        elem = driver.find_element(By.XPATH, "//input[@name='ctl00$MainContent$lstJoblist$DataPager1$ctl00$lnkNext']")
+        driver.execute_script("arguments[0].click();", elem)
+        time.sleep(3)
+    except Exception as e:
+        logger.info("No more pages to navigate or error encountered")
+        break
 
-# Compile the job data
-data = []
-for i in range(len(job_list)):
-    job_data = {
-        "job_title": job_list[i],
-        "job_link": link_list[i],
-        "job_location": 'unknown'
-    }
-    data.append(job_data)
+logger.info("Data collection complete")
 
 # Save the data as JSON and log it
 output_path = "/opt/render/project/src/output1.json"
-# with open(output_path, "w") as f:
-#     json.dump({"company": "pinterest", "data": data}, f, indent=4)
+with open(output_path, "w") as f:
+    json.dump({"company": "jio", "data": final_data}, f, indent=4)
 logger.info(f"Data saved to JSON: {output_path}")
-print(data)
+
 # Quit the driver
 driver.quit()
 logger.info("Driver quit, script completed")

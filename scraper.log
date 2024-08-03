@@ -500,3 +500,1185 @@ Stacktrace:
 2024-07-24 22:55:55,587 - __main__ - INFO - Data collection complete
 2024-07-24 22:55:55,589 - __main__ - INFO - Data saved to JSON: output.json
 2024-07-24 22:55:55,674 - __main__ - INFO - Driver quit, script completed
+2024-07-29 22:34:18,078 - __main__ - INFO - Starting script
+2024-07-29 22:34:18,081 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-29 22:34:19,836 - __main__ - INFO - WebDriver initialized
+2024-07-29 22:34:25,342 - __main__ - INFO - Accessed URL: https://bnymellon.eightfold.ai/careers?query=Technology&location=India&pid=13425925&domain=bnymellon.com&sort_by=relevance&triggerGoButton=false
+2024-07-29 22:34:25,385 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
+2024-07-29 22:34:25,386 - __main__ - INFO - Data collection complete
+2024-07-29 22:35:03,218 - __main__ - INFO - Starting script
+2024-07-29 22:35:03,218 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-29 22:35:04,325 - __main__ - INFO - WebDriver initialized
+2024-07-29 22:35:10,817 - __main__ - INFO - Accessed URL: https://bnymellon.eightfold.ai/careers?query=Technology&location=India&pid=13425925&domain=bnymellon.com&sort_by=relevance&triggerGoButton=false
+2024-07-29 22:35:10,878 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
+2024-07-29 22:35:10,879 - __main__ - INFO - Data collection complete
+2024-07-29 22:35:10,948 - __main__ - INFO - Driver quit, script completed
+2024-07-29 22:35:26,813 - __main__ - INFO - Starting script
+2024-07-29 22:35:26,813 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-29 22:35:29,844 - __main__ - INFO - WebDriver initialized
+2024-07-29 22:35:35,432 - __main__ - INFO - Accessed URL: https://bnymellon.eightfold.ai/careers?query=Technology&location=India&pid=13425925&domain=bnymellon.com&sort_by=relevance&triggerGoButton=false
+2024-07-29 22:35:35,531 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
+2024-07-29 22:35:35,532 - __main__ - INFO - Data collection complete
+2024-07-29 22:35:35,617 - __main__ - INFO - Driver quit, script completed
+2024-07-29 22:35:46,919 - __main__ - INFO - Starting script
+2024-07-29 22:35:46,919 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-29 22:35:48,447 - __main__ - INFO - WebDriver initialized
+2024-07-29 22:35:53,285 - __main__ - INFO - Accessed URL: https://bnymellon.eightfold.ai/careers?query=Technology&location=India&pid=13425925&domain=bnymellon.com&sort_by=relevance&triggerGoButton=false
+2024-07-29 22:35:53,333 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
+2024-07-29 22:35:53,334 - __main__ - INFO - Data collection complete
+2024-07-29 22:35:53,428 - __main__ - INFO - Driver quit, script completed
+2024-07-29 22:42:00,613 - __main__ - INFO - Starting script
+2024-07-29 22:42:00,615 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-29 22:42:02,693 - __main__ - INFO - WebDriver initialized
+2024-07-29 22:42:09,074 - __main__ - INFO - Accessed URL: https://bnymellon.eightfold.ai/careers?location=India&department=Early%20Talent%20and%20University%20Programs&department=Tech%20-%20Architecture&department=Tech%20-%20Business%20Analysis&department=Tech%20-%20Data%20Management&department=Tech%20-%20Business%20Management&department=Tech%20-%20Information%20Security&department=Tech%20-%20Software%20Engineering&department=Tech%20-%20Tech%20Risk%2FCtrl%20%26%20Gov&department=Data%20and%20Quantitative%20Analysis&domain=bnymellon.com&sort_by=relevance&pid=21952323
+2024-07-29 22:42:09,150 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
+2024-07-29 22:42:09,152 - __main__ - INFO - Data collection complete
+2024-07-29 22:42:09,248 - __main__ - INFO - Driver quit, script completed
+2024-07-29 22:46:17,913 - __main__ - INFO - Starting script
+2024-07-29 22:46:17,916 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-29 22:46:19,843 - __main__ - INFO - WebDriver initialized
+2024-07-29 22:46:27,568 - __main__ - INFO - Accessed URL: https://bnymellon.eightfold.ai/careers?location=India&department=Early%20Talent%20and%20University%20Programs&department=Tech%20-%20Architecture&department=Tech%20-%20Business%20Analysis&department=Tech%20-%20Data%20Management&department=Tech%20-%20Business%20Management&department=Tech%20-%20Information%20Security&department=Tech%20-%20Software%20Engineering&department=Tech%20-%20Tech%20Risk%2FCtrl%20%26%20Gov&department=Data%20and%20Quantitative%20Analysis&domain=bnymellon.com&sort_by=relevance&pid=21952323
+2024-07-29 22:46:27,638 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
+2024-07-29 22:46:27,641 - __main__ - INFO - Data collection complete
+2024-07-29 22:46:27,737 - __main__ - INFO - Driver quit, script completed
+2024-07-29 22:46:47,989 - __main__ - INFO - Starting script
+2024-07-29 22:46:47,990 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-29 22:46:49,865 - __main__ - INFO - WebDriver initialized
+2024-07-29 22:46:55,637 - __main__ - INFO - Accessed URL: https://bnymellon.eightfold.ai/careers?location=India&department=Early%20Talent%20and%20University%20Programs&department=Tech%20-%20Architecture&department=Tech%20-%20Business%20Analysis&department=Tech%20-%20Data%20Management&department=Tech%20-%20Business%20Management&department=Tech%20-%20Information%20Security&department=Tech%20-%20Software%20Engineering&department=Tech%20-%20Tech%20Risk%2FCtrl%20%26%20Gov&department=Data%20and%20Quantitative%20Analysis&domain=bnymellon.com&sort_by=relevance&pid=21952323
+2024-07-29 22:46:55,735 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
+2024-07-29 22:46:55,736 - __main__ - INFO - Data collection complete
+2024-07-29 22:46:55,824 - __main__ - INFO - Driver quit, script completed
+2024-07-29 22:47:39,718 - __main__ - INFO - Starting script
+2024-07-29 22:47:39,720 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-29 22:47:41,383 - __main__ - INFO - WebDriver initialized
+2024-07-29 22:47:47,221 - __main__ - INFO - Accessed URL: https://bnymellon.eightfold.ai/careers?location=India&department=Early%20Talent%20and%20University%20Programs&department=Tech%20-%20Architecture&department=Tech%20-%20Business%20Analysis&department=Tech%20-%20Data%20Management&department=Tech%20-%20Business%20Management&department=Tech%20-%20Information%20Security&department=Tech%20-%20Software%20Engineering&department=Tech%20-%20Tech%20Risk%2FCtrl%20%26%20Gov&department=Data%20and%20Quantitative%20Analysis&domain=bnymellon.com&sort_by=relevance&pid=21952323
+2024-07-29 22:47:47,279 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
+2024-07-29 22:47:47,281 - __main__ - INFO - Data collection complete
+2024-07-29 22:47:47,379 - __main__ - INFO - Driver quit, script completed
+2024-07-29 22:47:58,033 - __main__ - INFO - Starting script
+2024-07-29 22:47:58,033 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-29 22:47:59,359 - __main__ - INFO - WebDriver initialized
+2024-07-29 22:48:04,944 - __main__ - INFO - Accessed URL: https://bnymellon.eightfold.ai/careers?location=India&department=Early%20Talent%20and%20University%20Programs&department=Tech%20-%20Architecture&department=Tech%20-%20Business%20Analysis&department=Tech%20-%20Data%20Management&department=Tech%20-%20Business%20Management&department=Tech%20-%20Information%20Security&department=Tech%20-%20Software%20Engineering&department=Tech%20-%20Tech%20Risk%2FCtrl%20%26%20Gov&department=Data%20and%20Quantitative%20Analysis&domain=bnymellon.com&sort_by=relevance&pid=21952323
+2024-07-29 22:48:04,998 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
+2024-07-29 22:48:04,999 - __main__ - INFO - Data collection complete
+2024-07-29 22:48:05,086 - __main__ - INFO - Driver quit, script completed
+2024-07-29 22:48:18,794 - __main__ - INFO - Starting script
+2024-07-29 22:48:18,795 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-29 22:48:20,390 - __main__ - INFO - WebDriver initialized
+2024-07-29 22:48:26,883 - __main__ - INFO - Accessed URL: https://bnymellon.eightfold.ai/careers?location=India&department=Early%20Talent%20and%20University%20Programs&department=Tech%20-%20Architecture&department=Tech%20-%20Business%20Analysis&department=Tech%20-%20Data%20Management&department=Tech%20-%20Business%20Management&department=Tech%20-%20Information%20Security&department=Tech%20-%20Software%20Engineering&department=Tech%20-%20Tech%20Risk%2FCtrl%20%26%20Gov&department=Data%20and%20Quantitative%20Analysis&domain=bnymellon.com&sort_by=relevance&pid=21952323
+2024-07-29 22:48:26,938 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
+2024-07-29 22:48:26,940 - __main__ - INFO - Data collection complete
+2024-07-29 22:48:27,031 - __main__ - INFO - Driver quit, script completed
+2024-07-29 22:51:23,636 - __main__ - INFO - Starting script
+2024-07-29 22:51:23,639 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-29 22:51:25,565 - __main__ - INFO - WebDriver initialized
+2024-07-29 22:51:31,080 - __main__ - INFO - Accessed URL: https://bnymellon.eightfold.ai/careers?location=India&department=Early%20Talent%20and%20University%20Programs&department=Tech%20-%20Architecture&department=Tech%20-%20Business%20Analysis&department=Tech%20-%20Data%20Management&department=Tech%20-%20Business%20Management&department=Tech%20-%20Information%20Security&department=Tech%20-%20Software%20Engineering&department=Tech%20-%20Tech%20Risk%2FCtrl%20%26%20Gov&department=Data%20and%20Quantitative%20Analysis&domain=bnymellon.com&sort_by=relevance&pid=21952323
+2024-07-29 22:51:31,135 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
+2024-07-29 22:51:31,361 - __main__ - INFO - Data collection complete
+2024-07-29 22:51:31,445 - __main__ - INFO - Driver quit, script completed
+2024-07-29 23:22:23,105 - __main__ - INFO - Starting script
+2024-07-29 23:22:23,106 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-29 23:22:25,290 - __main__ - INFO - WebDriver initialized
+2024-07-29 23:22:32,849 - __main__ - INFO - Accessed URL: https://bnymellon.eightfold.ai/careers?location=India&department=Early%20Talent%20and%20University%20Programs&department=Tech%20-%20Architecture&department=Tech%20-%20Business%20Analysis&department=Tech%20-%20Data%20Management&department=Tech%20-%20Business%20Management&department=Tech%20-%20Information%20Security&department=Tech%20-%20Software%20Engineering&department=Tech%20-%20Tech%20Risk%2FCtrl%20%26%20Gov&department=Data%20and%20Quantitative%20Analysis&domain=bnymellon.com&sort_by=relevance&pid=21952323
+2024-07-29 23:22:32,915 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
+2024-07-29 23:22:33,156 - __main__ - INFO - Data collection complete
+2024-07-29 23:22:33,249 - __main__ - INFO - Driver quit, script completed
+2024-07-29 23:22:44,603 - __main__ - INFO - Starting script
+2024-07-29 23:22:44,603 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-29 23:22:46,260 - __main__ - INFO - WebDriver initialized
+2024-07-29 23:22:53,614 - __main__ - INFO - Accessed URL: https://bnymellon.eightfold.ai/careers?location=India&department=Early%20Talent%20and%20University%20Programs&department=Tech%20-%20Architecture&department=Tech%20-%20Business%20Analysis&department=Tech%20-%20Data%20Management&department=Tech%20-%20Business%20Management&department=Tech%20-%20Information%20Security&department=Tech%20-%20Software%20Engineering&department=Tech%20-%20Tech%20Risk%2FCtrl%20%26%20Gov&department=Data%20and%20Quantitative%20Analysis&domain=bnymellon.com&sort_by=relevance&pid=21952323
+2024-07-29 23:22:53,680 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
+2024-07-29 23:22:53,687 - __main__ - INFO - Data collection complete
+2024-07-29 23:22:53,771 - __main__ - INFO - Driver quit, script completed
+2024-07-29 23:29:38,201 - __main__ - INFO - Starting script
+2024-07-29 23:29:38,203 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-29 23:29:39,551 - __main__ - INFO - WebDriver initialized
+2024-07-29 23:29:45,419 - __main__ - INFO - Accessed URL: https://bnymellon.eightfold.ai/careers?location=India&department=Early%20Talent%20and%20University%20Programs&department=Tech%20-%20Architecture&department=Tech%20-%20Business%20Analysis&department=Tech%20-%20Data%20Management&department=Tech%20-%20Business%20Management&department=Tech%20-%20Information%20Security&department=Tech%20-%20Software%20Engineering&department=Tech%20-%20Tech%20Risk%2FCtrl%20%26%20Gov&department=Data%20and%20Quantitative%20Analysis&domain=bnymellon.com&sort_by=relevance&pid=21952323
+2024-07-29 23:29:45,463 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
+2024-07-29 23:29:45,464 - __main__ - INFO - Data collection complete
+2024-07-29 23:29:45,539 - __main__ - INFO - Driver quit, script completed
+2024-07-29 23:35:54,175 - __main__ - INFO - Starting script
+2024-07-29 23:35:54,178 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-29 23:35:55,541 - __main__ - INFO - WebDriver initialized
+2024-07-29 23:36:01,137 - __main__ - INFO - Accessed URL: https://bnymellon.eightfold.ai/careers?location=India&department=Early%20Talent%20and%20University%20Programs&department=Tech%20-%20Architecture&department=Tech%20-%20Business%20Analysis&department=Tech%20-%20Data%20Management&department=Tech%20-%20Business%20Management&department=Tech%20-%20Information%20Security&department=Tech%20-%20Software%20Engineering&department=Tech%20-%20Tech%20Risk%2FCtrl%20%26%20Gov&department=Data%20and%20Quantitative%20Analysis&domain=bnymellon.com&sort_by=relevance&pid=21952323
+2024-07-29 23:36:01,181 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
+2024-07-29 23:36:01,183 - __main__ - INFO - Data collection complete
+2024-07-29 23:36:01,259 - __main__ - INFO - Driver quit, script completed
+2024-07-29 23:38:17,242 - __main__ - INFO - Starting script
+2024-07-29 23:38:17,245 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-29 23:38:18,520 - __main__ - INFO - WebDriver initialized
+2024-07-29 23:38:24,439 - __main__ - INFO - Accessed URL: https://bnymellon.eightfold.ai/careers?location=India&department=Early%20Talent%20and%20University%20Programs&department=Tech%20-%20Architecture&department=Tech%20-%20Business%20Analysis&department=Tech%20-%20Data%20Management&department=Tech%20-%20Business%20Management&department=Tech%20-%20Information%20Security&department=Tech%20-%20Software%20Engineering&department=Tech%20-%20Tech%20Risk%2FCtrl%20%26%20Gov&department=Data%20and%20Quantitative%20Analysis&domain=bnymellon.com&sort_by=relevance&pid=21952323
+2024-07-29 23:38:24,485 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
+2024-07-29 23:38:24,487 - __main__ - INFO - Data collection complete
+2024-07-29 23:38:24,563 - __main__ - INFO - Driver quit, script completed
+2024-07-29 23:40:24,278 - __main__ - INFO - Starting script
+2024-07-29 23:40:24,280 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-29 23:40:25,403 - __main__ - INFO - WebDriver initialized
+2024-07-29 23:40:32,496 - __main__ - INFO - Accessed URL: https://bnymellon.eightfold.ai/careers?location=India&department=Early%20Talent%20and%20University%20Programs&department=Tech%20-%20Architecture&department=Tech%20-%20Business%20Analysis&department=Tech%20-%20Data%20Management&department=Tech%20-%20Business%20Management&department=Tech%20-%20Information%20Security&department=Tech%20-%20Software%20Engineering&department=Tech%20-%20Tech%20Risk%2FCtrl%20%26%20Gov&department=Data%20and%20Quantitative%20Analysis&domain=bnymellon.com&sort_by=relevance&pid=21952323
+2024-07-29 23:40:32,539 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
+2024-07-29 23:40:32,544 - __main__ - INFO - Data collection complete
+2024-07-29 23:40:32,623 - __main__ - INFO - Driver quit, script completed
+2024-07-30 17:01:17,919 - __main__ - INFO - Starting script
+2024-07-30 17:01:20,060 - __main__ - INFO - WebDriver initialized
+2024-07-30 17:01:28,740 - __main__ - INFO - Accessed URL: https://jobs.cisco.com/jobs/SearchJobs/?21181=%5B186%2C194%2C187%2C191%2C202%2C185%2C55816092%5D&21181_format=6023&listFilterMode=1
+2024-07-30 17:01:51,768 - __main__ - INFO - No cookie banner to close
+2024-07-30 17:02:54,047 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-07-30 17:02:54,180 - __main__ - INFO - Driver quit, script completed
+2024-07-30 17:07:37,065 - __main__ - INFO - Starting script
+2024-07-30 17:07:39,174 - __main__ - INFO - WebDriver initialized
+2024-07-30 17:07:43,293 - __main__ - INFO - Accessed URL: https://codenation.org/careers/
+2024-07-30 17:07:46,320 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
+2024-07-30 17:07:46,320 - __main__ - INFO - Job data extracted
+2024-07-30 17:07:46,320 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-07-30 17:07:46,417 - __main__ - INFO - Driver quit, script completed
+2024-07-30 17:12:14,526 - __main__ - INFO - Starting script
+2024-07-30 17:12:16,607 - __main__ - INFO - WebDriver initialized
+2024-07-30 17:12:18,910 - __main__ - INFO - Accessed URL: https://careers.cognizant.com/global/en/c/technology-engineering-jobs?s=1
+2024-07-30 17:12:41,973 - __main__ - INFO - No more pages or an error occurred: {e}
+2024-07-30 17:12:41,973 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-07-30 17:12:42,054 - __main__ - INFO - Driver quit, script completed
+2024-07-30 17:15:10,964 - __main__ - INFO - Starting script
+2024-07-30 17:15:13,054 - __main__ - INFO - WebDriver initialized
+2024-07-30 17:15:15,470 - __main__ - INFO - Accessed URL: https://careers.cognizant.com/india-en/jobs/?keyword=&location=&radius=1000&lat=&lng=&cname=&ccode=&team=IT+Infrastructure&team=Technology+%26+Engineering&pagesize=10#results
+2024-07-30 17:15:38,552 - __main__ - INFO - No more pages or an error occurred: {e}
+2024-07-30 17:15:38,553 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-07-30 17:15:38,640 - __main__ - INFO - Driver quit, script completed
+2024-07-30 17:25:37,101 - __main__ - INFO - Starting script
+2024-07-30 17:25:39,164 - __main__ - INFO - WebDriver initialized
+2024-07-30 17:25:43,339 - __main__ - INFO - Accessed URL: https://jobs.exxonmobil.com/search/?q=&department=engineering&sortColumn=referencedate&sortDirection=desc
+2024-07-30 17:25:55,637 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-07-30 17:25:55,733 - __main__ - INFO - Driver quit, script completed
+2024-07-30 17:31:33,394 - __main__ - INFO - Starting script
+2024-07-30 17:31:35,604 - __main__ - INFO - WebDriver initialized
+2024-07-30 17:31:50,089 - __main__ - INFO - Accessed URL: https://careers.expediagroup.com/jobs/?filter[category]=Technology
+2024-07-30 17:31:52,113 - __main__ - INFO - Total number of jobs: 124
+2024-07-30 17:36:36,291 - __main__ - INFO - Starting script
+2024-07-30 17:36:38,302 - __main__ - INFO - WebDriver initialized
+2024-07-30 17:36:54,186 - __main__ - INFO - Accessed URL: https://careers.expediagroup.com/jobs/?filter[category]=Technology
+2024-07-30 17:36:56,207 - __main__ - INFO - Total number of jobs: 124
+2024-07-30 17:38:59,988 - __main__ - INFO - Starting script
+2024-07-30 17:39:02,132 - __main__ - INFO - WebDriver initialized
+2024-07-30 17:39:18,074 - __main__ - INFO - Accessed URL: https://careers.expediagroup.com/jobs/?filter[category]=Technology
+2024-07-30 17:39:20,101 - __main__ - INFO - Total number of jobs: 124
+2024-07-30 17:39:40,129 - __main__ - INFO - No more pages or an error occurred
+2024-07-30 17:39:40,130 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-07-30 17:39:40,205 - __main__ - INFO - Driver quit, script completed
+2024-07-30 17:43:22,953 - __main__ - INFO - Starting script
+2024-07-30 17:43:25,273 - __main__ - INFO - WebDriver initialized
+2024-07-30 17:43:28,851 - __main__ - INFO - Accessed URL: https://careers.finastra.com/jobs
+2024-07-30 17:43:30,874 - __main__ - INFO - Total number of jobs: 114
+2024-07-30 17:43:53,716 - __main__ - INFO - Collected all jobs
+2024-07-30 17:43:53,717 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-07-30 17:43:53,815 - __main__ - INFO - Driver quit, script completed
+2024-07-30 17:48:17,044 - __main__ - INFO - Starting script
+2024-07-30 17:48:19,345 - __main__ - INFO - WebDriver initialized
+2024-07-30 17:48:20,740 - __main__ - INFO - Accessed URL: https://www.flipkartcareers.com/#!/joblist
+2024-07-30 17:48:22,767 - __main__ - INFO - Closed initial pop-up
+2024-07-30 17:48:24,783 - __main__ - INFO - Selected Technology filter
+2024-07-30 17:48:27,810 - __main__ - INFO - Total number of openings: 73
+2024-07-30 17:50:03,142 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-07-30 17:50:03,323 - __main__ - INFO - Driver quit, script completed
+2024-07-30 17:52:21,100 - __main__ - INFO - Starting script
+2024-07-30 17:52:23,174 - __main__ - INFO - WebDriver initialized
+2024-07-30 17:52:26,191 - __main__ - INFO - Accessed URL: https://jobs.gartner.com/jobs/?search=&department=Technology&contractType=&pagesize=20
+2024-07-30 17:52:56,666 - __main__ - INFO - No more pages or an error occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@aria-label='Go to next page of results']"}
+  (Session info: chrome=127.0.6533.73)
+Stacktrace:
+0   chromedriver                        0x0000000103182a0c chromedriver + 4385292
+1   chromedriver                        0x000000010317b318 chromedriver + 4354840
+2   chromedriver                        0x0000000102d98b0c chromedriver + 281356
+3   chromedriver                        0x0000000102ddb2f8 chromedriver + 553720
+4   chromedriver                        0x0000000102e13d24 chromedriver + 785700
+5   chromedriver                        0x0000000102dcfeec chromedriver + 507628
+6   chromedriver                        0x0000000102dd08c4 chromedriver + 510148
+7   chromedriver                        0x000000010314a3c8 chromedriver + 4154312
+8   chromedriver                        0x000000010314ee2c chromedriver + 4173356
+9   chromedriver                        0x000000010312ff84 chromedriver + 4046724
+10  chromedriver                        0x000000010314f718 chromedriver + 4175640
+11  chromedriver                        0x0000000103122f44 chromedriver + 3993412
+12  chromedriver                        0x000000010316d1a8 chromedriver + 4297128
+13  chromedriver                        0x000000010316d324 chromedriver + 4297508
+14  chromedriver                        0x000000010317af10 chromedriver + 4353808
+15  libsystem_pthread.dylib             0x000000018dccef94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018dcc9d34 thread_start + 8
+
+2024-07-30 17:52:56,668 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-07-30 17:52:56,759 - __main__ - INFO - Driver quit, script completed
+2024-07-30 17:55:36,605 - __main__ - INFO - Starting script
+2024-07-30 17:55:36,608 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-30 17:55:38,658 - __main__ - INFO - WebDriver initialized
+2024-07-30 17:55:42,065 - __main__ - INFO - Accessed URL: https://www.hcltech.com/careers/Careers-in-india#job-openings
+2024-07-30 17:57:04,636 - __main__ - INFO - No more items to load or error encountered.
+2024-07-30 17:57:04,865 - __main__ - INFO - Parsed job listings
+2024-07-30 17:57:04,873 - __main__ - ERROR - Error parsing job listing: 'NoneType' object has no attribute 'text'
+2024-07-30 17:57:04,881 - __main__ - ERROR - Error parsing job listing: 'NoneType' object has no attribute 'text'
+2024-07-30 17:57:04,887 - __main__ - ERROR - Error parsing job listing: 'NoneType' object has no attribute 'text'
+2024-07-30 17:57:04,893 - __main__ - ERROR - Error parsing job listing: 'NoneType' object has no attribute 'text'
+2024-07-30 17:57:04,900 - __main__ - ERROR - Error parsing job listing: 'NoneType' object has no attribute 'text'
+2024-07-30 17:57:04,907 - __main__ - ERROR - Error parsing job listing: 'NoneType' object has no attribute 'text'
+2024-07-30 17:57:04,914 - __main__ - ERROR - Error parsing job listing: 'NoneType' object has no attribute 'text'
+2024-07-30 17:57:04,920 - __main__ - ERROR - Error parsing job listing: 'NoneType' object has no attribute 'text'
+2024-07-30 17:57:04,926 - __main__ - ERROR - Error parsing job listing: 'NoneType' object has no attribute 'text'
+2024-07-30 17:57:04,933 - __main__ - ERROR - Error parsing job listing: 'NoneType' object has no attribute 'text'
+2024-07-30 17:57:04,939 - __main__ - ERROR - Error parsing job listing: 'NoneType' object has no attribute 'text'
+2024-07-30 17:57:04,947 - __main__ - ERROR - Error parsing job listing: 'NoneType' object has no attribute 'text'
+2024-07-30 17:57:04,953 - __main__ - ERROR - Error parsing job listing: 'NoneType' object has no attribute 'text'
+2024-07-30 17:57:04,960 - __main__ - ERROR - Error parsing job listing: 'NoneType' object has no attribute 'text'
+2024-07-30 17:57:04,967 - __main__ - ERROR - Error parsing job listing: 'NoneType' object has no attribute 'text'
+2024-07-30 17:57:04,974 - __main__ - ERROR - Error parsing job listing: 'NoneType' object has no attribute 'text'
+2024-07-30 17:57:04,981 - __main__ - ERROR - Error parsing job listing: 'NoneType' object has no attribute 'text'
+2024-07-30 17:57:04,988 - __main__ - ERROR - Error parsing job listing: 'NoneType' object has no attribute 'text'
+2024-07-30 17:57:04,994 - __main__ - ERROR - Error parsing job listing: 'NoneType' object has no attribute 'text'
+2024-07-30 17:57:05,001 - __main__ - ERROR - Error parsing job listing: 'NoneType' object has no attribute 'text'
+2024-07-30 17:57:05,008 - __main__ - ERROR - Error parsing job listing: 'NoneType' object has no attribute 'text'
+2024-07-30 17:57:05,015 - __main__ - ERROR - Error parsing job listing: 'NoneType' object has no attribute 'text'
+2024-07-30 17:57:05,021 - __main__ - ERROR - Error parsing job listing: 'NoneType' object has no attribute 'text'
+2024-07-30 17:57:05,022 - __main__ - INFO - Data collection complete
+2024-07-30 17:57:05,022 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-07-30 17:57:05,232 - __main__ - INFO - Driver quit, script completed
+2024-07-30 17:59:47,700 - __main__ - INFO - Starting script
+2024-07-30 17:59:47,702 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriverr
+2024-07-30 17:59:47,702 - __main__ - ERROR - ChromeDriver not found at driver/chromedriver-mac-arm64/chromedriverr
+2024-07-30 17:59:55,894 - __main__ - INFO - Starting script
+2024-07-30 17:59:55,894 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-30 17:59:58,224 - __main__ - INFO - WebDriver initialized
+2024-07-30 18:00:05,231 - __main__ - INFO - Accessed URL: https://www.hubspot.com/careers/jobs?hubs_signup-url=www.hubspot.com%2Fcareers&hubs_signup-cta=careers-homepage-hero&page=1#department=product-ux-engineering;
+2024-07-30 18:00:08,317 - __main__ - INFO - Clicked 'Show all' button
+2024-07-30 18:00:11,465 - __main__ - INFO - Parsed job listings
+2024-07-30 18:00:11,467 - __main__ - INFO - Data collection complete
+2024-07-30 18:00:11,467 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-07-30 18:00:11,586 - __main__ - INFO - Driver quit, script completed
+2024-07-30 18:03:13,083 - __main__ - INFO - Starting script
+2024-07-30 18:03:13,087 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-30 18:03:15,207 - __main__ - INFO - WebDriver initialized
+2024-07-30 18:03:23,534 - __main__ - INFO - Accessed URL: https://careers.imc.com/in/en/search-results
+2024-07-30 18:03:25,586 - __main__ - INFO - Accepted cookies
+2024-07-30 18:03:47,608 - __main__ - ERROR - Error selecting 'Technology' category: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='checkbox' and @data-ph-at-text='Technology']"}
+  (Session info: chrome=127.0.6533.73)
+Stacktrace:
+0   chromedriver                        0x0000000104a62a0c chromedriver + 4385292
+1   chromedriver                        0x0000000104a5b318 chromedriver + 4354840
+2   chromedriver                        0x0000000104678b0c chromedriver + 281356
+3   chromedriver                        0x00000001046bb2f8 chromedriver + 553720
+4   chromedriver                        0x00000001046f3d24 chromedriver + 785700
+5   chromedriver                        0x00000001046afeec chromedriver + 507628
+6   chromedriver                        0x00000001046b08c4 chromedriver + 510148
+7   chromedriver                        0x0000000104a2a3c8 chromedriver + 4154312
+8   chromedriver                        0x0000000104a2ee2c chromedriver + 4173356
+9   chromedriver                        0x0000000104a0ff84 chromedriver + 4046724
+10  chromedriver                        0x0000000104a2f718 chromedriver + 4175640
+11  chromedriver                        0x0000000104a02f44 chromedriver + 3993412
+12  chromedriver                        0x0000000104a4d1a8 chromedriver + 4297128
+13  chromedriver                        0x0000000104a4d324 chromedriver + 4297508
+14  chromedriver                        0x0000000104a5af10 chromedriver + 4353808
+15  libsystem_pthread.dylib             0x000000018dccef94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018dcc9d34 thread_start + 8
+
+2024-07-30 18:07:29,278 - __main__ - INFO - Starting script
+2024-07-30 18:07:29,281 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-30 18:07:31,424 - __main__ - INFO - WebDriver initialized
+2024-07-30 18:07:38,901 - __main__ - INFO - Accessed URL: https://jobs.intuit.com/search-jobs/
+2024-07-30 18:07:38,961 - __main__ - INFO - Opened category filter
+2024-07-30 18:07:42,215 - __main__ - INFO - Applied filter: category-filter-5
+2024-07-30 18:07:45,270 - __main__ - INFO - Applied filter: category-filter-11
+2024-07-30 18:07:48,316 - __main__ - INFO - Applied filter: category-filter-19
+2024-07-30 18:07:48,370 - __main__ - INFO - Closed category filter
+2024-07-30 18:07:51,386 - __main__ - INFO - Total number of pages: 14
+2024-07-30 18:07:55,577 - __main__ - INFO - Navigated to next page
+2024-07-30 18:07:59,714 - __main__ - INFO - Navigated to next page
+2024-07-30 18:08:03,852 - __main__ - INFO - Navigated to next page
+2024-07-30 18:08:08,013 - __main__ - INFO - Navigated to next page
+2024-07-30 18:08:12,141 - __main__ - INFO - Navigated to next page
+2024-07-30 18:08:16,270 - __main__ - INFO - Navigated to next page
+2024-07-30 18:08:21,441 - __main__ - INFO - Navigated to next page with JavaScript
+2024-07-30 18:08:26,701 - __main__ - INFO - Navigated to next page with JavaScript
+2024-07-30 18:08:31,846 - __main__ - INFO - Navigated to next page with JavaScript
+2024-07-30 18:08:37,005 - __main__ - INFO - Navigated to next page with JavaScript
+2024-07-30 18:08:42,164 - __main__ - INFO - Navigated to next page with JavaScript
+2024-07-30 18:08:47,357 - __main__ - INFO - Navigated to next page with JavaScript
+2024-07-30 18:08:52,510 - __main__ - INFO - Navigated to next page with JavaScript
+2024-07-30 18:08:56,599 - __main__ - INFO - Data collection complete
+2024-07-30 18:08:56,600 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-07-30 18:08:56,803 - __main__ - INFO - Driver quit, script completed
+2024-07-30 18:11:22,346 - __main__ - INFO - Starting script
+2024-07-30 18:11:22,350 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-30 18:11:24,409 - __main__ - INFO - WebDriver initialized
+2024-07-30 18:11:28,862 - __main__ - INFO - Accessed URL: https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=all-locations&department=technology
+2024-07-30 18:11:32,891 - __main__ - INFO - Parsed job listings
+2024-07-30 18:11:36,777 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/6862492002/
+2024-07-30 18:11:42,843 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/7077044002/
+2024-07-30 18:11:52,500 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/6561510002/
+2024-07-30 18:11:58,309 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/7108437002/
+2024-07-30 18:12:04,151 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/7527332002/
+2024-07-30 18:12:09,910 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/7528962002/
+2024-07-30 18:12:18,588 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/7545980002/
+2024-07-30 18:12:24,362 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/7546237002/
+2024-07-30 18:12:33,539 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/6866845002/
+2024-07-30 18:12:43,098 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/7078177002/
+2024-07-30 18:12:52,274 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/7546051002/
+2024-07-30 18:12:58,041 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/7545609002/
+2024-07-30 18:13:03,951 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/6866927002/
+2024-07-30 18:13:09,760 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/7569941002/
+2024-07-30 18:13:15,621 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/5866838002/
+2024-07-30 18:13:21,464 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/5869205002/
+2024-07-30 18:13:27,292 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/it-operations-engineer-september-december-nyc/
+2024-07-30 18:13:33,055 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/it-operations-engineer-january-april-nyc/
+2024-07-30 18:13:38,870 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/it-operations-engineer-may-august-nyc/
+2024-07-30 18:13:44,658 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/it-operations-engineer-may-august-hkg/
+2024-07-30 18:13:50,540 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/it-operations-engineer-industrial-placement-year-ldn/
+2024-07-30 18:13:56,278 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/it-operations-engineer-june-september-ldn/
+2024-07-30 18:14:01,290 - __main__ - ERROR - Error accessing job link https://www.janestreet.com/join-jane-street/closed-internship/it-operations-engineer-june-september-ldn/: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="job-content row"]"}
+  (Session info: chrome=127.0.6533.73)
+Stacktrace:
+0   chromedriver                        0x0000000104802a0c chromedriver + 4385292
+1   chromedriver                        0x00000001047fb318 chromedriver + 4354840
+2   chromedriver                        0x0000000104418b0c chromedriver + 281356
+3   chromedriver                        0x000000010445b2f8 chromedriver + 553720
+4   chromedriver                        0x0000000104493d24 chromedriver + 785700
+5   chromedriver                        0x000000010444feec chromedriver + 507628
+6   chromedriver                        0x00000001044508c4 chromedriver + 510148
+7   chromedriver                        0x00000001047ca3c8 chromedriver + 4154312
+8   chromedriver                        0x00000001047cee2c chromedriver + 4173356
+9   chromedriver                        0x00000001047aff84 chromedriver + 4046724
+10  chromedriver                        0x00000001047cf718 chromedriver + 4175640
+11  chromedriver                        0x00000001047a2f44 chromedriver + 3993412
+12  chromedriver                        0x00000001047ed1a8 chromedriver + 4297128
+13  chromedriver                        0x00000001047ed324 chromedriver + 4297508
+14  chromedriver                        0x00000001047faf10 chromedriver + 4353808
+15  libsystem_pthread.dylib             0x000000018dccef94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018dcc9d34 thread_start + 8
+
+2024-07-30 18:14:02,110 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/fpga-engineer-june-september-ldn/
+2024-07-30 18:14:07,949 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/windows-engineer-may-august-nyc/
+2024-07-30 18:14:13,721 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/linux-engineer-june-september-ldn/
+2024-07-30 18:14:19,519 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/linux-engineer-may-august-hkg/
+2024-07-30 18:14:25,307 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/mechanical-engineer-may-august-nyc/
+2024-07-30 18:14:31,088 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/procurement-specialist-may-august-nyc/
+2024-07-30 18:14:36,936 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/software-engineer-september-december-nyc/
+2024-07-30 18:15:04,542 - __main__ - INFO - Starting script
+2024-07-30 18:15:04,543 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-30 18:15:06,475 - __main__ - INFO - WebDriver initialized
+2024-07-30 18:15:09,928 - __main__ - INFO - Accessed URL: https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=all-locations&department=technology
+2024-07-30 18:15:13,958 - __main__ - INFO - Parsed job listings
+2024-07-30 18:15:17,142 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/6862492002/
+2024-07-30 18:15:23,018 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/7077044002/
+2024-07-30 18:15:30,596 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/6561510002/
+2024-07-30 18:15:36,390 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/7108437002/
+2024-07-30 18:15:42,201 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/7527332002/
+2024-07-30 18:15:47,998 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/7528962002/
+2024-07-30 18:15:56,228 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/7545980002/
+2024-07-30 18:16:01,978 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/7546237002/
+2024-07-30 18:16:10,348 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/6866845002/
+2024-07-30 18:16:19,012 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/7078177002/
+2024-07-30 18:16:27,218 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/7546051002/
+2024-07-30 18:16:33,561 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/7545609002/
+2024-07-30 18:16:39,388 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/6866927002/
+2024-07-30 18:16:45,139 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/7569941002/
+2024-07-30 18:16:50,975 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/5866838002/
+2024-07-30 18:16:56,727 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/position/5869205002/
+2024-07-30 18:17:02,954 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/it-operations-engineer-september-december-nyc/
+2024-07-30 18:17:08,707 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/it-operations-engineer-january-april-nyc/
+2024-07-30 18:17:14,527 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/it-operations-engineer-may-august-nyc/
+2024-07-30 18:17:20,343 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/it-operations-engineer-may-august-hkg/
+2024-07-30 18:17:26,098 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/it-operations-engineer-industrial-placement-year-ldn/
+2024-07-30 18:17:31,867 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/it-operations-engineer-june-september-ldn/
+2024-07-30 18:17:36,876 - __main__ - ERROR - Error accessing job link https://www.janestreet.com/join-jane-street/closed-internship/it-operations-engineer-june-september-ldn/: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="job-content row"]"}
+  (Session info: chrome=127.0.6533.73)
+Stacktrace:
+0   chromedriver                        0x0000000102cbaa0c chromedriver + 4385292
+1   chromedriver                        0x0000000102cb3318 chromedriver + 4354840
+2   chromedriver                        0x00000001028d0b0c chromedriver + 281356
+3   chromedriver                        0x00000001029132f8 chromedriver + 553720
+4   chromedriver                        0x000000010294bd24 chromedriver + 785700
+5   chromedriver                        0x0000000102907eec chromedriver + 507628
+6   chromedriver                        0x00000001029088c4 chromedriver + 510148
+7   chromedriver                        0x0000000102c823c8 chromedriver + 4154312
+8   chromedriver                        0x0000000102c86e2c chromedriver + 4173356
+9   chromedriver                        0x0000000102c67f84 chromedriver + 4046724
+10  chromedriver                        0x0000000102c87718 chromedriver + 4175640
+11  chromedriver                        0x0000000102c5af44 chromedriver + 3993412
+12  chromedriver                        0x0000000102ca51a8 chromedriver + 4297128
+13  chromedriver                        0x0000000102ca5324 chromedriver + 4297508
+14  chromedriver                        0x0000000102cb2f10 chromedriver + 4353808
+15  libsystem_pthread.dylib             0x000000018dccef94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018dcc9d34 thread_start + 8
+
+2024-07-30 18:17:37,617 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/fpga-engineer-june-september-ldn/
+2024-07-30 18:17:43,405 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/windows-engineer-may-august-nyc/
+2024-07-30 18:17:49,240 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/linux-engineer-june-september-ldn/
+2024-07-30 18:17:55,078 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/linux-engineer-may-august-hkg/
+2024-07-30 18:18:00,894 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/mechanical-engineer-may-august-nyc/
+2024-07-30 18:18:06,651 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/procurement-specialist-may-august-nyc/
+2024-07-30 18:18:12,484 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/software-engineer-september-december-nyc/
+2024-07-30 18:18:18,321 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/software-engineer-may-august-hkg/
+2024-07-30 18:18:24,139 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/software-engineer-june-september-ldn/
+2024-07-30 18:18:30,303 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/software-engineer-spring-off-cycle-april-september-ldn/
+2024-07-30 18:18:36,138 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/tools-and-compilers-researcher-flexible-nyc/
+2024-07-30 18:18:41,956 - __main__ - INFO - Accessed job link: https://www.janestreet.com/join-jane-street/closed-internship/tools-and-compilers-researcher-flexible-ldn/
+2024-07-30 18:18:47,125 - __main__ - INFO - Driver quit, data collection complete
+2024-07-30 18:18:47,125 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-07-30 18:22:25,959 - __main__ - INFO - Starting script
+2024-07-30 18:22:25,963 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-30 18:22:28,027 - __main__ - INFO - WebDriver initialized
+2024-07-30 18:22:30,918 - __main__ - INFO - Accessed URL: https://careers.jio.com/frmfttxjobs.aspx?func=w+cpdiT6wL4=&loc=/wASbQn4xyQ=&expreq=/wASbQn4xyQ=&flag=ODA1dRYKXFY=
+2024-07-30 18:22:56,247 - __main__ - INFO - Data collection complete
+2024-07-30 18:22:56,247 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-07-30 18:22:56,336 - __main__ - INFO - Driver quit, script completed
+2024-07-30 18:25:37,497 - __main__ - INFO - Starting script
+2024-07-30 18:25:37,502 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-30 18:25:39,696 - __main__ - INFO - WebDriver initialized
+2024-07-30 18:25:45,782 - __main__ - INFO - Accessed URL: https://careers.jpmorgan.com/in/en/students/programs?deeplink=multiTabNav1::tab2
+2024-07-30 18:25:55,797 - __main__ - ERROR - Error applying filters: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='filter-menu-dropdown-click']"}
+  (Session info: chrome=127.0.6533.73)
+Stacktrace:
+0   chromedriver                        0x00000001051a2a0c chromedriver + 4385292
+1   chromedriver                        0x000000010519b318 chromedriver + 4354840
+2   chromedriver                        0x0000000104db8b0c chromedriver + 281356
+3   chromedriver                        0x0000000104dfb2f8 chromedriver + 553720
+4   chromedriver                        0x0000000104e33d24 chromedriver + 785700
+5   chromedriver                        0x0000000104defeec chromedriver + 507628
+6   chromedriver                        0x0000000104df08c4 chromedriver + 510148
+7   chromedriver                        0x000000010516a3c8 chromedriver + 4154312
+8   chromedriver                        0x000000010516ee2c chromedriver + 4173356
+9   chromedriver                        0x000000010514ff84 chromedriver + 4046724
+10  chromedriver                        0x000000010516f718 chromedriver + 4175640
+11  chromedriver                        0x0000000105142f44 chromedriver + 3993412
+12  chromedriver                        0x000000010518d1a8 chromedriver + 4297128
+13  chromedriver                        0x000000010518d324 chromedriver + 4297508
+14  chromedriver                        0x000000010519af10 chromedriver + 4353808
+15  libsystem_pthread.dylib             0x000000018dccef94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018dcc9d34 thread_start + 8
+
+2024-07-30 18:26:55,365 - __main__ - INFO - Starting script
+2024-07-30 18:26:55,367 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-30 18:26:57,447 - __main__ - INFO - WebDriver initialized
+2024-07-30 18:27:00,996 - __main__ - INFO - Accessed URL: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions?keyword=
+2024-07-30 18:27:11,026 - __main__ - ERROR - Error applying filters: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='filter-menu-dropdown-click']"}
+  (Session info: chrome=127.0.6533.73)
+Stacktrace:
+0   chromedriver                        0x00000001046b2a0c chromedriver + 4385292
+1   chromedriver                        0x00000001046ab318 chromedriver + 4354840
+2   chromedriver                        0x00000001042c8b0c chromedriver + 281356
+3   chromedriver                        0x000000010430b2f8 chromedriver + 553720
+4   chromedriver                        0x0000000104343d24 chromedriver + 785700
+5   chromedriver                        0x00000001042ffeec chromedriver + 507628
+6   chromedriver                        0x00000001043008c4 chromedriver + 510148
+7   chromedriver                        0x000000010467a3c8 chromedriver + 4154312
+8   chromedriver                        0x000000010467ee2c chromedriver + 4173356
+9   chromedriver                        0x000000010465ff84 chromedriver + 4046724
+10  chromedriver                        0x000000010467f718 chromedriver + 4175640
+11  chromedriver                        0x0000000104652f44 chromedriver + 3993412
+12  chromedriver                        0x000000010469d1a8 chromedriver + 4297128
+13  chromedriver                        0x000000010469d324 chromedriver + 4297508
+14  chromedriver                        0x00000001046aaf10 chromedriver + 4353808
+15  libsystem_pthread.dylib             0x000000018dccef94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018dcc9d34 thread_start + 8
+
+2024-07-30 18:29:39,151 - __main__ - INFO - Starting script
+2024-07-30 18:29:39,155 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-30 18:29:41,272 - __main__ - INFO - WebDriver initialized
+2024-07-30 18:29:48,941 - __main__ - INFO - Accessed URL: https://careers.juniper.net/#/
+2024-07-30 18:32:33,578 - __main__ - INFO - Starting script
+2024-07-30 18:32:33,581 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-30 18:32:35,544 - __main__ - INFO - WebDriver initialized
+2024-07-30 18:32:36,415 - __main__ - INFO - Accessed URL: https://juspay.in/careers
+2024-07-30 18:32:39,434 - __main__ - INFO - Data collection complete
+2024-07-30 18:32:39,434 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-07-30 18:32:39,537 - __main__ - INFO - Driver quit, script completed
+2024-07-30 18:41:47,235 - __main__ - INFO - Starting script
+2024-07-30 18:41:47,239 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-30 18:41:49,477 - __main__ - INFO - WebDriver initialized
+2024-07-30 18:41:51,427 - __main__ - INFO - Accessed URL: https://hiring.lenskart.com/
+2024-07-30 18:42:14,456 - __main__ - ERROR - Error interacting with the webpage: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='department']"}
+  (Session info: chrome=127.0.6533.73)
+Stacktrace:
+0   chromedriver                        0x000000010286aa0c chromedriver + 4385292
+1   chromedriver                        0x0000000102863318 chromedriver + 4354840
+2   chromedriver                        0x0000000102480b0c chromedriver + 281356
+3   chromedriver                        0x00000001024c32f8 chromedriver + 553720
+4   chromedriver                        0x00000001024fbd24 chromedriver + 785700
+5   chromedriver                        0x00000001024b7eec chromedriver + 507628
+6   chromedriver                        0x00000001024b88c4 chromedriver + 510148
+7   chromedriver                        0x00000001028323c8 chromedriver + 4154312
+8   chromedriver                        0x0000000102836e2c chromedriver + 4173356
+9   chromedriver                        0x0000000102817f84 chromedriver + 4046724
+10  chromedriver                        0x0000000102837718 chromedriver + 4175640
+11  chromedriver                        0x000000010280af44 chromedriver + 3993412
+12  chromedriver                        0x00000001028551a8 chromedriver + 4297128
+13  chromedriver                        0x0000000102855324 chromedriver + 4297508
+14  chromedriver                        0x0000000102862f10 chromedriver + 4353808
+15  libsystem_pthread.dylib             0x000000018dccef94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018dcc9d34 thread_start + 8
+
+2024-07-30 18:43:31,408 - __main__ - INFO - Starting script
+2024-07-30 18:43:31,411 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-30 18:43:33,633 - __main__ - INFO - WebDriver initialized
+2024-07-30 18:43:35,340 - __main__ - INFO - Accessed URL: https://hiring.lenskart.com/jobs-demp2
+2024-07-30 18:43:58,416 - __main__ - ERROR - Error interacting with the webpage: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='department']"}
+  (Session info: chrome=127.0.6533.73)
+Stacktrace:
+0   chromedriver                        0x0000000104d4ea0c chromedriver + 4385292
+1   chromedriver                        0x0000000104d47318 chromedriver + 4354840
+2   chromedriver                        0x0000000104964b0c chromedriver + 281356
+3   chromedriver                        0x00000001049a72f8 chromedriver + 553720
+4   chromedriver                        0x00000001049dfd24 chromedriver + 785700
+5   chromedriver                        0x000000010499beec chromedriver + 507628
+6   chromedriver                        0x000000010499c8c4 chromedriver + 510148
+7   chromedriver                        0x0000000104d163c8 chromedriver + 4154312
+8   chromedriver                        0x0000000104d1ae2c chromedriver + 4173356
+9   chromedriver                        0x0000000104cfbf84 chromedriver + 4046724
+10  chromedriver                        0x0000000104d1b718 chromedriver + 4175640
+11  chromedriver                        0x0000000104ceef44 chromedriver + 3993412
+12  chromedriver                        0x0000000104d391a8 chromedriver + 4297128
+13  chromedriver                        0x0000000104d39324 chromedriver + 4297508
+14  chromedriver                        0x0000000104d46f10 chromedriver + 4353808
+15  libsystem_pthread.dylib             0x000000018dccef94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018dcc9d34 thread_start + 8
+
+2024-07-30 18:48:54,049 - __main__ - INFO - Starting script
+2024-07-30 18:48:54,053 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-30 18:48:56,383 - __main__ - INFO - WebDriver initialized
+2024-07-30 18:49:00,891 - __main__ - INFO - Accessed URL: https://careers.mcafee.com/global/en/search-results
+2024-07-30 18:49:02,920 - __main__ - INFO - Selected category: Engineering
+2024-07-30 18:49:04,946 - __main__ - INFO - Selected category: Information Technology
+2024-07-30 18:49:06,970 - __main__ - INFO - Total jobs found: 13
+2024-07-30 18:49:07,101 - __main__ - INFO - Collected job: Senior Data Scientist (Pricing & Recommendations) - Remote in India
+2024-07-30 18:49:07,108 - __main__ - INFO - Collected job: Senior Postgres DBA - Remote in India
+2024-07-30 18:49:07,113 - __main__ - INFO - Collected job: SDET - Remote in India
+2024-07-30 18:49:07,116 - __main__ - INFO - Collected job: SDET - Remote in India
+2024-07-30 18:49:07,120 - __main__ - INFO - Collected job: Senior Software Architect in United States
+2024-07-30 18:49:07,123 - __main__ - INFO - Collected job: Senior Director of Data Analytics Engineering in US, California, San Jose
+2024-07-30 18:49:07,127 - __main__ - INFO - Collected job: Director Product Management, Commerce in US, California, San Jose
+2024-07-30 18:49:07,130 - __main__ - INFO - Collected job: Senior Director of Data Analytics Engineering (Open) in Canada, Waterloo
+2024-07-30 18:49:07,134 - __main__ - INFO - Collected job: Director, Marketing Analytics & Strategy in United States
+2024-07-30 18:49:07,138 - __main__ - INFO - Collected job: Group Product Manager, Desktop - Remote in United States
+2024-07-30 18:49:10,927 - __main__ - INFO - Collected job: Group Product Manager, Subscription Payments in US, California, San Jose
+2024-07-30 18:49:10,930 - __main__ - INFO - Collected job: Group Product Manager, Core Protections in United States
+2024-07-30 18:49:10,933 - __main__ - INFO - Collected job: Group Product Manager- Web in United States
+2024-07-30 18:49:14,466 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-07-30 18:49:14,588 - __main__ - INFO - Driver quit, script completed
+2024-07-30 18:51:37,420 - __main__ - INFO - Starting script
+2024-07-30 18:51:37,424 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-30 18:51:39,545 - __main__ - INFO - WebDriver initialized
+2024-07-30 18:51:41,186 - __main__ - INFO - Accessed URL: https://www.meesho.io/jobs
+2024-07-30 18:51:44,255 - __main__ - INFO - Clicked on filter selection box
+2024-07-30 18:51:47,307 - __main__ - INFO - Selected filter: Tech
+2024-07-30 18:51:50,355 - __main__ - INFO - Applied filters
+2024-07-30 18:51:53,373 - __main__ - INFO - Collected job: Android Developer - I in Bangalore, Karnataka
+2024-07-30 18:51:53,373 - __main__ - INFO - Collected job: Data Scientist II in Bangalore, Karnataka
+2024-07-30 18:51:53,373 - __main__ - INFO - Collected job: Devops Engineer II in Bangalore, Karnataka
+2024-07-30 18:51:53,374 - __main__ - INFO - Collected job: Engineering Manager- Data Platform Engineering in Bangalore, Karnataka
+2024-07-30 18:51:53,374 - __main__ - INFO - Collected job: Security Engineer II in Bangalore, Karnataka
+2024-07-30 18:51:53,375 - __main__ - INFO - Collected job: Site Reliability Engineer II in Bangalore, Karnataka
+2024-07-30 18:51:53,375 - __main__ - INFO - Collected job: Software Development Engineer I Data in Bangalore, Karnataka
+2024-07-30 18:51:53,376 - __main__ - INFO - Collected job: Software Development Engineer II - Data Intelligence in Bangalore, Karnataka
+2024-07-30 18:52:03,419 - __main__ - ERROR - Error collecting internship data: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='headlessui-switch-3']"}
+  (Session info: chrome=127.0.6533.73)
+Stacktrace:
+0   chromedriver                        0x0000000102b36a0c chromedriver + 4385292
+1   chromedriver                        0x0000000102b2f318 chromedriver + 4354840
+2   chromedriver                        0x000000010274cb0c chromedriver + 281356
+3   chromedriver                        0x000000010278f2f8 chromedriver + 553720
+4   chromedriver                        0x00000001027c7d24 chromedriver + 785700
+5   chromedriver                        0x0000000102783eec chromedriver + 507628
+6   chromedriver                        0x00000001027848c4 chromedriver + 510148
+7   chromedriver                        0x0000000102afe3c8 chromedriver + 4154312
+8   chromedriver                        0x0000000102b02e2c chromedriver + 4173356
+9   chromedriver                        0x0000000102ae3f84 chromedriver + 4046724
+10  chromedriver                        0x0000000102b03718 chromedriver + 4175640
+11  chromedriver                        0x0000000102ad6f44 chromedriver + 3993412
+12  chromedriver                        0x0000000102b211a8 chromedriver + 4297128
+13  chromedriver                        0x0000000102b21324 chromedriver + 4297508
+14  chromedriver                        0x0000000102b2ef10 chromedriver + 4353808
+15  libsystem_pthread.dylib             0x000000018dccef94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018dcc9d34 thread_start + 8
+
+2024-07-30 18:52:03,421 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-07-30 18:52:03,526 - __main__ - INFO - Driver quit, script completed
+2024-07-30 18:54:26,072 - __main__ - INFO - Starting script
+2024-07-30 18:54:26,076 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-30 18:54:28,000 - __main__ - INFO - WebDriver initialized
+2024-07-30 18:54:30,741 - __main__ - INFO - Accessed URL: https://jobs.careers.microsoft.com/global/en/search?p=Software%20Engineering&p=Data%20Center&p=Research%2C%20Applied%2C%20%26%20Data%20Sciences&p=Hardware%20Engineering&p=Engineering&p=Design%20%26%20Creative&p=Analytics&p=Technical%20Support&d=Art&d=Software%20Engineering&rt=People%20Manager&l=en_us&pg=1&pgSz=20&o=Relevance&flt=true
+2024-07-30 18:54:47,165 - __main__ - ERROR - Error during job data extraction: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/main/div[5]/div[2]/div/div[2]/div[1]/div[2]/div[1]/div/div/div[10]/div/div/div[2]/div[1]/div/div/div[2]/span"}
+  (Session info: chrome=127.0.6533.73)
+Stacktrace:
+0   chromedriver                        0x0000000100a2aa0c chromedriver + 4385292
+1   chromedriver                        0x0000000100a23318 chromedriver + 4354840
+2   chromedriver                        0x0000000100640b0c chromedriver + 281356
+3   chromedriver                        0x00000001006832f8 chromedriver + 553720
+4   chromedriver                        0x0000000100679734 chromedriver + 513844
+5   chromedriver                        0x00000001006bbd24 chromedriver + 785700
+6   chromedriver                        0x0000000100677eec chromedriver + 507628
+7   chromedriver                        0x00000001006788c4 chromedriver + 510148
+8   chromedriver                        0x00000001009f23c8 chromedriver + 4154312
+9   chromedriver                        0x00000001009f6e2c chromedriver + 4173356
+10  chromedriver                        0x00000001009d7f84 chromedriver + 4046724
+11  chromedriver                        0x00000001009f7718 chromedriver + 4175640
+12  chromedriver                        0x00000001009caf44 chromedriver + 3993412
+13  chromedriver                        0x0000000100a151a8 chromedriver + 4297128
+14  chromedriver                        0x0000000100a15324 chromedriver + 4297508
+15  chromedriver                        0x0000000100a22f10 chromedriver + 4353808
+16  libsystem_pthread.dylib             0x000000018dccef94 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018dcc9d34 thread_start + 8
+
+2024-07-30 18:54:47,165 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-07-30 18:54:47,262 - __main__ - INFO - Driver quit, script completed
+2024-07-30 19:00:06,210 - __main__ - INFO - Starting script
+2024-07-30 19:00:06,212 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-30 19:00:08,229 - __main__ - INFO - WebDriver initialized
+2024-07-30 19:00:09,286 - __main__ - INFO - Accessed URL: https://jobs.careers.microsoft.com/global/en/search?p=Software%20Engineering&p=Data%20Center&p=Research%2C%20Applied%2C%20%26%20Data%20Sciences&p=Hardware%20Engineering&p=Engineering&p=Design%20%26%20Creative&p=Analytics&p=Technical%20Support&d=Art&d=Software%20Engineering&rt=People%20Manager&l=en_us&pg=1&pgSz=20&o=Relevance&flt=true
+2024-07-30 19:00:18,234 - __main__ - INFO - Collected job: Principal Software Engineering Manager in Noida, Uttar Pradesh, India
+2024-07-30 19:00:18,246 - __main__ - INFO - Collected job: Principal Software Engineering Manager in Noida, Uttar Pradesh, India
+2024-07-30 19:00:18,257 - __main__ - INFO - Collected job: Principal Software Engineering Manager - Azure Storage in Noida, Uttar Pradesh, India
+2024-07-30 19:00:18,270 - __main__ - INFO - Collected job: Principal Software Engineering Manager in Noida, Uttar Pradesh, India
+2024-07-30 19:00:18,283 - __main__ - INFO - Collected job: Principal Software Engineering Manager in Noida, Uttar Pradesh, India
+2024-07-30 19:00:18,296 - __main__ - INFO - Collected job: Principal Software Engineering Manager- Azure Log Analytics (SRE Team) in Noida, Uttar Pradesh, India
+2024-07-30 19:00:18,307 - __main__ - INFO - Collected job: Principal Engineering Manager in Noida, Uttar Pradesh, India
+2024-07-30 19:00:18,320 - __main__ - INFO - Collected job: Principal Software Engineering Lead in Noida, Uttar Pradesh, India
+2024-07-30 19:00:18,332 - __main__ - INFO - Collected job: Principal Software Engineering Manager-AI Platform in Noida, Uttar Pradesh, India
+2024-07-30 19:00:18,353 - __main__ - INFO - Collected job: Senior Software Engineering Manager in Noida, Uttar Pradesh, India
+2024-07-30 19:00:18,366 - __main__ - INFO - Collected job: Principal Software Engineer Manager in Noida, Uttar Pradesh, India
+2024-07-30 19:00:18,379 - __main__ - INFO - Collected job: Sustainability Engineering Manager in Noida, Uttar Pradesh, India
+2024-07-30 19:00:18,392 - __main__ - INFO - Collected job: Senior Software Engineering Manager in Noida, Uttar Pradesh, India
+2024-07-30 19:00:18,406 - __main__ - INFO - Collected job: Principal Software Engineer Lead in Noida, Uttar Pradesh, India
+2024-07-30 19:00:18,418 - __main__ - INFO - Collected job: Software Engineering Manager in Noida, Uttar Pradesh, India
+2024-07-30 19:00:18,432 - __main__ - INFO - Collected job: Principal Software Engineering Manager in Noida, Uttar Pradesh, India
+2024-07-30 19:00:18,445 - __main__ - INFO - Collected job: Principal Software Engineering Manager in Noida, Uttar Pradesh, India
+2024-07-30 19:00:18,458 - __main__ - INFO - Collected job: Software Engineering Manager in Noida, Uttar Pradesh, India
+2024-07-30 19:00:18,472 - __main__ - INFO - Collected job: Senior Director, Minecraft Ecosystem Experiences and Services – Mojang Studios in Noida, Uttar Pradesh, India
+2024-07-30 19:00:18,484 - __main__ - INFO - Collected job: Principal Engineering Manager - Microsoft 365 in Noida, Uttar Pradesh, India
+2024-07-30 19:00:28,528 - __main__ - ERROR - Error during job data extraction: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/main/div[5]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/div/div/div[3]/button"}
+  (Session info: chrome=127.0.6533.73)
+Stacktrace:
+0   chromedriver                        0x00000001008b6a0c chromedriver + 4385292
+1   chromedriver                        0x00000001008af318 chromedriver + 4354840
+2   chromedriver                        0x00000001004ccb0c chromedriver + 281356
+3   chromedriver                        0x000000010050f2f8 chromedriver + 553720
+4   chromedriver                        0x0000000100547d24 chromedriver + 785700
+5   chromedriver                        0x0000000100503eec chromedriver + 507628
+6   chromedriver                        0x00000001005048c4 chromedriver + 510148
+7   chromedriver                        0x000000010087e3c8 chromedriver + 4154312
+8   chromedriver                        0x0000000100882e2c chromedriver + 4173356
+9   chromedriver                        0x0000000100863f84 chromedriver + 4046724
+10  chromedriver                        0x0000000100883718 chromedriver + 4175640
+11  chromedriver                        0x0000000100856f44 chromedriver + 3993412
+12  chromedriver                        0x00000001008a11a8 chromedriver + 4297128
+13  chromedriver                        0x00000001008a1324 chromedriver + 4297508
+14  chromedriver                        0x00000001008aef10 chromedriver + 4353808
+15  libsystem_pthread.dylib             0x000000018dccef94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018dcc9d34 thread_start + 8
+
+2024-07-30 19:00:28,528 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-07-30 19:00:28,623 - __main__ - INFO - Driver quit, script completed
+2024-07-30 19:04:30,175 - __main__ - INFO - Starting script
+2024-07-30 19:04:30,179 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-30 19:04:32,207 - __main__ - INFO - WebDriver initialized
+2024-07-30 19:04:36,660 - __main__ - INFO - Accessed URL: https://navi.freshteam.com/jobs?location=[]&department=[%223000120211%22]&jobType=[]&title=&isRemoteLocation=false
+2024-07-30 19:04:42,720 - __main__ - INFO - Found 12 job postings
+2024-07-30 19:04:42,721 - __main__ - INFO - Collected job: AI Solutions Engineer in Bengaluru, India
+2024-07-30 19:04:42,721 - __main__ - INFO - Collected job: Architect - Backend_L9 in Bengaluru, India
+2024-07-30 19:04:42,722 - __main__ - INFO - Collected job: Data Scientist - 2 in Bengaluru, India
+2024-07-30 19:04:42,722 - __main__ - INFO - Collected job: Data Scientist - 3 in Bengaluru, India
+2024-07-30 19:04:42,722 - __main__ - INFO - Collected job: Engineering Manager (L8) in Bengaluru, India
+2024-07-30 19:04:42,723 - __main__ - INFO - Collected job: Engineering Manager II (L9) in Bengaluru, India
+2024-07-30 19:04:42,723 - __main__ - INFO - Collected job: Lead Data Scientist in Bengaluru, India
+2024-07-30 19:04:42,724 - __main__ - INFO - Collected job: Lead Quality Engineer (Manual) in Bengaluru, India
+2024-07-30 19:04:42,724 - __main__ - INFO - Collected job: ML-2 in Bengaluru, India
+2024-07-30 19:04:42,724 - __main__ - INFO - Collected job: Quality Engineer (Manual) in Bengaluru, India
+2024-07-30 19:04:42,725 - __main__ - INFO - Collected job: SDE-3 in Bengaluru, India
+2024-07-30 19:04:42,725 - __main__ - INFO - Collected job: Security Engineer - 3 in Bengaluru, India
+2024-07-30 19:04:42,725 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-07-30 19:04:42,816 - __main__ - INFO - Driver quit, script completed
+2024-07-30 19:09:00,375 - __main__ - INFO - Starting script
+2024-07-30 19:09:00,379 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-30 19:09:02,815 - __main__ - INFO - WebDriver initialized
+2024-07-30 19:09:08,001 - __main__ - INFO - Accessed URL: https://optiver.com/working-at-optiver/career-opportunities
+2024-07-30 19:09:21,037 - __main__ - ERROR - Error selecting Technology department: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@data-placeholder="Departments"]"}
+  (Session info: chrome=127.0.6533.73)
+Stacktrace:
+0   chromedriver                        0x0000000100c1ea0c chromedriver + 4385292
+1   chromedriver                        0x0000000100c17318 chromedriver + 4354840
+2   chromedriver                        0x0000000100834b0c chromedriver + 281356
+3   chromedriver                        0x00000001008772f8 chromedriver + 553720
+4   chromedriver                        0x00000001008afd24 chromedriver + 785700
+5   chromedriver                        0x000000010086beec chromedriver + 507628
+6   chromedriver                        0x000000010086c8c4 chromedriver + 510148
+7   chromedriver                        0x0000000100be63c8 chromedriver + 4154312
+8   chromedriver                        0x0000000100beae2c chromedriver + 4173356
+9   chromedriver                        0x0000000100bcbf84 chromedriver + 4046724
+10  chromedriver                        0x0000000100beb718 chromedriver + 4175640
+11  chromedriver                        0x0000000100bbef44 chromedriver + 3993412
+12  chromedriver                        0x0000000100c091a8 chromedriver + 4297128
+13  chromedriver                        0x0000000100c09324 chromedriver + 4297508
+14  chromedriver                        0x0000000100c16f10 chromedriver + 4353808
+15  libsystem_pthread.dylib             0x000000018dccef94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018dcc9d34 thread_start + 8
+
+2024-07-30 19:09:24,574 - __main__ - INFO - Starting script
+2024-07-30 19:09:24,575 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-30 19:09:26,157 - __main__ - INFO - WebDriver initialized
+2024-07-30 19:09:32,328 - __main__ - INFO - Accessed URL: https://optiver.com/working-at-optiver/career-opportunities
+2024-07-30 19:09:45,351 - __main__ - ERROR - Error selecting Technology department: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@data-placeholder="Departments"]"}
+  (Session info: chrome=127.0.6533.73)
+Stacktrace:
+0   chromedriver                        0x00000001044bea0c chromedriver + 4385292
+1   chromedriver                        0x00000001044b7318 chromedriver + 4354840
+2   chromedriver                        0x00000001040d4b0c chromedriver + 281356
+3   chromedriver                        0x00000001041172f8 chromedriver + 553720
+4   chromedriver                        0x000000010414fd24 chromedriver + 785700
+5   chromedriver                        0x000000010410beec chromedriver + 507628
+6   chromedriver                        0x000000010410c8c4 chromedriver + 510148
+7   chromedriver                        0x00000001044863c8 chromedriver + 4154312
+8   chromedriver                        0x000000010448ae2c chromedriver + 4173356
+9   chromedriver                        0x000000010446bf84 chromedriver + 4046724
+10  chromedriver                        0x000000010448b718 chromedriver + 4175640
+11  chromedriver                        0x000000010445ef44 chromedriver + 3993412
+12  chromedriver                        0x00000001044a91a8 chromedriver + 4297128
+13  chromedriver                        0x00000001044a9324 chromedriver + 4297508
+14  chromedriver                        0x00000001044b6f10 chromedriver + 4353808
+15  libsystem_pthread.dylib             0x000000018dccef94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018dcc9d34 thread_start + 8
+
+2024-07-30 19:10:04,146 - __main__ - INFO - Starting script
+2024-07-30 19:10:04,148 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-30 19:10:06,186 - __main__ - INFO - WebDriver initialized
+2024-07-30 19:10:10,257 - __main__ - INFO - Accessed URL: https://optiver.com/working-at-optiver/career-opportunities/#roles
+2024-07-30 19:10:23,311 - __main__ - ERROR - Error selecting Technology department: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@data-placeholder="Departments"]"}
+  (Session info: chrome=127.0.6533.73)
+Stacktrace:
+0   chromedriver                        0x000000010271aa0c chromedriver + 4385292
+1   chromedriver                        0x0000000102713318 chromedriver + 4354840
+2   chromedriver                        0x0000000102330b0c chromedriver + 281356
+3   chromedriver                        0x00000001023732f8 chromedriver + 553720
+4   chromedriver                        0x00000001023abd24 chromedriver + 785700
+5   chromedriver                        0x0000000102367eec chromedriver + 507628
+6   chromedriver                        0x00000001023688c4 chromedriver + 510148
+7   chromedriver                        0x00000001026e23c8 chromedriver + 4154312
+8   chromedriver                        0x00000001026e6e2c chromedriver + 4173356
+9   chromedriver                        0x00000001026c7f84 chromedriver + 4046724
+10  chromedriver                        0x00000001026e7718 chromedriver + 4175640
+11  chromedriver                        0x00000001026baf44 chromedriver + 3993412
+12  chromedriver                        0x00000001027051a8 chromedriver + 4297128
+13  chromedriver                        0x0000000102705324 chromedriver + 4297508
+14  chromedriver                        0x0000000102712f10 chromedriver + 4353808
+15  libsystem_pthread.dylib             0x000000018dccef94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018dcc9d34 thread_start + 8
+
+2024-07-30 19:40:15,590 - __main__ - INFO - Starting script
+2024-07-30 19:40:15,594 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-30 19:40:18,084 - __main__ - INFO - WebDriver initialized
+2024-07-30 19:40:21,895 - __main__ - INFO - Accessed URL: https://optiver.com/working-at-optiver/career-opportunities/#roles
+2024-07-30 19:40:24,922 - __main__ - ERROR - Error selecting Technology department: Message: Select only works on <select> elements, not on span
+
+2024-07-30 19:41:03,653 - __main__ - INFO - Starting script
+2024-07-30 19:41:03,654 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-30 19:41:05,591 - __main__ - INFO - WebDriver initialized
+2024-07-30 19:41:09,194 - __main__ - INFO - Accessed URL: https://optiver.com/working-at-optiver/career-opportunities/#roles
+2024-07-30 19:41:12,216 - __main__ - ERROR - Error selecting Technology department: Message: Select only works on <select> elements, not on span
+
+2024-07-30 19:42:27,873 - __main__ - INFO - Starting script
+2024-07-30 19:42:27,878 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-30 19:42:30,021 - __main__ - INFO - WebDriver initialized
+2024-07-30 19:42:35,128 - __main__ - INFO - Accessed URL: https://optiver.com/working-at-optiver/career-opportunities/#roles
+2024-07-30 19:42:38,149 - __main__ - ERROR - Error selecting Technology department: Message: Select only works on <select> elements, not on span
+
+2024-07-30 19:42:59,968 - __main__ - INFO - Starting script
+2024-07-30 19:42:59,969 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-30 19:43:01,837 - __main__ - INFO - WebDriver initialized
+2024-07-30 19:43:07,036 - __main__ - INFO - Accessed URL: https://optiver.com/working-at-optiver/career-opportunities/#roles
+2024-07-30 19:43:20,065 - __main__ - ERROR - Error selecting Technology department: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@data-placeholder="Departments"]"}
+  (Session info: chrome=127.0.6533.73)
+Stacktrace:
+0   chromedriver                        0x000000010295aa0c chromedriver + 4385292
+1   chromedriver                        0x0000000102953318 chromedriver + 4354840
+2   chromedriver                        0x0000000102570b0c chromedriver + 281356
+3   chromedriver                        0x00000001025b32f8 chromedriver + 553720
+4   chromedriver                        0x00000001025ebd24 chromedriver + 785700
+5   chromedriver                        0x00000001025a7eec chromedriver + 507628
+6   chromedriver                        0x00000001025a88c4 chromedriver + 510148
+7   chromedriver                        0x00000001029223c8 chromedriver + 4154312
+8   chromedriver                        0x0000000102926e2c chromedriver + 4173356
+9   chromedriver                        0x0000000102907f84 chromedriver + 4046724
+10  chromedriver                        0x0000000102927718 chromedriver + 4175640
+11  chromedriver                        0x00000001028faf44 chromedriver + 3993412
+12  chromedriver                        0x00000001029451a8 chromedriver + 4297128
+13  chromedriver                        0x0000000102945324 chromedriver + 4297508
+14  chromedriver                        0x0000000102952f10 chromedriver + 4353808
+15  libsystem_pthread.dylib             0x000000018dccef94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018dcc9d34 thread_start + 8
+
+2024-07-30 19:45:50,892 - __main__ - INFO - Starting script
+2024-07-30 19:45:50,895 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-30 19:45:53,242 - __main__ - INFO - WebDriver initialized
+2024-07-30 19:45:57,007 - __main__ - INFO - Accessed URL: https://jobs.paloaltonetworks.com/en/jobs/?department=Engineering&department=Information+Security&department=Information+Technology&pagesize=20#results
+2024-07-30 19:46:00,044 - __main__ - INFO - Collected job: Engineering Manager - Cross Platform (Cortex XDR) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:00,045 - __main__ - INFO - Collected job: Backend Software engineer -  CWP Team (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:00,045 - __main__ - INFO - Collected job: Senior Backend Engineer - Platform Backend (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:00,046 - __main__ - INFO - Collected job: Principal Backend Engineer - Platform Backend (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:00,046 - __main__ - INFO - Collected job: Senior Frontend Angular Developer (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:00,047 - __main__ - INFO - Collected job: Senior Security Researcher - Data & AI Threat Detection (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:00,047 - __main__ - INFO - Collected job: Senior Automation Infra Engineer (Cloud Application Security) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:00,048 - __main__ - INFO - Collected job: Staff Software Engineer (Network Security - SASE) in Santa Clara, United States
+2024-07-30 19:46:00,048 - __main__ - INFO - Collected job: Senior Staff Software Engineer in Test Automation (Prisma Access) in Santa Clara, United States
+2024-07-30 19:46:00,048 - __main__ - INFO - Collected job: Senior Staff  Data Scientist (Xpanse) in San Francisco, United States
+2024-07-30 19:46:00,049 - __main__ - INFO - Collected job: Sr Software Engineer (Shared Services) in Santa Clara, United States
+2024-07-30 19:46:00,049 - __main__ - INFO - Collected job: QA Automation Analyst (Cortex XDR) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:00,050 - __main__ - INFO - Collected job: Sr Staff Engineer Software (IoT Security Frontend) in Santa Clara, United States
+2024-07-30 19:46:00,050 - __main__ - INFO - Collected job: Sr Staff Software Engineer (AI Security Cloud) in Santa Clara, United States
+2024-07-30 19:46:00,051 - __main__ - INFO - Collected job: Sr Software Engineer (Xpanse) - Remote in New York, United States (Remote)
+2024-07-30 19:46:00,051 - __main__ - INFO - Collected job: Principal Java/Kotlin Backend Engineer (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:00,052 - __main__ - INFO - Collected job: Senior Java/Kotlin Backend Engineer (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:00,052 - __main__ - INFO - Collected job: Senior Python Engineer (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:00,052 - __main__ - INFO - Collected job: Principal Python Engineer Software (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:00,053 - __main__ - INFO - Collected job: Principal Java Backend Engineer (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:01,853 - __main__ - INFO - Clicked next page
+2024-07-30 19:46:03,880 - __main__ - INFO - Collected job: Senior Staff Software Engineer Performance Test in Santa Clara, United States
+2024-07-30 19:46:03,881 - __main__ - INFO - Collected job: Principal Security Architect (Cortex) in Santa Clara, United States (Remote)
+2024-07-30 19:46:03,881 - __main__ - INFO - Collected job: Principal Software Engineer in Test (Prisma SASE) in Santa Clara, United States
+2024-07-30 19:46:03,882 - __main__ - INFO - Collected job: Sr Staff Software Engineering (Customer Profile Test Engineering) in Santa Clara, United States
+2024-07-30 19:46:03,882 - __main__ - INFO - Collected job: Senior UI Automation Engineer (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:03,883 - __main__ - INFO - Collected job: Staff Security Research Engineer (Prisma Cloud) in Bangalore, India
+2024-07-30 19:46:03,883 - __main__ - INFO - Collected job: Sr Software Engineer (Xpanse) - Remote in Santa Clara, United States (Remote)
+2024-07-30 19:46:03,884 - __main__ - INFO - Collected job: Staff IT Data Engineer in Santa Clara, United States
+2024-07-30 19:46:03,884 - __main__ - INFO - Collected job: Principal IT Product Manager- Customer Analytics (Customer360) in Santa Clara, United States
+2024-07-30 19:46:03,884 - __main__ - INFO - Collected job: Experienced Python Engineer  (Cortex XSOAR) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:03,885 - __main__ - INFO - Collected job: DevOps Engineer (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:03,885 - __main__ - INFO - Collected job: Principal Automation Engineer (Cortex XDR) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:03,886 - __main__ - INFO - Collected job: Senior Automation Engineer (Cortex XDR) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:03,886 - __main__ - INFO - Collected job: Senior Security Researcher - UEBA (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:03,887 - __main__ - INFO - Collected job: Principal Software Engineer - Data Infrastructure (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:03,887 - __main__ - INFO - Collected job: Senior Software Engineer - Data Infrastructure (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:03,887 - __main__ - INFO - Collected job: Principal Software Engineer, Wildfire (Low-level OS development) in Santa Clara, United States
+2024-07-30 19:46:03,888 - __main__ - INFO - Collected job: Senior Java Backend Engineer (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:03,888 - __main__ - INFO - Collected job: Principal Backend Developer - SecEng (Prisma CAS) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:03,889 - __main__ - INFO - Collected job: SֿR Backend Developer - SecEng (Prisma CAS) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:05,570 - __main__ - INFO - Clicked next page
+2024-07-30 19:46:07,596 - __main__ - INFO - Collected job: Sr Python Backend Engineer (CAS) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:07,596 - __main__ - INFO - Collected job: Principal Security Researcher - Windows EDR (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:07,597 - __main__ - INFO - Collected job: Senior Email Security Researcher (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:07,597 - __main__ - INFO - Collected job: Senior Rust Engineer - Data Classification (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:07,598 - __main__ - INFO - Collected job: Senior Security Researcher - Windows EDR (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:07,598 - __main__ - INFO - Collected job: Senior Software Engineer (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:07,598 - __main__ - INFO - Collected job: Senior Low - Level Developer (Prisma Access) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:07,599 - __main__ - INFO - Collected job: Principal Backend Developer -Core Team (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:07,599 - __main__ - INFO - Collected job: Senior Backend Developer -Core Team (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:07,600 - __main__ - INFO - Collected job: Sr Full Stack (Frontend Oriented ) Developer (Prisma CAS) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:07,600 - __main__ - INFO - Collected job: Senior Backend Developer - (Prisma CAS) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:07,601 - __main__ - INFO - Collected job: Principal UX Designer (NetSec) in Santa Clara, United States
+2024-07-30 19:46:07,601 - __main__ - INFO - Collected job: Backend Team Manager - SecEng (CAS) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:07,602 - __main__ - INFO - Collected job: Principal Rust Engineer - Data Classification (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:07,602 - __main__ - INFO - Collected job: Principal Java Backend Engineer (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:07,602 - __main__ - INFO - Collected job: Mobile Developer (Cortex XDR) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:07,603 - __main__ - INFO - Collected job: Senior Product Manager -Platform (Cortex ) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:07,603 - __main__ - INFO - Collected job: Sr Staff Engineer Software (Java - Feature Development/Platform) in Santa Clara, United States
+2024-07-30 19:46:07,604 - __main__ - INFO - Collected job: MDR Analyst (Unit 42) in Bangalore, India
+2024-07-30 19:46:07,604 - __main__ - INFO - Collected job: MDR Analyst (Unit 42) in Bangalore, India
+2024-07-30 19:46:09,296 - __main__ - INFO - Clicked next page
+2024-07-30 19:46:11,321 - __main__ - INFO - Collected job: Senior SIEM Developer (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:11,322 - __main__ - INFO - Collected job: Principal Software Engineer QA Engineer (Cloud Security) in Santa Clara, United States
+2024-07-30 19:46:11,323 - __main__ - INFO - Collected job: Sr Principal UX Designer (NetSec) in Santa Clara, United States
+2024-07-30 19:46:11,323 - __main__ - INFO - Collected job: Principal Chromium Developer (Network Security) in Santa Clara, United States
+2024-07-30 19:46:11,324 - __main__ - INFO - Collected job: Principal Browser Development Engineer (Chromium) in Santa Clara, United States
+2024-07-30 19:46:11,324 - __main__ - INFO - Collected job: Principal Engineer Software (Browser Development) in Santa Clara, United States
+2024-07-30 19:46:11,325 - __main__ - INFO - Collected job: Senior People Scientist, Insights & Analytics in Santa Clara, United States
+2024-07-30 19:46:11,325 - __main__ - INFO - Collected job: Sr. Backend Engineer (Prisma Cloud Application Security) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:11,326 - __main__ - INFO - Collected job: Sr Principal Software Engineer (AI Security Cloud) in Santa Clara, United States
+2024-07-30 19:46:11,326 - __main__ - INFO - Collected job: Principal Engineer Software (API Cloud-base) in Santa Clara, United States
+2024-07-30 19:46:11,326 - __main__ - INFO - Collected job: Principal Engineer Software - Backend Infrastructure (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:11,327 - __main__ - INFO - Collected job: Principal Software Engineer (Cortex Xpanse) in Santa Clara, United States
+2024-07-30 19:46:11,327 - __main__ - INFO - Collected job: Senior Principal Engineer (Cortex Xpanse) in Santa Clara, United States
+2024-07-30 19:46:11,328 - __main__ - INFO - Collected job: Senior Backend Engineer - API Security (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:11,328 - __main__ - INFO - Collected job: Principal Backend Engineer - API Security (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:11,329 - __main__ - INFO - Collected job: Senior GO Backend Developer - (Prisma CAS) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:11,329 - __main__ - INFO - Collected job: Senior Backend Developer - (Prisma CAS) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:11,330 - __main__ - INFO - Collected job: Senior MDR Analyst (Unit 42) in Bangalore, India
+2024-07-30 19:46:11,330 - __main__ - INFO - Collected job: Senior DevOps Engineer (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:11,330 - __main__ - INFO - Collected job: Principal Engineer Software - Data Platform Team (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:12,151 - __main__ - INFO - Clicked next page
+2024-07-30 19:46:14,189 - __main__ - INFO - Collected job: Sr. Product Manager, Global Customer Support in Santa Clara, United States
+2024-07-30 19:46:14,189 - __main__ - INFO - Collected job: Senior Backend Developer - Cloud Network Analyzer (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:14,190 - __main__ - INFO - Collected job: MDR Analyst (Unit 42) in Bangalore, India
+2024-07-30 19:46:14,190 - __main__ - INFO - Collected job: Principal UX designer (Cloud Application Security) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:14,191 - __main__ - INFO - Collected job: Senior Security Cloud GenAI Researcher (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:14,191 - __main__ - INFO - Collected job: Principal Security Cloud GenAI Researcher (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:14,191 - __main__ - INFO - Collected job: Principal SAST Researcher (Prisma Cloud Application Security) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:14,192 - __main__ - INFO - Collected job: Senior Backend Engineer -CWP (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:14,192 - __main__ - INFO - Collected job: Senior Software Engineer-  data collection platform (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:14,193 - __main__ - INFO - Collected job: Automation Team leader  - XDR/CWP in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:14,193 - __main__ - INFO - Collected job: Principal Software Engineer, Data Platform (Cortex Xpanse) in San Francisco, United States
+2024-07-30 19:46:14,193 - __main__ - INFO - Collected job: Sr Staff IT Software Engineer (Salesforce Servicecloud) in Bangalore, India
+2024-07-30 19:46:14,194 - __main__ - INFO - Collected job: Staff IT Software Engineer (Salesforce Servicecloud) in Bangalore, India
+2024-07-30 19:46:14,194 - __main__ - INFO - Collected job: Senior IT Software Engineer (Java backend) in Bangalore, India
+2024-07-30 19:46:14,195 - __main__ - INFO - Collected job: Principal Backend Engineer (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:14,195 - __main__ - INFO - Collected job: Senior Manager, Software Engineering - QA (Cloud Services) in Santa Clara, United States
+2024-07-30 19:46:14,196 - __main__ - INFO - Collected job: IT Business Operations Manager in Santa Clara, United States
+2024-07-30 19:46:14,196 - __main__ - INFO - Collected job: Senior Automation Infrastructure Engineer (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:14,197 - __main__ - INFO - Collected job: Senior Automation QA Engineer (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:14,197 - __main__ - INFO - Collected job: Senior Automation QA Engineer (XSOAR) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:17,179 - __main__ - INFO - Clicked next page
+2024-07-30 19:46:19,207 - __main__ - INFO - Collected job: Sr Site Reliability Engineer in Madrid, Spain
+2024-07-30 19:46:19,208 - __main__ - INFO - Collected job: Sr Site Reliability Engineer in Barcelona, Spain
+2024-07-30 19:46:19,208 - __main__ - INFO - Collected job: Senior QA Automation engineer (Prisma Cloud Compute) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:19,209 - __main__ - INFO - Collected job: Sr Principal Software Engineer (NGFW) in Santa Clara, United States
+2024-07-30 19:46:19,209 - __main__ - INFO - Collected job: Sr Software Engineer (Xpanse) in New York, United States (Remote)
+2024-07-30 19:46:19,210 - __main__ - INFO - Collected job: Sr Software Engineer (Xpanse) in Santa Clara, United States (Remote)
+2024-07-30 19:46:19,210 - __main__ - INFO - Collected job: Staff IT Software Engineer (Fullstack) in Bangalore, India
+2024-07-30 19:46:19,211 - __main__ - INFO - Collected job: Principal Security Researcher (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:19,211 - __main__ - INFO - Collected job: Principal Software Engineer (NetSec/NGFW) in Santa Clara, United States
+2024-07-30 19:46:19,212 - __main__ - INFO - Collected job: Sr Principal Data Scientist (AI Research) in Santa Clara, United States
+2024-07-30 19:46:19,212 - __main__ - INFO - Collected job: Sr Software Engineer (URL Filtering) in Santa Clara, United States
+2024-07-30 19:46:19,212 - __main__ - INFO - Collected job: Principal Software Engineer (Data Analytics) in Santa Clara, United States
+2024-07-30 19:46:19,213 - __main__ - INFO - Collected job: Sr Staff Security Researcher (Malware Research - Antivirus Systems) in Santa Clara, United States
+2024-07-30 19:46:19,213 - __main__ - INFO - Collected job: Senior Staff UI/UX Designer (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:19,214 - __main__ - INFO - Collected job: Principal Backend Engineer (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:19,214 - __main__ - INFO - Collected job: Sr QA Automation Manager (Cortex XSOAR) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:19,215 - __main__ - INFO - Collected job: Principal Engineer Software - Cloud Security (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:19,215 - __main__ - INFO - Collected job: Sr Principal Engineer Software (Data-Plane Applications Prisma Access) in Santa Clara, United States
+2024-07-30 19:46:19,216 - __main__ - INFO - Collected job: MDR Manager, Unit 42 in Bangalore, India
+2024-07-30 19:46:19,216 - __main__ - INFO - Collected job: Principal Software Engineer (DNS Security) in Santa Clara, United States
+2024-07-30 19:46:20,940 - __main__ - INFO - Clicked next page
+2024-07-30 19:46:22,967 - __main__ - INFO - Collected job: Senior Software Engineer (Threat Data Platform) in Santa Clara, United States
+2024-07-30 19:46:22,968 - __main__ - INFO - Collected job: Software Engineering Manager - Platform (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:22,969 - __main__ - INFO - Collected job: Principal Software Engineer (L7 Security) in Santa Clara, United States
+2024-07-30 19:46:22,969 - __main__ - INFO - Collected job: Sr Principal Software Engineer (AI Runtime Security) in Santa Clara, United States
+2024-07-30 19:46:22,970 - __main__ - INFO - Collected job: Senior Software Engineer - Security Research (Intrusion Prevention System Development) in Santa Clara, United States
+2024-07-30 19:46:22,970 - __main__ - INFO - Collected job: Workday Recruit Technical Lead in Santa Clara, United States
+2024-07-30 19:46:22,971 - __main__ - INFO - Collected job: Sr Mgr, Engineering (SaaS Development) in Santa Clara, United States
+2024-07-30 19:46:22,971 - __main__ - INFO - Collected job: Senior Windows Internals Engineer (Cortex XDR) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:22,971 - __main__ - INFO - Collected job: Senior Network Security Engineer, IT Product in Santa Clara, United States
+2024-07-30 19:46:22,972 - __main__ - INFO - Collected job: Sr Manager, Software Engineering  (Prisma Access) in Santa Clara, United States
+2024-07-30 19:46:22,972 - __main__ - INFO - Collected job: Sr Principal Software Engineer, Site Reliability (Access Edge Platform) in Santa Clara, United States
+2024-07-30 19:46:22,973 - __main__ - INFO - Collected job: Sr Principal Software Engineer (Application Edge Platform) in Santa Clara, United States
+2024-07-30 19:46:22,973 - __main__ - INFO - Collected job: Principal Software Engineer Big Data (Prisma Access) in Santa Clara, United States
+2024-07-30 19:46:22,974 - __main__ - INFO - Collected job: Sr Principal Engineer Software (L7 Security) in Santa Clara, United States
+2024-07-30 19:46:22,974 - __main__ - INFO - Collected job: Senior Technical Marketing Engineer (SASE Visibility & Analytics) in Santa Clara, United States
+2024-07-30 19:46:22,975 - __main__ - INFO - Collected job: Director of Software Engineering QA - Prisma SASE in Santa Clara, United States
+2024-07-30 19:46:22,975 - __main__ - INFO - Collected job: Principal Software Engineer (Expanse in New York, United States (Remote)
+2024-07-30 19:46:22,975 - __main__ - INFO - Collected job: Threat Hunter Analyst in Remote, United States (Remote)
+2024-07-30 19:46:22,976 - __main__ - INFO - Collected job: Principal Software Engineer (Expanse) in Santa Clara, United States (Remote)
+2024-07-30 19:46:22,976 - __main__ - INFO - Collected job: Senior Devops Engineer - SRE in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:25,811 - __main__ - INFO - Clicked next page
+2024-07-30 19:46:27,837 - __main__ - INFO - Collected job: Sr Staff Software Engineer (AI Security Cloud) in Santa Clara, United States
+2024-07-30 19:46:27,838 - __main__ - INFO - Collected job: Senior Technical Writer (Network Security Platform) in Bangalore, India
+2024-07-30 19:46:27,838 - __main__ - INFO - Collected job: Principal Security Researcher - Security Automation (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:27,839 - __main__ - INFO - Collected job: Senior Security Researcher - Security Automation (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:27,839 - __main__ - INFO - Collected job: Senior Devops Engineer (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:27,840 - __main__ - INFO - Collected job: Principal Devops Engineer (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:27,840 - __main__ - INFO - Collected job: Senior Principal Engineer (Cortex XSOAR/XSIAM) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:27,840 - __main__ - INFO - Collected job: Principal Engineer Software - Data Collection (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:27,841 - __main__ - INFO - Collected job: Senior QA Automation Engineer (Talon) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:27,841 - __main__ - INFO - Collected job: Data Reliability Engineer (XDR Agents) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:27,842 - __main__ - INFO - Collected job: Engineering Manager (Threat Data Platform) in Santa Clara, United States
+2024-07-30 19:46:27,842 - __main__ - INFO - Collected job: Senior Manager, Offensive Security (InfoSec) in Santa Clara, United States
+2024-07-30 19:46:27,843 - __main__ - INFO - Collected job: Principal Software Engineer (AI Security Cloud) in Santa Clara, United States
+2024-07-30 19:46:27,843 - __main__ - INFO - Collected job: Senior Systems Engineer, Identity & Access Management in Santa Clara, United States
+2024-07-30 19:46:27,844 - __main__ - INFO - Collected job: Principal Security Research Engineer (Prisma Cloud) in Bangalore, India
+2024-07-30 19:46:27,844 - __main__ - INFO - Collected job: Principal Software Engineer (Access Technologies) in Santa Clara, United States
+2024-07-30 19:46:27,844 - __main__ - INFO - Collected job: MDR Analyst- Shift Position (Unit 42) in Remote, United States (Remote)
+2024-07-30 19:46:27,845 - __main__ - INFO - Collected job: C++ Software Engineer (Cortex XDR) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:27,845 - __main__ - INFO - Collected job: Principal Software Engineer- Big Data And Cloud (Cortex) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:27,846 - __main__ - INFO - Collected job: Senior CI/CD DevOps Engineer (Cortex XDR) in Tel Aviv-Yafo, Israel
+2024-07-30 19:46:29,645 - __main__ - INFO - Clicked next page
+2024-07-30 19:46:31,665 - __main__ - INFO - Collected job: Principal Product Manager, AI Automation (Employee Experience) in Santa Clara, United States
+2024-07-30 19:46:51,708 - __main__ - INFO - No more pages to load or error encountered: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@aria-label='Go to next page of results']"}
+  (Session info: chrome=127.0.6533.73)
+Stacktrace:
+0   chromedriver                        0x0000000102dcea0c chromedriver + 4385292
+1   chromedriver                        0x0000000102dc7318 chromedriver + 4354840
+2   chromedriver                        0x00000001029e4b0c chromedriver + 281356
+3   chromedriver                        0x0000000102a272f8 chromedriver + 553720
+4   chromedriver                        0x0000000102a5fd24 chromedriver + 785700
+5   chromedriver                        0x0000000102a1beec chromedriver + 507628
+6   chromedriver                        0x0000000102a1c8c4 chromedriver + 510148
+7   chromedriver                        0x0000000102d963c8 chromedriver + 4154312
+8   chromedriver                        0x0000000102d9ae2c chromedriver + 4173356
+9   chromedriver                        0x0000000102d7bf84 chromedriver + 4046724
+10  chromedriver                        0x0000000102d9b718 chromedriver + 4175640
+11  chromedriver                        0x0000000102d6ef44 chromedriver + 3993412
+12  chromedriver                        0x0000000102db91a8 chromedriver + 4297128
+13  chromedriver                        0x0000000102db9324 chromedriver + 4297508
+14  chromedriver                        0x0000000102dc6f10 chromedriver + 4353808
+15  libsystem_pthread.dylib             0x000000018dccef94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018dcc9d34 thread_start + 8
+
+2024-07-30 19:46:51,709 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-07-30 19:46:51,851 - __main__ - INFO - Driver quit, script completed
+2024-07-31 21:07:04,379 - __main__ - INFO - Starting script
+2024-07-31 21:07:04,385 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-31 21:07:13,793 - __main__ - INFO - WebDriver initialized
+2024-07-31 21:07:21,810 - __main__ - INFO - Accessed URL: https://www.pinterestcareers.com/job-search-results/?primary_category=Engineering
+2024-07-31 21:07:34,869 - __main__ - INFO - No more pages to load or error encountered: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='pagination2']"}
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+0   chromedriver                        0x000000010073ea0c chromedriver + 4385292
+1   chromedriver                        0x0000000100737318 chromedriver + 4354840
+2   chromedriver                        0x0000000100354b0c chromedriver + 281356
+3   chromedriver                        0x00000001003972f8 chromedriver + 553720
+4   chromedriver                        0x00000001003cfd24 chromedriver + 785700
+5   chromedriver                        0x000000010038beec chromedriver + 507628
+6   chromedriver                        0x000000010038c8c4 chromedriver + 510148
+7   chromedriver                        0x00000001007063c8 chromedriver + 4154312
+8   chromedriver                        0x000000010070ae2c chromedriver + 4173356
+9   chromedriver                        0x00000001006ebf84 chromedriver + 4046724
+10  chromedriver                        0x000000010070b718 chromedriver + 4175640
+11  chromedriver                        0x00000001006def44 chromedriver + 3993412
+12  chromedriver                        0x00000001007291a8 chromedriver + 4297128
+13  chromedriver                        0x0000000100729324 chromedriver + 4297508
+14  chromedriver                        0x0000000100736f10 chromedriver + 4353808
+15  libsystem_pthread.dylib             0x000000018dccef94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018dcc9d34 thread_start + 8
+
+2024-07-31 21:07:34,872 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-07-31 21:07:34,954 - __main__ - INFO - Driver quit, script completed
+2024-07-31 21:45:56,087 - __main__ - INFO - Starting script
+2024-07-31 21:45:56,093 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-31 21:45:58,384 - __main__ - INFO - WebDriver initialized
+2024-07-31 21:46:04,457 - __main__ - INFO - Accessed URL: https://qualcomm.wd5.myworkdayjobs.com/External?jobFamilyGroup=acda79515b8901afdab1c91926013304&jobFamilyGroup=acda79515b8901c2cf86ce1926013f04&jobFamilyGroup=acda79515b8901816a93ca1926013504&jobFamilyGroup=acda79515b8901046820cf1926014104
+2024-07-31 21:46:27,497 - __main__ - ERROR - Error extracting number of jobs: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='css-12psxof']"}
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+0   chromedriver                        0x0000000103082a0c chromedriver + 4385292
+1   chromedriver                        0x000000010307b318 chromedriver + 4354840
+2   chromedriver                        0x0000000102c98b0c chromedriver + 281356
+3   chromedriver                        0x0000000102cdb2f8 chromedriver + 553720
+4   chromedriver                        0x0000000102d13d24 chromedriver + 785700
+5   chromedriver                        0x0000000102ccfeec chromedriver + 507628
+6   chromedriver                        0x0000000102cd08c4 chromedriver + 510148
+7   chromedriver                        0x000000010304a3c8 chromedriver + 4154312
+8   chromedriver                        0x000000010304ee2c chromedriver + 4173356
+9   chromedriver                        0x000000010302ff84 chromedriver + 4046724
+10  chromedriver                        0x000000010304f718 chromedriver + 4175640
+11  chromedriver                        0x0000000103022f44 chromedriver + 3993412
+12  chromedriver                        0x000000010306d1a8 chromedriver + 4297128
+13  chromedriver                        0x000000010306d324 chromedriver + 4297508
+14  chromedriver                        0x000000010307af10 chromedriver + 4353808
+15  libsystem_pthread.dylib             0x000000018dccef94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018dcc9d34 thread_start + 8
+
+2024-07-31 21:48:28,766 - __main__ - INFO - Starting script
+2024-07-31 21:48:28,771 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-31 21:48:31,013 - __main__ - INFO - WebDriver initialized
+2024-07-31 21:48:37,515 - __main__ - INFO - Accessed URL: https://careers.qualcomm.com/careers?department=CPU%20Engineering&department=Cyber%20Security%20Engineering&department=Data%20Analyst&department=Database%20Administration&department=Demand%20Analysis&department=Engineering%20Intern&department=Engineering%20Technician&department=Enterprise%20Architecture&department=Field%20Applications%20Engineering%20-%20ACIP&department=GPU%20ASICS%20Engineering&department=Hardware%20Applications%20Engineering&department=Hardware%20Engineering&department=Hardware%20Systems%20Engineering&department=IT%20Data%20Scientist&department=IT%20Networking&department=IT%20Management&department=IT%20Internal%20Audit&department=IT%20Engineering&department=IT%20Architect&department=IT%20Cloud%20Architect&department=IT%20Data%20Engineer&department=IP%20Operations&pid=446697500841&domain=qualcomm.com&sort_by=relevance
+2024-07-31 21:49:00,536 - __main__ - ERROR - Error extracting number of jobs: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='css-12psxof']"}
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+0   chromedriver                        0x0000000102ce6a0c chromedriver + 4385292
+1   chromedriver                        0x0000000102cdf318 chromedriver + 4354840
+2   chromedriver                        0x00000001028fcb0c chromedriver + 281356
+3   chromedriver                        0x000000010293f2f8 chromedriver + 553720
+4   chromedriver                        0x0000000102977d24 chromedriver + 785700
+5   chromedriver                        0x0000000102933eec chromedriver + 507628
+6   chromedriver                        0x00000001029348c4 chromedriver + 510148
+7   chromedriver                        0x0000000102cae3c8 chromedriver + 4154312
+8   chromedriver                        0x0000000102cb2e2c chromedriver + 4173356
+9   chromedriver                        0x0000000102c93f84 chromedriver + 4046724
+10  chromedriver                        0x0000000102cb3718 chromedriver + 4175640
+11  chromedriver                        0x0000000102c86f44 chromedriver + 3993412
+12  chromedriver                        0x0000000102cd11a8 chromedriver + 4297128
+13  chromedriver                        0x0000000102cd1324 chromedriver + 4297508
+14  chromedriver                        0x0000000102cdef10 chromedriver + 4353808
+15  libsystem_pthread.dylib             0x000000018dccef94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018dcc9d34 thread_start + 8
+
+2024-07-31 21:54:02,937 - __main__ - INFO - Starting script
+2024-07-31 21:54:02,943 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-07-31 21:54:05,435 - __main__ - INFO - WebDriver initialized
+2024-07-31 21:54:06,062 - __main__ - INFO - Accessed URL: https://www.rippling.com/careers/open-roles
+2024-07-31 21:54:16,961 - __main__ - INFO - Found 95 engineering job postings
+2024-07-31 21:54:16,961 - __main__ - INFO - Collected job: Director of Engineering in Bangalore, India
+2024-07-31 21:54:16,961 - __main__ - INFO - Collected job: Engineering Manager -  Tax Payments in Bangalore, India
+2024-07-31 21:54:16,961 - __main__ - INFO - Collected job: Senior Software Engineer - Benefits & Insurance in Bangalore, India
+2024-07-31 21:54:16,961 - __main__ - INFO - Collected job: Backend Software Engineer II, Benefits in San Francisco, CA
+2024-07-31 21:54:16,961 - __main__ - INFO - Collected job: Director of Engineering - Machine Learning and AI in San Francisco, CA
+2024-07-31 21:54:16,961 - __main__ - INFO - Collected job: Engineering Manager - Global Payroll in Bangalore, India
+2024-07-31 21:54:16,961 - __main__ - INFO - Collected job: Engineering Manager - HRIS Platform in San Francisco, CA
+2024-07-31 21:54:16,961 - __main__ - INFO - Collected job: Engineering Manager - Payments Platform in Bangalore, India
+2024-07-31 21:54:16,962 - __main__ - INFO - Collected job: Full Stack Engineer II (Frontend) - Talent Products in New York, NY
+2024-07-31 21:54:16,962 - __main__ - INFO - Collected job: Fullstack Engineer II (Backend) - Global Expansion in Bangalore, India
+2024-07-31 21:54:16,962 - __main__ - INFO - Collected job: Machine Learning Software Engineer Intern - Winter 2025 in San Francisco, CA
+2024-07-31 21:54:16,962 - __main__ - INFO - Collected job: Principal Software Engineer in Bangalore, India
+2024-07-31 21:54:16,962 - __main__ - INFO - Collected job: Senior Engineering Manager in San Francisco, CA
+2024-07-31 21:54:16,962 - __main__ - INFO - Collected job: Senior Engineering Manager in New York, NY
+2024-07-31 21:54:16,962 - __main__ - INFO - Collected job: Senior Engineering Manager - HRIS Company Team in San Francisco, CA
+2024-07-31 21:54:16,962 - __main__ - INFO - Collected job: Senior Frontend Engineer - Platform in Bangalore, India
+2024-07-31 21:54:16,962 - __main__ - INFO - Collected job: Senior Full Stack (Frontend) Engineer - Platform in San Francisco, CA
+2024-07-31 21:54:16,962 - __main__ - INFO - Collected job: Senior Full Stack Engineer (Frontend) - ATS in San Francisco, CA
+2024-07-31 21:54:16,962 - __main__ - INFO - Collected job: Senior Fullstack Engineer (Backend) - HRIS Company Team in San Francisco, CA
+2024-07-31 21:54:16,962 - __main__ - INFO - Collected job: Senior Software Engineer (Backend Engineer) - HR Products in Bangalore, India
+2024-07-31 21:54:16,962 - __main__ - INFO - Collected job: Senior Software Engineer (Backend) - Payroll Tax Filings in San Francisco, CA
+2024-07-31 21:54:16,962 - __main__ - INFO - Collected job: Senior Software Engineer - Ads Platform in New York, NY
+2024-07-31 21:54:16,962 - __main__ - INFO - Collected job: Senior Software Engineer - Ads Platform in San Francisco, CA
+2024-07-31 21:54:16,962 - __main__ - INFO - Collected job: Senior Software Engineer - Analytics Platform in Bangalore, India
+2024-07-31 21:54:16,962 - __main__ - INFO - Collected job: Senior Software Engineer - Apps in Bangalore, India
+2024-07-31 21:54:16,962 - __main__ - INFO - Collected job: Senior Software Engineer - Benefits in San Francisco, CA
+2024-07-31 21:54:16,962 - __main__ - INFO - Collected job: Senior Software Engineer - Benefits in Remote (Seattle, Washington, US)
+2024-07-31 21:54:16,963 - __main__ - INFO - Collected job: Senior Software Engineer - Billing in Bangalore, India
+2024-07-31 21:54:16,963 - __main__ - INFO - Collected job: Senior Software Engineer - Compute Infrastructure in Bangalore, India
+2024-07-31 21:54:16,963 - __main__ - INFO - Collected job: Senior Software Engineer - Data Infrastructure in Bangalore, India
+2024-07-31 21:54:16,963 - __main__ - INFO - Collected job: Senior Software Engineer - Developer Experience in San Francisco, CA
+2024-07-31 21:54:16,963 - __main__ - INFO - Collected job: Senior Software Engineer - Developer Infrastructure in Bangalore, India
+2024-07-31 21:54:16,963 - __main__ - INFO - Collected job: Senior Software Engineer - Devices in Bangalore, India
+2024-07-31 21:54:16,963 - __main__ - INFO - Collected job: Senior Software Engineer - Finance Platform in Bangalore, India
+2024-07-31 21:54:16,963 - __main__ - INFO - Collected job: Senior Software Engineer - Global Payroll in Bangalore, India
+2024-07-31 21:54:16,963 - __main__ - INFO - Collected job: Senior Software Engineer - HR Products (Backend) in Bangalore, India
+2024-07-31 21:54:16,963 - __main__ - INFO - Collected job: Senior Software Engineer - IT Products in San Francisco, CA
+2024-07-31 21:54:16,963 - __main__ - INFO - Collected job: Senior Software Engineer - New FinTech Product in San Francisco, CA
+2024-07-31 21:54:16,963 - __main__ - INFO - Collected job: Senior Software Engineer - Payroll Core in Bangalore, India
+2024-07-31 21:54:16,963 - __main__ - INFO - Collected job: Senior Software Engineer - Platform in San Francisco, CA
+2024-07-31 21:54:16,963 - __main__ - INFO - Collected job: Senior Software Engineer - RQL in San Francisco, CA
+2024-07-31 21:54:16,963 - __main__ - INFO - Collected job: Senior Software Engineer, Data Bridge in San Francisco, CA
+2024-07-31 21:54:16,963 - __main__ - INFO - Collected job: Senior Software Engineer, Developer Productivity in San Francisco, CA
+2024-07-31 21:54:16,963 - __main__ - INFO - Collected job: Senior Software Engineer, Global Payroll in San Francisco, CA
+2024-07-31 21:54:16,963 - __main__ - INFO - Collected job: Senior Staff Machine Learning Engineer in San Francisco, CA
+2024-07-31 21:54:16,963 - __main__ - INFO - Collected job: Senior Staff Machine Learning Engineer in New York, NY
+2024-07-31 21:54:16,963 - __main__ - INFO - Collected job: Senior Staff Software Engineer in Bangalore, India
+2024-07-31 21:54:16,963 - __main__ - INFO - Collected job: Senior Staff Software Engineer in Bangalore, India
+2024-07-31 21:54:16,964 - __main__ - INFO - Collected job: Senior Staff Software Engineer - Benefits Products in San Francisco, CA
+2024-07-31 21:54:16,964 - __main__ - INFO - Collected job: Senior Staff Software Engineer - Benefits Products in Remote (Seattle, Washington, US)
+2024-07-31 21:54:16,964 - __main__ - INFO - Collected job: Senior Staff Software Engineer - HRIS in San Francisco, CA
+2024-07-31 21:54:16,964 - __main__ - INFO - Collected job: Software Engineer II - Benefits Marketplace in Bangalore, India
+2024-07-31 21:54:16,964 - __main__ - INFO - Collected job: Software Engineer II - Compute Infrastructure in Bangalore, India
+2024-07-31 21:54:16,964 - __main__ - INFO - Collected job: Software Engineer II - Customer Lifecycle Platform in Bangalore, India
+2024-07-31 21:54:16,964 - __main__ - INFO - Collected job: Software Engineer II - Global Payroll in Bangalore, India
+2024-07-31 21:54:16,964 - __main__ - INFO - Collected job: Software Engineer II - Platform in San Francisco, CA
+2024-07-31 21:54:16,964 - __main__ - INFO - Collected job: Software Engineer II - Tax Calculation in Bangalore, India
+2024-07-31 21:54:16,964 - __main__ - INFO - Collected job: Software Engineer II, Backend - HRIS in San Francisco, CA
+2024-07-31 21:54:16,964 - __main__ - INFO - Collected job: Software Engineer II, Backend - HRIS in New York, NY
+2024-07-31 21:54:16,964 - __main__ - INFO - Collected job: Software Engineer II, Backend - Time Products in San Francisco, CA
+2024-07-31 21:54:16,964 - __main__ - INFO - Collected job: Staff Backend Engineer - HRIS Platform in San Francisco, CA
+2024-07-31 21:54:16,964 - __main__ - INFO - Collected job: Staff Backend Engineer - HRIS Platform in New York, NY
+2024-07-31 21:54:16,964 - __main__ - INFO - Collected job: Staff Data Engineer in San Francisco, CA
+2024-07-31 21:54:16,964 - __main__ - INFO - Collected job: Staff Detection and Response Engineer in Bangalore, India
+2024-07-31 21:54:16,964 - __main__ - INFO - Collected job: Staff Detection and Response Engineer in Dublin, Ireland
+2024-07-31 21:54:16,964 - __main__ - INFO - Collected job: Staff Detection and Response Engineer in London, United Kingdom
+2024-07-31 21:54:16,964 - __main__ - INFO - Collected job: Staff Detection and Response Engineer in Remote (Poland, Kujawsko-pomorskie, PL)
+2024-07-31 21:54:16,964 - __main__ - INFO - Collected job: Staff Engineer in Bangalore, India
+2024-07-31 21:54:16,964 - __main__ - INFO - Collected job: Staff Engineer-Apps Platform in Bangalore, India
+2024-07-31 21:54:16,965 - __main__ - INFO - Collected job: Staff Full Stack Engineer (Backend) - Employee Experience in New York, NY
+2024-07-31 21:54:16,965 - __main__ - INFO - Collected job: Staff Full Stack Engineer (Frontend) - Benefits in San Francisco, CA
+2024-07-31 21:54:16,965 - __main__ - INFO - Collected job: Staff Full Stack Engineer (Frontend) - Benefits in Remote (Seattle, Washington, US)
+2024-07-31 21:54:16,965 - __main__ - INFO - Collected job: Staff Machine Learning Engineer in San Francisco, CA
+2024-07-31 21:54:16,965 - __main__ - INFO - Collected job: Staff Machine Learning Engineer in New York, NY
+2024-07-31 21:54:16,965 - __main__ - INFO - Collected job: Staff Platform Engineer - HRIS Foundations in San Francisco, CA
+2024-07-31 21:54:16,965 - __main__ - INFO - Collected job: Staff Platform Engineer - HRIS Foundations in New York, NY
+2024-07-31 21:54:16,965 - __main__ - INFO - Collected job: Staff Product Security Engineer in Bangalore, India
+2024-07-31 21:54:16,965 - __main__ - INFO - Collected job: Staff Security Engineer, Infrastructure in Bangalore, India
+2024-07-31 21:54:16,965 - __main__ - INFO - Collected job: Staff Software Engineer in Bangalore, India
+2024-07-31 21:54:16,965 - __main__ - INFO - Collected job: Staff Software Engineer (Backend), Machine Learning in San Francisco, CA
+2024-07-31 21:54:16,965 - __main__ - INFO - Collected job: Staff Software Engineer (Backend), Machine Learning in New York, NY
+2024-07-31 21:54:16,965 - __main__ - INFO - Collected job: Staff Software Engineer - Analytics Platform in Bangalore, India
+2024-07-31 21:54:16,965 - __main__ - INFO - Collected job: Staff Software Engineer - Benefits (BE) in Bangalore, India
+2024-07-31 21:54:16,965 - __main__ - INFO - Collected job: Staff Software Engineer - Compute Infrastructure in Bangalore, India
+2024-07-31 21:54:16,965 - __main__ - INFO - Collected job: Staff Software Engineer - Core HRIS Product in San Francisco, CA
+2024-07-31 21:54:16,965 - __main__ - INFO - Collected job: Staff Software Engineer - Data Globalization in Bangalore, India
+2024-07-31 21:54:16,965 - __main__ - INFO - Collected job: Staff Software Engineer - Documents in San Francisco, CA
+2024-07-31 21:54:16,965 - __main__ - INFO - Collected job: Staff Software Engineer - Global Payroll in London, United Kingdom
+2024-07-31 21:54:16,965 - __main__ - INFO - Collected job: Staff Software Engineer - Global Payroll in San Francisco, CA
+2024-07-31 21:54:16,965 - __main__ - INFO - Collected job: Staff Software Engineer - HRIS Platform in San Francisco, CA
+2024-07-31 21:54:16,966 - __main__ - INFO - Collected job: Staff Software Engineer - HRIS Platform in New York, NY
+2024-07-31 21:54:16,966 - __main__ - INFO - Collected job: Staff Software Engineer - Time Products in San Francisco, CA
+2024-07-31 21:54:16,966 - __main__ - INFO - Collected job: Staff Software Engineer, IT Products in San Francisco, CA
+2024-07-31 21:54:16,966 - __main__ - INFO - Collected job: Staff Software Engineer, IT Products in New York, NY
+2024-07-31 21:54:16,966 - __main__ - INFO - Collected job: Staff Software Engineer, Security & Compliance in San Francisco, CA
+2024-07-31 21:54:16,966 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-07-31 21:54:17,061 - __main__ - INFO - Driver quit, script completed

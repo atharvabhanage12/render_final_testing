@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-url = "https://jobs.lever.co/kpmgnz?department=Corporate%20Services&team=IT"
+url = "https://jobs.lever.co/kpmgnz?Audit="
 
 req = requests.get(url)
 

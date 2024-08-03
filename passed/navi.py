@@ -52,7 +52,7 @@ except Exception as e:
     raise
 
 # URL to scrape
-url = "https://bnymellon.eightfold.ai/careers?query=Technology&location=India&pid=13425925&domain=bnymellon.com&sort_by=relevance&triggerGoButton=false"
+url = "https://navi.freshteam.com/jobs?location=[]&department=[%223000120211%22]&jobType=[]&title=&isRemoteLocation=false"
 try:
     driver.get(url)
     logger.info(f"Accessed URL: {url}")
@@ -61,38 +61,40 @@ except Exception as e:
     driver.quit()
     raise
 
-# Wait until the page is loaded
 driver.implicitly_wait(10)
+time.sleep(3)
+
+# Scroll down to load more jobs
+driver.execute_script("window.scrollTo(0,0.95*document.body.scrollHeight);")
+time.sleep(3)
+
+final_data = []
 
 # Get the page source and parse it with BeautifulSoup
-s = BeautifulSoup(driver.page_source, "html.parser")
-logger.info("Page source obtained and parsed with BeautifulSoup")
+soup = BeautifulSoup(driver.page_source, "html.parser")
 
-# Extract job titles and locations
-j = s.find_all("div", class_="position-title line-clamp line-clamp-2 line-clamp-done")
-l = s.find_all("p", class_="position-location line-clamp line-clamp-2 body-text-2 p-up-margin line-clamp-done")
+# Find all job posting elements
+try:
+    field = soup.find("li", class_="show")
+    job_elements = field.find_all("a", class_="heading show")
+    logger.info(f"Found {len(job_elements)} job postings")
+except Exception as e:
+    logger.error(f"Error finding job postings: {e}")
+    driver.quit()
+    raise
 
-loc = []
-for i in l:
-    st = i.text
-    s = st[0:len(st) - 10]
-    loc.append(s)
-
-data = []
-for i in range(len(j)):
-    jobs = {
-        "job_title": j[i].text.strip(),
-        "job_location": loc[i],
-        "job_link": 'https://bnymellon.eightfold.ai/careers',
-    }
-    data.append(jobs)
-
-logger.info("Data collection complete")
+for i in job_elements:
+    soup2 = BeautifulSoup(str(i), "html.parser")
+    job_link = "https://navi.freshteam.com" + soup2.find("a")["href"]
+    job_title = soup2.find("div", class_="job-title").text
+    job_location = soup2.find("a")["data-portal-location"]
+    final_data.append({"job_title": job_title, "job_location": job_location, "job_link": job_link})
+    logger.info(f"Collected job: {job_title} in {job_location}")
 
 # Save the data as JSON and log it
-output_path = "/opt/render/project/src/output.json"
+output_path = "/opt/render/project/src/output1.json"
 with open(output_path, "w") as f:
-    json.dump({"company": "bny", "data": data}, f, indent=4)
+    json.dump({"company": "navi", "data": final_data}, f, indent=4)
 logger.info(f"Data saved to JSON: {output_path}")
 
 # Quit the driver

@@ -1,5 +1,3 @@
-#### CODENATION COMPANY HAS SHUTDOWN
-
 import os
 import logging
 from selenium import webdriver
@@ -50,7 +48,10 @@ except Exception as e:
     raise
 
 # URL to scrape
-url = "https://codenation.org/careers/"
+url = 'https://jobs.gartner.com/jobs/?search=&department=Technology&contractType=&pagesize=20'
+job_department = 'Technology'
+L = []
+
 try:
     driver.get(url)
     logger.info(f"Accessed URL: {url}")
@@ -59,31 +60,35 @@ except Exception as e:
     driver.quit()
     raise
 
-driver.implicitly_wait(10)
-time.sleep(3)
+driver.implicitly_wait(20)
+time.sleep(2)
 
-# Parse the page source with BeautifulSoup
-soup = BeautifulSoup(driver.page_source, "html.parser")
-logger.info("Page source obtained and parsed with BeautifulSoup")
+def collect_job_details():
+    soup = BeautifulSoup(driver.page_source, "html.parser")
+    job_elements = soup.find_all("div", class_="card-body")
+    for job_element in job_elements:
+        job_title = job_element.find("a").text.strip()
+        job_link = 'https://jobs.gartner.com' + job_element.find("a")["href"]
+        job_location = job_element.find("li", class_="list-inline-item").text.strip()
+        L.append({"job_title": job_title, "job_link": job_link, "job_department": job_department, "job_location": job_location})
 
-# Extract job listings
-job_elements = soup.find_all("h2", class_="blog-shortcode-post-title entry-title fusion-responsive-typography-calculated")
-data = []
-for job_element in job_elements:
-    link = job_element.find("a")
-    job_title = link.text.strip()
-    job_location = "Location not specified"  # Adjust based on actual content if available
-    job_link = link['href']
-    data.append({"job_title": job_title, "job_location": job_location, "job_link": job_link})
-
-logger.info("Job data extracted")
+collect_job_details()
+while True:
+    try:
+        next_button = driver.find_element(By.XPATH, "//a[@aria-label='Go to next page of results']")
+        driver.execute_script('arguments[0].click();', next_button)
+        time.sleep(2)
+        collect_job_details()
+    except Exception as e:
+        logger.info(f"No more pages or an error occurred: {e}")
+        break
 
 # Save the collected job listings as JSON
 output_path = "/opt/render/project/src/output1.json"
 with open(output_path, "w") as f:
-    json.dump({"company": "codenation", "data": data}, f, indent=4)
+    json.dump({'company': 'gartner', 'data': L}, f, indent=4)
 logger.info(f"Data saved to JSON: {output_path}")
 
-# Quit the driver
+# Close the browser
 driver.quit()
 logger.info("Driver quit, script completed")

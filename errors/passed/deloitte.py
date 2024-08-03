@@ -17,7 +17,7 @@ data=[]
 for i in range(len(data_row)):
     jobs = {
         "job_title":data_row[i].text,
-        "job_link":data_row[i]["href"],
+        "job_link":"https://jobsindia.deloitte.com/"+data_row[i]["href"],
         "job_location":location[0].text
 
     }
