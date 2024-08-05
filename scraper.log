@@ -1682,3 +1682,27 @@ Stacktrace:
 2024-07-31 21:54:16,966 - __main__ - INFO - Collected job: Staff Software Engineer, Security & Compliance in San Francisco, CA
 2024-07-31 21:54:16,966 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
 2024-07-31 21:54:17,061 - __main__ - INFO - Driver quit, script completed
+2024-08-03 11:01:33,829 - __main__ - INFO - Starting script
+2024-08-03 11:01:33,836 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-03 11:01:36,565 - __main__ - INFO - WebDriver initialized
+2024-08-03 11:01:40,841 - __main__ - INFO - Accessed URL: https://jobs.siemens.com/careers?pid=563156115868726&organization=Technology&domain=siemens.com&sort_by=relevance&triggerGoButton=false
+2024-08-03 11:01:42,877 - __main__ - INFO - Clicked 'Show More' button
+2024-08-03 11:01:44,903 - __main__ - INFO - Clicked 'Show More' button
+2024-08-03 11:01:46,930 - __main__ - INFO - Clicked 'Show More' button
+2024-08-03 11:02:08,960 - __main__ - INFO - No more 'Show More' button found or error encountered
+2024-08-03 11:02:09,019 - __main__ - INFO - Found 0 job postings
+2024-08-03 11:02:09,019 - __main__ - INFO - Total unique jobs: 0
+2024-08-03 11:02:09,019 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-08-03 11:02:09,113 - __main__ - INFO - Driver quit, script completed
+2024-08-03 11:02:37,400 - __main__ - INFO - Starting script
+2024-08-03 11:02:37,404 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-03 11:02:39,515 - __main__ - INFO - WebDriver initialized
+2024-08-03 11:02:43,655 - __main__ - INFO - Accessed URL: https://jobs.siemens.com/careers?pid=563156115868726&organization=Technology&domain=siemens.com&sort_by=relevance&triggerGoButton=false
+2024-08-03 11:02:45,692 - __main__ - INFO - Clicked 'Show More' button
+2024-08-03 11:02:47,716 - __main__ - INFO - Clicked 'Show More' button
+2024-08-03 11:02:49,760 - __main__ - INFO - Clicked 'Show More' button
+2024-08-03 11:03:11,828 - __main__ - INFO - No more 'Show More' button found or error encountered
+2024-08-03 11:03:11,891 - __main__ - INFO - Found 0 job postings
+2024-08-03 11:03:11,891 - __main__ - INFO - Total unique jobs: 0
+2024-08-03 11:03:11,892 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-08-03 11:03:12,108 - __main__ - INFO - Driver quit, script completed

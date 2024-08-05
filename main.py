@@ -36,7 +36,7 @@ async def run_check():
             process = await asyncio.create_subprocess_exec(
                 'python', script_path,
                 stdout=subprocess.PIPE,
-                stderr=subprocess.PIPE,
+                stderr=subprocess.PIPE
             )
 
             stdout, stderr = await process.communicate()
