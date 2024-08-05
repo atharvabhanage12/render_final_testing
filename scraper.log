@@ -1706,3 +1706,30 @@ Stacktrace:
 2024-08-03 11:03:11,891 - __main__ - INFO - Total unique jobs: 0
 2024-08-03 11:03:11,892 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
 2024-08-03 11:03:12,108 - __main__ - INFO - Driver quit, script completed
+2024-08-05 15:35:45,850 - __main__ - INFO - Starting script
+2024-08-05 15:35:45,857 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-05 15:35:47,334 - __main__ - INFO - WebDriver initialized
+2024-08-05 15:36:48,807 - __main__ - INFO - Accessed URL: https://careers.arcesium.com/search/?createNewAlert=false&q=&locationsearch=&optionsFacetsDD_country=&optionsFacetsDD_dept=Technology
+2024-08-05 15:37:11,832 - __main__ - ERROR - Error while extracting data: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='pagination']"}
+  (Session info: chrome-headless-shell=127.0.6533.89)
+Stacktrace:
+0   chromedriver                        0x00000001006a2a0c chromedriver + 4385292
+1   chromedriver                        0x000000010069b318 chromedriver + 4354840
+2   chromedriver                        0x00000001002b8b0c chromedriver + 281356
+3   chromedriver                        0x00000001002fb2f8 chromedriver + 553720
+4   chromedriver                        0x0000000100333d24 chromedriver + 785700
+5   chromedriver                        0x00000001002efeec chromedriver + 507628
+6   chromedriver                        0x00000001002f08c4 chromedriver + 510148
+7   chromedriver                        0x000000010066a3c8 chromedriver + 4154312
+8   chromedriver                        0x000000010066ee2c chromedriver + 4173356
+9   chromedriver                        0x000000010064ff84 chromedriver + 4046724
+10  chromedriver                        0x000000010066f718 chromedriver + 4175640
+11  chromedriver                        0x0000000100642f44 chromedriver + 3993412
+12  chromedriver                        0x000000010068d1a8 chromedriver + 4297128
+13  chromedriver                        0x000000010068d324 chromedriver + 4297508
+14  chromedriver                        0x000000010069af10 chromedriver + 4353808
+15  libsystem_pthread.dylib             0x000000018dccef94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018dcc9d34 thread_start + 8
+
+2024-08-05 15:37:11,866 - __main__ - INFO - Data collection complete
+2024-08-05 15:37:11,957 - __main__ - INFO - Driver quit, script completed
