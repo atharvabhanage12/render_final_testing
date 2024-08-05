@@ -1733,3 +1733,9 @@ Stacktrace:
 
 2024-08-05 15:37:11,866 - __main__ - INFO - Data collection complete
 2024-08-05 15:37:11,957 - __main__ - INFO - Driver quit, script completed
+2024-08-05 15:39:40,344 - __main__ - INFO - Starting script
+2024-08-05 15:39:42,952 - __main__ - INFO - WebDriver initialized
+2024-08-05 15:39:48,718 - __main__ - INFO - Accessed URL: https://careers.finastra.com/jobs
+2024-08-05 15:39:50,747 - __main__ - INFO - Total number of jobs: 105
+2024-08-05 15:40:13,556 - __main__ - INFO - No more pages to load
+2024-08-05 15:40:13,648 - __main__ - INFO - Driver quit, script completed
