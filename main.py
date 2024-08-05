@@ -51,13 +51,13 @@ async def run_check():
                     output_json = json.load(file)
                     company_name = output_json['company']
                     jobs_data = output_json['data']
-                    if((count!=0) and (company_name ==result_dict['company_name_list'][-1])):
-                        result_dict["error-companies"].append({"name": script_path, "error": stderr.decode(), "output": stdout.decode()})
-                        logger.info("Enterning error block for output")
-                    else:
-                        result_dict['company_name_list'].append(company_name)
-                        result_dict['company_posting_array'].append(jobs_data)
-                        logger.info(f"Data collected for {company_name}")
+                    # if((count!=0) and (company_name ==result_dict['company_name_list'][-1])):
+                    #     result_dict["error-companies"].append({"name": script_path, "error": stderr.decode(), "output": stdout.decode()})
+                    #     logger.info("Enterning error block for output")
+                    # else:
+                    result_dict['company_name_list'].append(company_name)
+                    result_dict['company_posting_array'].append(jobs_data)
+                    logger.info(f"Data collected for {company_name}")
             except json.JSONDecodeError:
                 logger.error(f"Error parsing JSON from output1.json for {script_path}")
         
