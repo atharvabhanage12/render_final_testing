@@ -120,7 +120,7 @@ L = [job for job in L if job['job_department'] in categories or 'Engineer' in jo
 output_path = "/opt/render/project/src/output1.json"
 with open(output_path, "w") as f:
     json.dump({"company": "finastra", "data": L}, f, indent=4)
-logger.info(f"Data saved to JSON: {output_path}")
+logger.info(f"Data saved to JSON finashtra: {output_path}")
 
 # Close the browser
 driver.quit()

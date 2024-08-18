@@ -111,7 +111,7 @@ while True:
 output_path = "/opt/render/project/src/output1.json"
 with open(output_path, "w") as f:
     json.dump({"company": "cisco", "data": all_jobs}, f, indent=4)
-logger.info(f"Data saved to JSON: {output_path}")
+logger.info(f"Data saved to JSON cisco: {output_path}")
 
 # Quit the driver
 driver.quit()

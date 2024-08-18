@@ -90,7 +90,7 @@ logger.info("Data collection complete")
 output_path = "/opt/render/project/src/output1.json"
 with open(output_path, "w") as f:
     json.dump({"company": "bny", "data": data}, f, indent=4)
-logger.info(f"Data saved to JSON: {output_path}")
+logger.info(f"Data saved to JSON BNY: {output_path}")
 
 # Quit the driver
 driver.quit()

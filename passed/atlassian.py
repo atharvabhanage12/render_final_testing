@@ -90,7 +90,7 @@ for job_element in job_elements[1:]:  # Skip header row
 output_path = "/opt/render/project/src/output1.json"
 with open(output_path, "w") as outfile:
     json.dump({"company": "atlassian", "data": final_data}, outfile, indent=4)
-logger.info(f"Data saved to JSON: {output_path}")
+logger.info(f"Data saved to JSON atlassian: {output_path}")
 
 # Quit the driver
 driver.quit()
