@@ -1744,3 +1744,39 @@ Stacktrace:
 2024-08-05 16:04:42,716 - __main__ - INFO - Accessed URL: https://jobs.cisco.com/jobs/SearchJobs/?21181=%5B186%2C194%2C187%2C191%2C202%2C185%2C55816092%5D&21181_format=6023&listFilterMode=1
 2024-08-05 16:05:05,756 - __main__ - INFO - No cookie banner to close
 2024-08-05 16:06:04,345 - __main__ - INFO - Driver quit, script completed
+2024-08-05 16:25:29,080 - __main__ - INFO - Starting script
+2024-08-05 16:25:29,087 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-05 16:25:30,651 - __main__ - INFO - WebDriver initialized
+2024-08-05 16:25:33,123 - __main__ - INFO - Accessed URL: https://airtel.darwinbox.in/ms/candidate/careers
+2024-08-05 16:29:49,033 - __main__ - INFO - Starting script
+2024-08-05 16:29:49,038 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-05 16:29:50,490 - __main__ - INFO - WebDriver initialized
+2024-08-05 16:29:52,923 - __main__ - INFO - Accessed URL: https://airtel.darwinbox.in/ms/candidate/careers
+2024-08-05 16:30:52,874 - __main__ - INFO - Starting script
+2024-08-05 16:30:52,879 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-05 16:30:54,081 - __main__ - INFO - WebDriver initialized
+2024-08-05 16:30:55,336 - __main__ - INFO - Accessed URL: https://airtel.darwinbox.in/ms/candidate/careers
+2024-08-05 16:34:42,442 - __main__ - INFO - Starting script
+2024-08-05 16:34:42,451 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-05 16:34:43,969 - __main__ - INFO - WebDriver initialized
+2024-08-05 16:34:45,514 - __main__ - INFO - Accessed URL: https://airtel.darwinbox.in/ms/candidate/careers
+2024-08-05 16:35:36,758 - __main__ - ERROR - Error finding job elements: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001050faa0c chromedriver + 4385292
+1   chromedriver                        0x00000001050f3318 chromedriver + 4354840
+2   chromedriver                        0x0000000104d10b0c chromedriver + 281356
+3   chromedriver                        0x0000000104d532f8 chromedriver + 553720
+4   chromedriver                        0x0000000104d8bd24 chromedriver + 785700
+5   chromedriver                        0x0000000104d47eec chromedriver + 507628
+6   chromedriver                        0x0000000104d488c4 chromedriver + 510148
+7   chromedriver                        0x00000001050c23c8 chromedriver + 4154312
+8   chromedriver                        0x00000001050c6e2c chromedriver + 4173356
+9   chromedriver                        0x00000001050a7f84 chromedriver + 4046724
+10  chromedriver                        0x00000001050c7718 chromedriver + 4175640
+11  chromedriver                        0x000000010509af44 chromedriver + 3993412
+12  chromedriver                        0x00000001050e51a8 chromedriver + 4297128
+13  chromedriver                        0x00000001050e5324 chromedriver + 4297508
+14  chromedriver                        0x00000001050f2f10 chromedriver + 4353808
+15  libsystem_pthread.dylib             0x000000018dccef94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018dcc9d34 thread_start + 8
+
