@@ -34,10 +34,10 @@ os.chmod(chrome_driver_path, 0o755)
 
 # Set up Chrome options
 chrome_options = Options()
-# chrome_options.add_argument("--headless")
+chrome_options.add_argument("--headless")  # Uncomment if headless mode is needed
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-dev-shm-usage")
-# chrome_options.binary_location = chrome_binary_path
+chrome_options.binary_location = chrome_binary_path  # Set the Chrome binary location
 
 # Initialize WebDriver with exception handling
 try:
@@ -95,9 +95,9 @@ while True:
 
 # Save the collected job listings as JSON
 output_path = "/opt/render/project/src/output1.json"
-# with open(output_path, "w") as f:
-#     json.dump({"company": "expedia", "data": L}, f, indent=4)
-logger.info(f"Data saved to JSON expedia: {output_path}")
+with open(output_path, "w") as f:
+    json.dump({"company": "expedia", "data": L}, f, indent=4)
+logger.info(f"Data saved to JSON Expedia: {output_path}")
 
 print(L)
 # Quit the driver
