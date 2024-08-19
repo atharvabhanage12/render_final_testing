@@ -24,7 +24,7 @@ logger.info("Starting script")
 # Set up Chrome and ChromeDriver paths
 chrome_binary_path = "/opt/render/project/src/chrome/chrome-linux64/chrome"
 
-chrome_driver_path = "driver/chromedriver-mac-arm64/chromedriver"
+chrome_driver_path = "/opt/render/project/src/chromedriver/chromedriver-linux64/chromedriver"
 
 # Ensure the ChromeDriver is executable
 if not os.path.isfile(chrome_driver_path):
