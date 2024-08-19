@@ -1787,3 +1787,10 @@ Stacktrace:
 2024-08-18 14:20:43,392 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
 2024-08-18 14:20:43,394 - __main__ - INFO - Data collection complete
 2024-08-18 14:20:43,486 - __main__ - INFO - Driver quit, script completed
+2024-08-19 22:09:08,444 - __main__ - INFO - Starting script
+2024-08-19 22:09:08,452 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-19 22:09:10,644 - __main__ - INFO - WebDriver initialized
+2024-08-19 22:09:18,460 - __main__ - INFO - Accessed URL: https://bnymellon.eightfold.ai/careers?location=India&department=Early%20Talent%20and%20University%20Programs&department=Tech%20-%20Architecture&department=Tech%20-%20Business%20Analysis&department=Tech%20-%20Data%20Management&department=Tech%20-%20Business%20Management&department=Tech%20-%20Information%20Security&department=Tech%20-%20Software%20Engineering&department=Tech%20-%20Tech%20Risk%2FCtrl%20%26%20Gov&department=Data%20and%20Quantitative%20Analysis&domain=bnymellon.com&sort_by=relevance&pid=21952323
+2024-08-19 22:09:38,543 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
+2024-08-19 22:09:38,545 - __main__ - INFO - Data collection complete
+2024-08-19 22:09:38,648 - __main__ - INFO - Driver quit, script completed
