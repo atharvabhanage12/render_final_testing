@@ -1,3 +1,4 @@
+### Can we fixed
 import os
 import logging
 from selenium import webdriver
@@ -27,13 +28,13 @@ logger.info("Starting script")
 chrome_binary_path = "/opt/render/project/src/chrome/chrome-linux64/chrome"
 # Set up Chrome options
 chrome_options = Options()
-chrome_options.add_argument("--headless")  # Run headless if needed
+# chrome_options.add_argument("--headless")  # Run headless if needed
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-dev-shm-usage")
-chrome_options.binary_location = chrome_binary_path
+# chrome_options.binary_location = chrome_binary_path
 
 # Path to the manually downloaded ChromeDriver
-chrome_driver_path = os.path.expanduser("/opt/render/project/src/chromedriver/chromedriver-linux64/chromedriver")
+chrome_driver_path = os.path.expanduser("driver/chromedriver-mac-arm64/chromedriver")
 logger.info(f"ChromeDriver Path: {chrome_driver_path}")
 
 # Ensure the ChromeDriver is executable
@@ -71,7 +72,7 @@ final_data = []
 soup = BeautifulSoup(driver.page_source, "html.parser")
 fields = soup.find_all("article", class_="openings__category")
 for field in fields:
-    if field.find("h3").text == "Engineering":
+    if field.find("h1").text == "Engineering":
         job_elements = field.find_all("article", class_="opening__desc")
         for job in job_elements:
             soup2 = BeautifulSoup(str(job), "html.parser")
@@ -84,10 +85,10 @@ logger.info("Data collection complete")
 
 # Save the data as JSON and log it
 output_path = "/opt/render/project/src/output1.json"
-with open(output_path, "w") as f:
-    json.dump({"company": "juspay", "data": final_data}, f, indent=4)
-logger.info(f"Data saved to JSON: {output_path}")
-
+# with open(output_path, "w") as f:
+#     json.dump({"company": "juspay", "data": final_data}, f, indent=4)
+# logger.info(f"Data saved to JSON: {output_path}")
+print(final_data)
 # Quit the driver
 driver.quit()
 logger.info("Driver quit, script completed")

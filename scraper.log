@@ -2015,3 +2015,40 @@ Stacktrace:
 16  libsystem_pthread.dylib             0x000000019ed6dd34 thread_start + 8
 
 2024-08-20 23:29:14,329 - __main__ - INFO - Driver quit, script completed
+2024-08-20 23:58:50,457 - __main__ - INFO - Starting script
+2024-08-20 23:58:50,467 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-20 23:58:51,742 - __main__ - INFO - WebDriver initialized
+2024-08-20 23:58:58,236 - __main__ - INFO - Accessed URL: https://juspay.in/careers
+2024-08-20 23:59:01,287 - __main__ - INFO - Data collection complete
+2024-08-20 23:59:01,361 - __main__ - INFO - Driver quit, script completed
+2024-08-20 23:59:11,112 - __main__ - INFO - Starting script
+2024-08-20 23:59:11,113 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-20 23:59:12,655 - __main__ - INFO - WebDriver initialized
+2024-08-20 23:59:18,432 - __main__ - INFO - Accessed URL: https://juspay.in/careers
+2024-08-20 23:59:21,456 - __main__ - INFO - Data collection complete
+2024-08-20 23:59:21,541 - __main__ - INFO - Driver quit, script completed
+2024-08-21 00:03:36,666 - __main__ - INFO - Starting script
+2024-08-21 00:03:38,493 - __main__ - INFO - WebDriver initialized
+2024-08-21 00:03:57,978 - __main__ - INFO - Accessed URL: https://jobs.gartner.com/jobs/?search=&department=Technology&contractType=&pagesize=20
+2024-08-21 00:04:23,787 - __main__ - INFO - No more pages or an error occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@aria-label='Go to next page of results']"}
+  (Session info: chrome=127.0.6533.120)
+Stacktrace:
+0   chromedriver                        0x000000010068ea0c chromedriver + 4385292
+1   chromedriver                        0x0000000100687318 chromedriver + 4354840
+2   chromedriver                        0x00000001002a4b0c chromedriver + 281356
+3   chromedriver                        0x00000001002e72f8 chromedriver + 553720
+4   chromedriver                        0x000000010031fd24 chromedriver + 785700
+5   chromedriver                        0x00000001002dbeec chromedriver + 507628
+6   chromedriver                        0x00000001002dc8c4 chromedriver + 510148
+7   chromedriver                        0x00000001006563c8 chromedriver + 4154312
+8   chromedriver                        0x000000010065ae2c chromedriver + 4173356
+9   chromedriver                        0x000000010063bf84 chromedriver + 4046724
+10  chromedriver                        0x000000010065b718 chromedriver + 4175640
+11  chromedriver                        0x000000010062ef44 chromedriver + 3993412
+12  chromedriver                        0x00000001006791a8 chromedriver + 4297128
+13  chromedriver                        0x0000000100679324 chromedriver + 4297508
+14  chromedriver                        0x0000000100686f10 chromedriver + 4353808
+15  libsystem_pthread.dylib             0x000000019ed72f94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019ed6dd34 thread_start + 8
+
+2024-08-21 00:04:23,871 - __main__ - INFO - Driver quit, script completed
