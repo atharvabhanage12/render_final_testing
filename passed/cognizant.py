@@ -93,3 +93,4 @@ logger.info(f"Data saved to JSON: {output_path}")
 # Quit the driver
 driver.quit()
 logger.info("Driver quit, script completed")
+
