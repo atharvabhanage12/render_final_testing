@@ -3,7 +3,7 @@ import json
 from bs4 import BeautifulSoup
 
 def scrape_job_positions():
-    url = "https://boards.greenhouse.io/embed/job_board?for=dunzo13&amp;b=https%3A%2F%2Fwww.dunzo.com%2Fcareers"
+    url = "https://boards.greenhouse.io/embed/job_board?for=brave&amp;b=https%3A%2F%2Fbrave.com%2Fcareers%2F"
     response = requests.get(url)
     soup = BeautifulSoup(response.content, "html.parser")
     
@@ -20,7 +20,7 @@ def scrape_job_positions():
                 "job_title": job_title,
                 "job_location": job_location,
                 "job_category": job_category,
-                "job_link":'https://www.dunzo.com/careers#jobs'
+                "job_link":'https://brave.com/careers/'
         })
     
     return job_positions
@@ -33,5 +33,9 @@ def save_to_json(data, filename):
 job_positions = scrape_job_positions()
 
 # Save job positions to JSON file
-# save_to_json(job_positions, "DunzoData.json")
-print(json.dumps({"company":"dunzo","data":job_positions}))
+# save_to_json(job_positions, "BraveData.json")
+fin = json.dumps({"company":"brave","data":job_positions})
+print(fin)
+output_path = "/opt/render/project/src/output1.json"
+with open(output_path, "w") as f:
+    json.dump({"company": "microsoft", "data": fin}, f, indent=4)

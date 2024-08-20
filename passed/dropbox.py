@@ -36,3 +36,7 @@ job_positions = scrape_job_positions()
 # Save job positions to JSON file
 # save_to_json(job_positions, "DropBoxData.json")
 print(json.dumps({"company":"dropbox","data":job_positions}))
+
+output_path = "/opt/render/project/src/output1.json"
+with open(output_path, "w") as f:
+    json.dump({"company": "microsoft", "data": job_positions}, f, indent=4)
