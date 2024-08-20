@@ -1794,3 +1794,224 @@ Stacktrace:
 2024-08-19 22:09:38,543 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
 2024-08-19 22:09:38,545 - __main__ - INFO - Data collection complete
 2024-08-19 22:09:38,648 - __main__ - INFO - Driver quit, script completed
+2024-08-20 23:08:43,165 - __main__ - INFO - Starting script
+2024-08-20 23:08:43,172 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-20 23:08:44,921 - __main__ - INFO - WebDriver initialized
+2024-08-20 23:08:58,031 - __main__ - INFO - Accessed URL: https://jobs.paloaltonetworks.com/en/jobs/?department=Engineering&department=Information+Security&department=Information+Technology&pagesize=20#results
+2024-08-20 23:09:13,252 - __main__ - INFO - No more pages to load or error encountered: Message: disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=127.0.6533.120)
+Stacktrace:
+0   chromedriver                        0x00000001007bea0c chromedriver + 4385292
+1   chromedriver                        0x00000001007b7318 chromedriver + 4354840
+2   chromedriver                        0x00000001003d4b0c chromedriver + 281356
+3   chromedriver                        0x00000001003be820 chromedriver + 190496
+4   chromedriver                        0x00000001003bcf8c chromedriver + 184204
+5   chromedriver                        0x00000001003bdc4c chromedriver + 187468
+6   chromedriver                        0x00000001003d7af0 chromedriver + 293616
+7   chromedriver                        0x00000001003d832c chromedriver + 295724
+8   chromedriver                        0x00000001003dae58 chromedriver + 306776
+9   chromedriver                        0x00000001003daed0 chromedriver + 306896
+10  chromedriver                        0x0000000100417114 chromedriver + 553236
+11  chromedriver                        0x000000010044fd24 chromedriver + 785700
+12  chromedriver                        0x000000010040beec chromedriver + 507628
+13  chromedriver                        0x000000010040c8c4 chromedriver + 510148
+14  chromedriver                        0x00000001007863c8 chromedriver + 4154312
+15  chromedriver                        0x000000010078ae2c chromedriver + 4173356
+16  chromedriver                        0x000000010076bf84 chromedriver + 4046724
+17  chromedriver                        0x000000010078b718 chromedriver + 4175640
+18  chromedriver                        0x000000010075ef44 chromedriver + 3993412
+19  chromedriver                        0x00000001007a91a8 chromedriver + 4297128
+20  chromedriver                        0x00000001007a9324 chromedriver + 4297508
+21  chromedriver                        0x00000001007b6f10 chromedriver + 4353808
+22  libsystem_pthread.dylib             0x000000019ed72f94 _pthread_start + 136
+23  libsystem_pthread.dylib             0x000000019ed6dd34 thread_start + 8
+
+2024-08-20 23:09:13,365 - __main__ - INFO - Driver quit, script completed
+2024-08-20 23:28:20,052 - __main__ - INFO - Starting script
+2024-08-20 23:28:20,060 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-20 23:28:21,863 - __main__ - INFO - WebDriver initialized
+2024-08-20 23:28:25,618 - __main__ - INFO - Accessed URL: https://jobs.paloaltonetworks.com/en/jobs/?department=Engineering&department=Information+Security&department=Information+Technology&pagesize=20#results
+2024-08-20 23:28:28,648 - __main__ - INFO - Collected job: Principal SAST Researcher (Prisma Cloud Application Security) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:28,650 - __main__ - INFO - Collected job: Senior Security Researcher - Data & AI Threat Detection (Cortex) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:28,650 - __main__ - INFO - Collected job: Senior SOC Manager (InfoSec) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:28,650 - __main__ - INFO - Collected job: Principal Software QA Engineer  (IoT Security) in Santa Clara, United States
+2024-08-20 23:28:28,651 - __main__ - INFO - Collected job: Sr Principal Engineer (Unit 42) in Remote, United States (Remote)
+2024-08-20 23:28:28,651 - __main__ - INFO - Collected job: SAP SD Techno-Functional Business Solutions Analyst in Santa Clara, United States
+2024-08-20 23:28:28,652 - __main__ - INFO - Collected job: Staff DevOps Engineer in Santa Clara, United States
+2024-08-20 23:28:28,652 - __main__ - INFO - Collected job: Staff Software Engineer (Cortex Xpanse) in New York, United States (Remote)
+2024-08-20 23:28:28,652 - __main__ - INFO - Collected job: Senior Principal Cloud FinOps Analyst in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:28,653 - __main__ - INFO - Collected job: Senior Detection Researcher (Cortex) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:28,653 - __main__ - INFO - Collected job: Principal Linux Security Researcher (Cortex) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:28,653 - __main__ - INFO - Collected job: Senior Site Reliability Engineer (NetSec) in Chiyoda City, Japan
+2024-08-20 23:28:28,654 - __main__ - INFO - Collected job: Senior Linux Internals Engineer (Cortex XDR) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:28,654 - __main__ - INFO - Collected job: Senior Email Security Researcher (Cortex) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:28,655 - __main__ - INFO - Collected job: Senior Software Development Engineer in Test (Cloud Identity Engine) in Santa Clara, United States
+2024-08-20 23:28:28,655 - __main__ - INFO - Collected job: Sr. Threat Hunting Researcher in Remote, United States (Remote)
+2024-08-20 23:28:28,656 - __main__ - INFO - Collected job: Staff Security Researcher (Xpanse) in Atlanta, United States (Remote)
+2024-08-20 23:28:28,656 - __main__ - INFO - Collected job: Staff Security Researcher (Xpanse) in Chicago, United States (Remote)
+2024-08-20 23:28:28,657 - __main__ - INFO - Collected job: Staff Security Researcher (Xpanse) in Austin, United States (Remote)
+2024-08-20 23:28:28,657 - __main__ - INFO - Collected job: Staff Security Researcher (Xpanse) in New York, United States (Remote)
+2024-08-20 23:28:30,717 - __main__ - INFO - Clicked next page
+2024-08-20 23:28:32,742 - __main__ - INFO - Collected job: Staff Security Researcher (Xpanse) in Santa Clara, United States (Remote)
+2024-08-20 23:28:32,742 - __main__ - INFO - Collected job: Staff Security Researcher (Xpanse) in Washington, United States (Remote)
+2024-08-20 23:28:32,743 - __main__ - INFO - Collected job: Principal Software Engineer (DNS Security) in Santa Clara, United States
+2024-08-20 23:28:32,743 - __main__ - INFO - Collected job: Sr Software Engineer (Data-Plane Applications Prisma Access) in Santa Clara, United States
+2024-08-20 23:28:32,744 - __main__ - INFO - Collected job: Sr. Staff Security Research Engineer (Prisma Cloud) in Bangalore, India
+2024-08-20 23:28:32,744 - __main__ - INFO - Collected job: Principal Software Engineer (AI Security Cloud) in Santa Clara, United States
+2024-08-20 23:28:32,745 - __main__ - INFO - Collected job: Sr Manager, Engineering (SASE AI/ML) in Santa Clara, United States
+2024-08-20 23:28:32,745 - __main__ - INFO - Collected job: Senior Software Engineer -API Security (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:32,745 - __main__ - INFO - Collected job: Sr Staff Software Engineer (Access Technologies) in Santa Clara, United States
+2024-08-20 23:28:32,746 - __main__ - INFO - Collected job: Principal Software Engineer (Cloud Management Platform) in Santa Clara, United States
+2024-08-20 23:28:32,746 - __main__ - INFO - Collected job: Senior IT Business Solution Analyst in Santa Clara, United States
+2024-08-20 23:28:32,747 - __main__ - INFO - Collected job: Principal Software Engineer in Test Automation (Prisma Access) in Santa Clara, United States
+2024-08-20 23:28:32,747 - __main__ - INFO - Collected job: Sr Principal Software Engineer (Prisma Access) in Santa Clara, United States
+2024-08-20 23:28:32,748 - __main__ - INFO - Collected job: Staff Software Engineer, Wildfire (Low-level OS development) in Santa Clara, United States
+2024-08-20 23:28:32,748 - __main__ - INFO - Collected job: Senior Software Engineer, Wildfire (Low-level OS development) in Santa Clara, United States
+2024-08-20 23:28:32,749 - __main__ - INFO - Collected job: Sr Software Engineer (Prisma Access) in Santa Clara, United States
+2024-08-20 23:28:32,749 - __main__ - INFO - Collected job: Senior Staff Software Engineer in Test Automation (Prisma Access) in Santa Clara, United States
+2024-08-20 23:28:32,749 - __main__ - INFO - Collected job: Sr Software Engineer (Xpanse) - Remote in New York, United States (Remote)
+2024-08-20 23:28:32,750 - __main__ - INFO - Collected job: Sr Software Engineer (Xpanse) - Remote in Santa Clara, United States (Remote)
+2024-08-20 23:28:32,750 - __main__ - INFO - Collected job: Principal Product Manager, Sales Compensation Systems in Santa Clara, United States
+2024-08-20 23:28:34,508 - __main__ - INFO - Clicked next page
+2024-08-20 23:28:36,534 - __main__ - INFO - Collected job: Sr Manager, Engineering (Data Engineering) in Santa Clara, United States
+2024-08-20 23:28:36,535 - __main__ - INFO - Collected job: Sr. Backend Engineer (Prisma Cloud Application Security) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:36,536 - __main__ - INFO - Collected job: Senior Threat Intelligence Analyst in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:36,536 - __main__ - INFO - Collected job: Senior Automation Infra Engineer (Cloud Application Security) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:36,536 - __main__ - INFO - Collected job: Principal CI/CD Engineer (Cortex) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:36,537 - __main__ - INFO - Collected job: Senior CI/CD DevOps Engineer (Cortex XDR) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:36,537 - __main__ - INFO - Collected job: Principal Industry Architect - Strategic Industries in Sydney, Australia
+2024-08-20 23:28:36,538 - __main__ - INFO - Collected job: Principal Industry Architect - Strategic Industries in Melbourne, Australia
+2024-08-20 23:28:36,538 - __main__ - INFO - Collected job: Senior Automation Infrastructure Engineer (Cortex) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:36,538 - __main__ - INFO - Collected job: Sr. Director, IT Enterprise Solutions & Process Automation (ERP, RPA, Custom Apps) in Santa Clara, United States
+2024-08-20 23:28:36,539 - __main__ - INFO - Collected job: Automation Team leader  - XDR/CWP in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:36,539 - __main__ - INFO - Collected job: Principal Software Engineer (AI Security Cloud) in Santa Clara, United States
+2024-08-20 23:28:36,539 - __main__ - INFO - Collected job: Principal Software Engineer Big Data (Prisma Access) in Santa Clara, United States
+2024-08-20 23:28:36,540 - __main__ - INFO - Collected job: Senior Product Designer - Prisma Access Browser (Talon) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:36,540 - __main__ - INFO - Collected job: Principal Backend Engineer - Golang (Cortex XSOAR) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:36,541 - __main__ - INFO - Collected job: Senior Frontend Developer (Cortex) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:36,541 - __main__ - INFO - Collected job: Principal Windows Internals Engineer (Cortex XDR) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:36,541 - __main__ - INFO - Collected job: Principal UI Engineer (NetSec) in Santa Clara, United States
+2024-08-20 23:28:36,542 - __main__ - INFO - Collected job: Senior Backend Developer -Core Team (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:36,542 - __main__ - INFO - Collected job: Prinicpal Backend Developer - Cloud Network Analyzer (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:38,249 - __main__ - INFO - Clicked next page
+2024-08-20 23:28:40,274 - __main__ - INFO - Collected job: QA System (Cortex Platform) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:40,274 - __main__ - INFO - Collected job: Senior Automation Engineer (Cortex XDR) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:40,275 - __main__ - INFO - Collected job: DevOps Engineer (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:40,275 - __main__ - INFO - Collected job: Principal Software Engineer (L7 Security) in Santa Clara, United States
+2024-08-20 23:28:40,276 - __main__ - INFO - Collected job: Principal Site Reliability Engineer (SASE) in Santa Clara, United States
+2024-08-20 23:28:40,276 - __main__ - INFO - Collected job: Threat Hunting Analyst (Unit 42) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:40,277 - __main__ - INFO - Collected job: Principal Software Engineer QA Engineer (Cloud Security) in Santa Clara, United States
+2024-08-20 23:28:40,277 - __main__ - INFO - Collected job: Engineering Manager - Cross Platform (Cortex XDR) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:40,277 - __main__ - INFO - Collected job: Sr Staff Engineer Software (DLP) in Santa Clara, United States
+2024-08-20 23:28:40,278 - __main__ - INFO - Collected job: Sr Principal Engineer Hardware (Board/System Design) in Santa Clara, United States
+2024-08-20 23:28:40,278 - __main__ - INFO - Collected job: Sr Software Engineer (Shared Services) in Santa Clara, United States
+2024-08-20 23:28:40,279 - __main__ - INFO - Collected job: Senior Backend Engineer - Platform Backend (Cortex) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:40,279 - __main__ - INFO - Collected job: Principal Backend Engineer - Platform Backend (Cortex) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:40,279 - __main__ - INFO - Collected job: Senior Frontend Angular Developer (Cortex) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:40,280 - __main__ - INFO - Collected job: Principal Java/Kotlin Backend Engineer (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:40,280 - __main__ - INFO - Collected job: Senior Java/Kotlin Backend Engineer (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:40,281 - __main__ - INFO - Collected job: Senior Python Engineer (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:40,281 - __main__ - INFO - Collected job: Principal Python Engineer Software (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:40,281 - __main__ - INFO - Collected job: Principal Java Backend Engineer (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:40,282 - __main__ - INFO - Collected job: Principal Security Architect (Cortex) in Santa Clara, United States (Remote)
+2024-08-20 23:28:41,257 - __main__ - INFO - Clicked next page
+2024-08-20 23:28:43,289 - __main__ - INFO - Collected job: Senior UI Automation Engineer (Cortex) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:43,290 - __main__ - INFO - Collected job: Principal Automation Engineer (Cortex XDR) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:43,290 - __main__ - INFO - Collected job: Senior Security Researcher - UEBA (Cortex) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:43,291 - __main__ - INFO - Collected job: Principal Software Engineer - Data Infrastructure (Cortex) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:43,291 - __main__ - INFO - Collected job: Senior Software Engineer - Data Infrastructure (Cortex) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:43,292 - __main__ - INFO - Collected job: Principal Software Engineer, Wildfire (Low-level OS development) in Santa Clara, United States
+2024-08-20 23:28:43,292 - __main__ - INFO - Collected job: Senior Java Backend Engineer (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:43,292 - __main__ - INFO - Collected job: Principal Backend Developer - SecEng (Prisma CAS) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:43,293 - __main__ - INFO - Collected job: SֿR Backend Developer - SecEng (Prisma CAS) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:43,293 - __main__ - INFO - Collected job: Sr Python Backend Engineer (CAS) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:43,294 - __main__ - INFO - Collected job: Principal Security Researcher - Windows EDR (Cortex) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:43,294 - __main__ - INFO - Collected job: Senior Rust Engineer - Data Classification (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:43,295 - __main__ - INFO - Collected job: Senior Security Researcher - Windows EDR (Cortex) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:43,295 - __main__ - INFO - Collected job: Senior Software Engineer (Cortex) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:43,296 - __main__ - INFO - Collected job: Senior Low - Level Developer (Prisma Access) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:43,296 - __main__ - INFO - Collected job: Principal Backend Developer -Core Team (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:43,297 - __main__ - INFO - Collected job: Sr Full Stack (Frontend Oriented ) Developer (Prisma CAS) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:43,297 - __main__ - INFO - Collected job: Senior Backend Developer - (Prisma CAS) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:43,298 - __main__ - INFO - Collected job: Backend Team Manager - SecEng (CAS) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:43,298 - __main__ - INFO - Collected job: Principal Rust Engineer - Data Classification (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:45,037 - __main__ - INFO - Clicked next page
+2024-08-20 23:28:47,064 - __main__ - INFO - Collected job: Principal Java Backend Engineer (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:47,064 - __main__ - INFO - Collected job: Mobile Developer (Cortex XDR) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:47,065 - __main__ - INFO - Collected job: Senior Product Manager -Platform (Cortex ) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:47,065 - __main__ - INFO - Collected job: MDR Analyst (Unit 42) in Bangalore, India
+2024-08-20 23:28:47,066 - __main__ - INFO - Collected job: Sr Principal UX Designer (NetSec) in Santa Clara, United States
+2024-08-20 23:28:47,066 - __main__ - INFO - Collected job: Principal Chromium Developer (Network Security) in Santa Clara, United States
+2024-08-20 23:28:47,067 - __main__ - INFO - Collected job: Principal Browser Development Engineer (Chromium) in Santa Clara, United States
+2024-08-20 23:28:47,067 - __main__ - INFO - Collected job: Principal Engineer Software (Browser Development) in Santa Clara, United States
+2024-08-20 23:28:47,067 - __main__ - INFO - Collected job: Sr Principal Software Engineer (AI Security Cloud) in Santa Clara, United States
+2024-08-20 23:28:47,068 - __main__ - INFO - Collected job: Principal Engineer Software (API Cloud-base) in Santa Clara, United States
+2024-08-20 23:28:47,068 - __main__ - INFO - Collected job: Principal Engineer Software - Backend Infrastructure (Cortex) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:47,069 - __main__ - INFO - Collected job: Principal Software Engineer (Cortex Xpanse) in Santa Clara, United States
+2024-08-20 23:28:47,069 - __main__ - INFO - Collected job: Senior Principal Engineer (Cortex Xpanse) in Santa Clara, United States
+2024-08-20 23:28:47,069 - __main__ - INFO - Collected job: Senior GO Backend Developer - (Prisma CAS) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:47,070 - __main__ - INFO - Collected job: Senior Backend Developer - (Prisma CAS) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:47,070 - __main__ - INFO - Collected job: Senior DevOps Engineer (Cortex) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:47,071 - __main__ - INFO - Collected job: Principal Engineer Software - Data Platform Team (Cortex) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:47,071 - __main__ - INFO - Collected job: Sr. Product Manager, Global Customer Support in Santa Clara, United States
+2024-08-20 23:28:47,072 - __main__ - INFO - Collected job: Senior Backend Developer - Cloud Network Analyzer (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:47,072 - __main__ - INFO - Collected job: Principal UX designer (Cloud Application Security) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:48,806 - __main__ - INFO - Clicked next page
+2024-08-20 23:28:50,834 - __main__ - INFO - Collected job: Senior Backend Engineer -CWP (Cortex) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:50,834 - __main__ - INFO - Collected job: Sr Staff IT Software Engineer (Salesforce Servicecloud) in Bangalore, India
+2024-08-20 23:28:50,835 - __main__ - INFO - Collected job: Staff IT Software Engineer (Salesforce Servicecloud) in Bangalore, India
+2024-08-20 23:28:50,835 - __main__ - INFO - Collected job: Senior QA Automation engineer (Prisma Cloud Compute) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:50,836 - __main__ - INFO - Collected job: Sr Principal Software Engineer (NGFW) in Santa Clara, United States
+2024-08-20 23:28:50,836 - __main__ - INFO - Collected job: Sr Software Engineer (Xpanse) in New York, United States (Remote)
+2024-08-20 23:28:50,837 - __main__ - INFO - Collected job: Sr Software Engineer (Xpanse) in Santa Clara, United States (Remote)
+2024-08-20 23:28:50,837 - __main__ - INFO - Collected job: Staff IT Software Engineer (Fullstack) in Bangalore, India
+2024-08-20 23:28:50,838 - __main__ - INFO - Collected job: Principal Security Researcher (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:50,838 - __main__ - INFO - Collected job: Principal Software Engineer (NetSec/NGFW) in Santa Clara, United States
+2024-08-20 23:28:50,838 - __main__ - INFO - Collected job: Senior Staff UI/UX Designer (Prisma Cloud) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:50,839 - __main__ - INFO - Collected job: Sr QA Automation Manager (Cortex XSOAR) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:50,840 - __main__ - INFO - Collected job: Principal Engineer Software - Cloud Security (Cortex) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:50,840 - __main__ - INFO - Collected job: Software Engineering Manager - Platform (Cortex) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:50,840 - __main__ - INFO - Collected job: Sr Principal Software Engineer (AI Runtime Security) in Santa Clara, United States
+2024-08-20 23:28:50,841 - __main__ - INFO - Collected job: Senior Software Engineer - Security Research (Intrusion Prevention System Development) in Santa Clara, United States
+2024-08-20 23:28:50,841 - __main__ - INFO - Collected job: Sr Principal Software Engineer, Site Reliability (Access Edge Platform) in Santa Clara, United States
+2024-08-20 23:28:50,842 - __main__ - INFO - Collected job: Sr Principal Engineer Software (L7 Security) in Santa Clara, United States
+2024-08-20 23:28:50,843 - __main__ - INFO - Collected job: Senior Technical Marketing Engineer (SASE Visibility & Analytics) in Santa Clara, United States
+2024-08-20 23:28:50,843 - __main__ - INFO - Collected job: Director of Software Engineering QA - Prisma SASE in Santa Clara, United States
+2024-08-20 23:28:52,157 - __main__ - INFO - Clicked next page
+2024-08-20 23:28:54,182 - __main__ - INFO - Collected job: Principal Software Engineer (Expanse in New York, United States (Remote)
+2024-08-20 23:28:54,182 - __main__ - INFO - Collected job: Threat Hunter Analyst in Remote, United States (Remote)
+2024-08-20 23:28:54,183 - __main__ - INFO - Collected job: Principal Software Engineer (Expanse) in Santa Clara, United States (Remote)
+2024-08-20 23:28:54,183 - __main__ - INFO - Collected job: Senior Devops Engineer - SRE in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:54,184 - __main__ - INFO - Collected job: Senior Technical Writer (Network Security Platform) in Bangalore, India
+2024-08-20 23:28:54,184 - __main__ - INFO - Collected job: Principal Security Researcher - Security Automation (Cortex) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:54,184 - __main__ - INFO - Collected job: Senior Security Researcher - Security Automation (Cortex) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:54,185 - __main__ - INFO - Collected job: Senior Principal Engineer (Cortex XSOAR/XSIAM) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:54,185 - __main__ - INFO - Collected job: Principal Engineer Software - Data Collection (Cortex) in Tel Aviv-Yafo, Israel
+2024-08-20 23:28:54,186 - __main__ - INFO - Collected job: Engineering Manager (Threat Data Platform) in Santa Clara, United States
+2024-08-20 23:28:54,186 - __main__ - INFO - Collected job: Senior Manager, Offensive Security (InfoSec) in Santa Clara, United States
+2024-08-20 23:28:54,187 - __main__ - INFO - Collected job: Senior Systems Engineer, Identity & Access Management in Santa Clara, United States
+2024-08-20 23:28:54,187 - __main__ - INFO - Collected job: Principal Security Research Engineer (Prisma Cloud) in Bangalore, India
+2024-08-20 23:28:54,187 - __main__ - INFO - Collected job: Principal Software Engineer- Big Data And Cloud (Cortex) in Tel Aviv-Yafo, Israel
+2024-08-20 23:29:14,241 - __main__ - INFO - No more pages to load or error encountered: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@aria-label='Go to next page of results']"}
+  (Session info: chrome=127.0.6533.120)
+Stacktrace:
+0   chromedriver                        0x0000000102772a0c chromedriver + 4385292
+1   chromedriver                        0x000000010276b318 chromedriver + 4354840
+2   chromedriver                        0x0000000102388b0c chromedriver + 281356
+3   chromedriver                        0x00000001023cb2f8 chromedriver + 553720
+4   chromedriver                        0x0000000102403d24 chromedriver + 785700
+5   chromedriver                        0x00000001023bfeec chromedriver + 507628
+6   chromedriver                        0x00000001023c08c4 chromedriver + 510148
+7   chromedriver                        0x000000010273a3c8 chromedriver + 4154312
+8   chromedriver                        0x000000010273ee2c chromedriver + 4173356
+9   chromedriver                        0x000000010271ff84 chromedriver + 4046724
+10  chromedriver                        0x000000010273f718 chromedriver + 4175640
+11  chromedriver                        0x0000000102712f44 chromedriver + 3993412
+12  chromedriver                        0x000000010275d1a8 chromedriver + 4297128
+13  chromedriver                        0x000000010275d324 chromedriver + 4297508
+14  chromedriver                        0x000000010276af10 chromedriver + 4353808
+15  libsystem_pthread.dylib             0x000000019ed72f94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019ed6dd34 thread_start + 8
+
+2024-08-20 23:29:14,329 - __main__ - INFO - Driver quit, script completed
