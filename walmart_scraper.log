@@ -1,0 +1,33 @@
+2024-08-23 00:15:22,276 - __main__ - INFO - Starting Walmart scraping script
+2024-08-23 00:15:22,276 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-23 00:15:23,532 - __main__ - INFO - WebDriver initialized for Walmart
+2024-08-23 00:15:28,727 - __main__ - INFO - Accessed URL: https://careers.walmart.com/results?q=&page=1&sort=rank&jobCategory=00000161-7bad-da32-a37b-fbef5e390000,00000161-7bf4-da32-a37b-fbf7c59e0000,00000161-7bff-da32-a37b-fbffc8c10000,00000161-8bd0-d3dd-a1fd-bbd0febc0000,00000161-8be6-da32-a37b-cbe70c150000&jobSubCategory=0000015a-a577-de75-a9ff-bdff284e0000&expand=department,0000015e-b97d-d143-af5e-bd7da8ca0000,00000161-8be6-da32-a37b-cbe70c150000,brand,type,rate&type=jobs
+2024-08-23 00:15:30,766 - __main__ - INFO - Total job listings found: 614
+2024-08-23 00:15:30,804 - __main__ - INFO - Collected job: Principal, Technical Program Manager, BENTONVILLE, AR
+2024-08-23 00:15:30,804 - __main__ - INFO - Collected job: Principal, Technical Program Manager, SUNNYVALE, CA
+2024-08-23 00:15:30,805 - __main__ - INFO - Collected job: Staff, Technical Program Manager, SUNNYVALE, CA
+2024-08-23 00:15:30,805 - __main__ - INFO - Collected job: Principal, Technical Program Manager, SUNNYVALE, CA
+2024-08-23 00:15:30,805 - __main__ - INFO - Collected job: (USA) Staff, Technical Program Manager, SUNNYVALE, CA
+2024-08-23 00:15:30,806 - __main__ - INFO - Collected job: Principal, Technical Program Manager, BENTONVILLE, AR
+2024-08-23 00:15:30,806 - __main__ - INFO - Collected job: Staff, Technical Program Manager, BENTONVILLE, AR
+2024-08-23 00:15:30,806 - __main__ - INFO - Collected job: (USA) Distinguished, Technical Program Manager, BELLEVUE, WA
+2024-08-23 00:15:30,806 - __main__ - INFO - Collected job: Staff, Technical Program Manager, BENTONVILLE, AR
+2024-08-23 00:15:30,807 - __main__ - INFO - Collected job: (USA) Staff Technical Program Manager - Technology, BENTONVILLE, AR
+2024-08-23 00:15:30,807 - __main__ - INFO - Collected job: (USA) Staff, Technical Program Manager, BENTONVILLE, AR
+2024-08-23 00:15:30,807 - __main__ - INFO - Collected job: Director, Technical Program Management, BELLEVUE, WA
+2024-08-23 00:15:30,808 - __main__ - INFO - Collected job: (USA) Principal, Technical Program Manager, BELLEVUE, WA
+2024-08-23 00:15:30,808 - __main__ - INFO - Collected job: Distinguished, Technical Program Manager, BELLEVUE, WA
+2024-08-23 00:15:30,808 - __main__ - INFO - Collected job: Staff Technical Program Manager, BELLEVUE, WA
+2024-08-23 00:15:30,809 - __main__ - INFO - Collected job: Principal Technical Program Manager, BELLEVUE, WA
+2024-08-23 00:15:30,809 - __main__ - INFO - Collected job: Distinguished, Technical Program Manager - Well-Being (Enterprise People Technology), BELLEVUE, WA
+2024-08-23 00:15:30,809 - __main__ - INFO - Collected job: Staff, Technical Program Manager, BENTONVILLE, AR
+2024-08-23 00:15:30,809 - __main__ - INFO - Collected job: (USA) Senior Distinguished I, Technical Program Manager, BENTONVILLE, AR
+2024-08-23 00:15:30,810 - __main__ - INFO - Collected job: Distinguished, Technical Program Manager - Customer Trust & DIgital Citizenship, BENTONVILLE, AR
+2024-08-23 00:15:30,810 - __main__ - INFO - Collected job: Distinguished, Technical Program Manager-1, BENTONVILLE, AR
+2024-08-23 00:15:30,810 - __main__ - INFO - Collected job: Principal, Technical Program Manager, BENTONVILLE, AR
+2024-08-23 00:15:30,811 - __main__ - INFO - Collected job: Principal, Technical Program Manager, BENTONVILLE, AR
+2024-08-23 00:15:30,811 - __main__ - INFO - Collected job: Distinguished, Technical Program Manager, BENTONVILLE, AR
+2024-08-23 00:15:30,811 - __main__ - INFO - Collected job: (USA) Principal, Technical Program Manager, BENTONVILLE, AR
+2024-08-23 00:15:32,832 - __main__ - INFO - Moved to the next page
+2024-08-23 00:15:52,907 - __main__ - INFO - No more pages or encountered error moving to next page.
+2024-08-23 00:15:52,985 - __main__ - INFO - Driver quit, script completed for Walmart

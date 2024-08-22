@@ -1,0 +1,10 @@
+2024-08-23 00:31:38,678 - __main__ - INFO - Starting Yellow.ai scraping script
+2024-08-23 00:31:38,678 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-23 00:31:39,758 - __main__ - INFO - WebDriver initialized for Yellow.ai
+2024-08-23 00:31:42,274 - __main__ - INFO - Accessed URL: https://jobs.lever.co/yellowai
+2024-08-23 00:31:45,390 - __main__ - INFO - Driver quit, script completed for Yellow.ai
+2024-08-23 00:34:02,850 - __main__ - INFO - Starting Yellow.ai scraping script
+2024-08-23 00:34:02,850 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-23 00:34:04,020 - __main__ - INFO - WebDriver initialized for Yellow.ai
+2024-08-23 00:34:07,933 - __main__ - INFO - Accessed URL: https://yellow-ai.sensehq.com/careers
+2024-08-23 00:34:11,065 - __main__ - INFO - Driver quit, script completed for Yellow.ai

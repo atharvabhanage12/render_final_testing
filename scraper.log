@@ -2052,3 +2052,149 @@ Stacktrace:
 16  libsystem_pthread.dylib             0x000000019ed6dd34 thread_start + 8
 
 2024-08-21 00:04:23,871 - __main__ - INFO - Driver quit, script completed
+2024-08-22 23:25:30,932 - __main__ - INFO - Starting script
+2024-08-22 23:25:30,939 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-22 23:25:33,188 - __main__ - INFO - WebDriver initialized
+2024-08-22 23:25:37,419 - __main__ - INFO - Accessed URL: https://jobs.siemens.com/careers?pid=563156115868726&organization=Technology&domain=siemens.com&sort_by=relevance&triggerGoButton=false
+2024-08-22 23:25:39,462 - __main__ - INFO - Clicked 'Show More' button
+2024-08-22 23:25:41,495 - __main__ - INFO - Clicked 'Show More' button
+2024-08-22 23:25:43,522 - __main__ - INFO - Clicked 'Show More' button
+2024-08-22 23:26:05,569 - __main__ - INFO - No more 'Show More' button found or error encountered
+2024-08-22 23:26:05,628 - __main__ - INFO - Found 0 job postings
+2024-08-22 23:26:05,628 - __main__ - INFO - Total unique jobs: 0
+2024-08-22 23:26:05,628 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-08-22 23:26:05,746 - __main__ - INFO - Driver quit, script completed
+2024-08-22 23:26:49,870 - __main__ - INFO - Starting script
+2024-08-22 23:26:49,879 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-22 23:26:51,734 - __main__ - INFO - WebDriver initialized
+2024-08-22 23:26:56,466 - __main__ - INFO - Accessed URL: https://jobs.siemens.com/careers?pid=563156115868726&organization=Technology&domain=siemens.com&sort_by=relevance&triggerGoButton=false
+2024-08-22 23:26:58,504 - __main__ - INFO - Clicked 'Show More' button
+2024-08-22 23:27:00,537 - __main__ - INFO - Clicked 'Show More' button
+2024-08-22 23:27:02,614 - __main__ - INFO - Clicked 'Show More' button
+2024-08-22 23:27:24,646 - __main__ - INFO - No more 'Show More' button found or error encountered
+2024-08-22 23:27:24,706 - __main__ - INFO - Found 0 job postings
+2024-08-22 23:27:24,706 - __main__ - INFO - Total unique jobs: 0
+2024-08-22 23:27:24,706 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-08-22 23:27:24,791 - __main__ - INFO - Driver quit, script completed
+2024-08-22 23:28:15,555 - __main__ - INFO - Starting script
+2024-08-22 23:28:15,556 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-22 23:28:17,321 - __main__ - INFO - WebDriver initialized
+2024-08-22 23:28:22,583 - __main__ - INFO - Accessed URL: https://jobs.siemens.com/careers?pid=563156115868726&organization=Technology&domain=siemens.com&sort_by=relevance&triggerGoButton=false
+2024-08-22 23:28:24,626 - __main__ - INFO - Clicked 'Show More' button
+2024-08-22 23:28:26,653 - __main__ - INFO - Clicked 'Show More' button
+2024-08-22 23:28:28,683 - __main__ - INFO - Clicked 'Show More' button
+2024-08-22 23:28:50,715 - __main__ - INFO - No more 'Show More' button found or error encountered
+2024-08-22 23:28:50,771 - __main__ - INFO - Found 0 job postings
+2024-08-22 23:28:50,771 - __main__ - INFO - Total unique jobs: 0
+2024-08-22 23:28:50,771 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-08-22 23:28:50,881 - __main__ - INFO - Driver quit, script completed
+2024-08-22 23:30:12,929 - __main__ - INFO - Starting script
+2024-08-22 23:30:12,935 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-22 23:30:14,816 - __main__ - INFO - WebDriver initialized
+2024-08-22 23:30:20,192 - __main__ - INFO - Accessed URL: https://jobs.siemens.com/careers?pid=563156115868726&organization=Technology&domain=siemens.com&sort_by=relevance&triggerGoButton=false
+2024-08-22 23:30:22,242 - __main__ - INFO - Clicked 'Show More' button
+2024-08-22 23:30:24,267 - __main__ - INFO - Clicked 'Show More' button
+2024-08-22 23:30:26,295 - __main__ - INFO - Clicked 'Show More' button
+2024-08-22 23:30:48,335 - __main__ - INFO - No more 'Show More' button found or error encountered
+2024-08-22 23:30:48,392 - __main__ - INFO - Found 30 job postings
+2024-08-22 23:31:33,360 - __main__ - INFO - Starting script
+2024-08-22 23:31:33,367 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-22 23:31:35,031 - __main__ - INFO - WebDriver initialized
+2024-08-22 23:31:39,748 - __main__ - INFO - Accessed URL: https://jobs.siemens.com/careers?pid=563156115868726&organization=Technology&domain=siemens.com&sort_by=relevance&triggerGoButton=false
+2024-08-22 23:31:41,795 - __main__ - INFO - Clicked 'Show More' button
+2024-08-22 23:31:43,816 - __main__ - INFO - Clicked 'Show More' button
+2024-08-22 23:31:45,839 - __main__ - INFO - Clicked 'Show More' button
+2024-08-22 23:32:07,864 - __main__ - INFO - No more 'Show More' button found or error encountered
+2024-08-22 23:32:07,924 - __main__ - INFO - Found 30 job postings
+2024-08-22 23:35:34,095 - __main__ - INFO - Starting script
+2024-08-22 23:35:34,104 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-22 23:35:35,854 - __main__ - INFO - WebDriver initialized
+2024-08-22 23:35:41,511 - __main__ - INFO - Accessed URL: https://jobs.siemens.com/careers?pid=563156115868726&organization=Technology&domain=siemens.com&sort_by=relevance&triggerGoButton=false
+2024-08-22 23:35:43,546 - __main__ - INFO - Clicked 'Show More' button
+2024-08-22 23:35:45,572 - __main__ - INFO - Clicked 'Show More' button
+2024-08-22 23:35:47,599 - __main__ - INFO - Clicked 'Show More' button
+2024-08-22 23:36:09,631 - __main__ - INFO - No more 'Show More' button found or error encountered
+2024-08-22 23:36:09,688 - __main__ - INFO - Found 30 job postings
+2024-08-22 23:37:08,411 - __main__ - INFO - Starting script
+2024-08-22 23:37:08,412 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-22 23:37:10,283 - __main__ - INFO - WebDriver initialized
+2024-08-22 23:37:18,207 - __main__ - INFO - Accessed URL: https://jobs.siemens.com/careers?pid=563156115868726&organization=Technology&domain=siemens.com&sort_by=relevance&triggerGoButton=false
+2024-08-22 23:37:20,245 - __main__ - INFO - Clicked 'Show More' button
+2024-08-22 23:37:22,270 - __main__ - INFO - Clicked 'Show More' button
+2024-08-22 23:37:24,298 - __main__ - INFO - Clicked 'Show More' button
+2024-08-22 23:37:46,311 - __main__ - INFO - No more 'Show More' button found or error encountered
+2024-08-22 23:37:46,369 - __main__ - INFO - Found 30 job postings
+2024-08-22 23:38:19,563 - __main__ - INFO - Starting script
+2024-08-22 23:38:19,565 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-22 23:38:20,599 - __main__ - INFO - WebDriver initialized
+2024-08-22 23:38:25,337 - __main__ - INFO - Accessed URL: https://jobs.siemens.com/careers?pid=563156115868726&organization=Technology&domain=siemens.com&sort_by=relevance&triggerGoButton=false
+2024-08-22 23:38:27,389 - __main__ - INFO - Clicked 'Show More' button
+2024-08-22 23:38:29,428 - __main__ - INFO - Clicked 'Show More' button
+2024-08-22 23:38:31,473 - __main__ - INFO - Clicked 'Show More' button
+2024-08-22 23:38:53,501 - __main__ - INFO - No more 'Show More' button found or error encountered
+2024-08-22 23:38:53,575 - __main__ - INFO - Found 30 job postings
+2024-08-22 23:38:53,576 - __main__ - INFO - Collected job: Technology Professional in Bangalore, Karnataka, India
+2024-08-22 23:38:53,576 - __main__ - INFO - Collected job: Research Engineer – Generative Optimization in Bangalore, Karnataka, India
+2024-08-22 23:38:53,577 - __main__ - INFO - Collected job: Technical Expert – Digital Twin at Operation in Bangalore, Karnataka, India
+2024-08-22 23:38:53,578 - __main__ - INFO - Collected job: Research Engineer - Embedded/C++/Linux in Bangalore, Karnataka, India
+2024-08-22 23:38:53,578 - __main__ - INFO - Collected job: Lead Electronics Engineer - Industrial IOT in Bangalore, Karnataka, India
+2024-08-22 23:38:53,579 - __main__ - INFO - Collected job: Software Engineer in Bangalore, Karnataka, India
+2024-08-22 23:38:53,579 - __main__ - INFO - Collected job: Werkstudent*in (w/m/d) für Communication und Technologie-Management in Munich, Bayern, Germany
+2024-08-22 23:38:53,582 - __main__ - INFO - Collected job: Senior Software Engineering Lead for Research in Software Systems & Processes in Brasov, Brasov, Romania
+2024-08-22 23:38:53,583 - __main__ - INFO - Collected job: Senior User Researcher (m/f/d) in Amadora, Lisboa, Portugal
+2024-08-22 23:38:53,584 - __main__ - INFO - Collected job: Digital Transformation and Automation Specialist (m/f/d) (MW431101) in Vienna, Wien, Austria
+2024-08-22 23:38:53,585 - __main__ - INFO - Collected job: Senior Expert (m/f/d) Sustainable Automation Solutions (MW430586) in Vienna, Wien, Austria
+2024-08-22 23:38:53,585 - __main__ - INFO - Collected job: Intellectual Property Administration Professional (w/m/d) in Munich, Bayern, Germany
+2024-08-22 23:38:53,586 - __main__ - INFO - Collected job: Werkstudent*in (w/m/d) im Maker Space in Garching, Bayern, Germany
+2024-08-22 23:38:53,587 - __main__ - INFO - Collected job: Werkstudent*in (w/m/d) Kommunikation zentrale Forschung und Entwicklung in Munich, Bayern, Germany
+2024-08-22 23:38:53,588 - __main__ - INFO - Collected job: Thesis (Master) Resource-Efficient Transfer Learning for Times Series Classification in Erlangen, Bayern, Germany
+2024-08-22 23:38:53,588 - __main__ - INFO - Collected job: Werkstudent*in (w/m/d) für eingebettete Softwareentwicklung in modernem C++ in Erlangen, Bayern, Germany
+2024-08-22 23:38:53,589 - __main__ - INFO - Collected job: UX Expert – Junior User Experience Designer / UX enthusiast focused in  IoT (m/f/d) in Amadora, Lisboa, Portugal
+2024-08-22 23:38:53,590 - __main__ - INFO - Collected job: Doktorand*in (w/m/d) - Erforschung und Entwicklung von (KI-)Methoden für industrielle Anwendungen in Munich, Bayern, Germany
+2024-08-22 23:38:53,590 - __main__ - INFO - Collected job: Senior Embedded Software Developer (m/f/d) in Amadora, Lisboa, Portugal
+2024-08-22 23:38:53,592 - __main__ - INFO - Collected job: UX Expert – Senior UX/UI Designer / UX enthusiast focused in IoT (m/f/d) in Amadora, Lisboa, Portugal
+2024-08-22 23:38:53,592 - __main__ - INFO - Collected job: Masterarbeit: Erneuerbares Energiesystem in Munich, Bayern, Germany
+2024-08-22 23:38:53,593 - __main__ - INFO - Collected job: Pflichtpraktikum: 3D-CAD- und KI-Methoden zur Automatisierung von Fertigungsprozessen in Munich, Bayern, Germany
+2024-08-22 23:38:53,594 - __main__ - INFO - Collected job: Abschlussarbeit (Master): Optimierung von Koppelimpedanzen zur Co-Simulation von Energienetzen in Erlangen, Bayern, Germany
+2024-08-22 23:38:53,594 - __main__ - INFO - Collected job: Principal Key Expert (f/m/d) - Configuration & Planning (MS421639) in Vienna, Wien, Austria
+2024-08-22 23:38:53,595 - __main__ - INFO - Collected job: Patentanwaltskandidat (w/m/d) Geschäftsbereiche Electrical Products & e-Mobility in Munich, Bayern, Germany
+2024-08-22 23:38:53,596 - __main__ - INFO - Collected job: Senior Data Scientist (m/f/d) in Amadora, Lisboa, Portugal
+2024-08-22 23:38:53,597 - __main__ - INFO - Collected job: Technical Project Manager (Research & Development) (m/f/d) in Amadora, Lisboa, Portugal
+2024-08-22 23:38:53,598 - __main__ - INFO - Collected job: Senior Frontend Developer (Research and Development) (m/f/d) in Amadora, Lisboa, Portugal
+2024-08-22 23:38:53,598 - __main__ - INFO - Collected job: Research Scientist for Embedded Systems (f/m/d) in Amadora, Lisboa, Portugal
+2024-08-22 23:38:53,599 - __main__ - INFO - Collected job: Software Architect for Embedded Systems (f/m/d) in Amadora, Lisboa, Portugal
+2024-08-22 23:38:53,599 - __main__ - INFO - Total unique jobs: 30
+2024-08-22 23:38:53,599 - __main__ - INFO - Data saved to JSON: /opt/render/project/src/output1.json
+2024-08-22 23:38:53,670 - __main__ - INFO - Driver quit, script completed
+2024-08-22 23:49:18,110 - __main__ - INFO - Starting Slice scraping script
+2024-08-22 23:49:18,119 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-22 23:49:19,266 - __main__ - INFO - WebDriver initialized for Slice
+2024-08-22 23:49:20,119 - __main__ - INFO - Accessed URL: https://careers.smartrecruiters.com/slice1
+2024-08-22 23:49:26,169 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
+2024-08-22 23:49:26,170 - __main__ - INFO - Collected job: Engineering Manager, Bengaluru, Karnataka, India, https://jobs.smartrecruiters.com/slice1/744000005879321-engineering-manager
+2024-08-22 23:49:26,171 - __main__ - INFO - Collected job: Staff Engineer (Backend), Bengaluru, Karnataka, India, https://jobs.smartrecruiters.com/slice1/744000002293561-staff-engineer-backend-
+2024-08-22 23:49:26,171 - __main__ - INFO - Collected job: Engineering Manager- Mobile, Bengaluru, Karnataka, India, https://jobs.smartrecruiters.com/slice1/744000000376671-engineering-manager-mobile
+2024-08-22 23:49:26,171 - __main__ - INFO - Collected job: SDE 3 (Backend), Bengaluru, Karnataka, India, https://jobs.smartrecruiters.com/slice1/743999999575475-sde-3-backend-
+2024-08-22 23:49:26,172 - __main__ - INFO - Collected job: Data Engineer II, Bengaluru, Karnataka, India, https://jobs.smartrecruiters.com/slice1/743999996132846-data-engineer-ii
+2024-08-22 23:49:26,172 - __main__ - INFO - Collected job: Site Reliability Engineer 2, Bengaluru, Karnataka, India, https://jobs.smartrecruiters.com/slice1/743999996132776-site-reliability-engineer-2
+2024-08-22 23:49:26,172 - __main__ - INFO - Collected job: Senior Compliance Associate, Bengaluru, Karnataka, India, https://jobs.smartrecruiters.com/slice1/743999989356103-senior-compliance-associate
+2024-08-22 23:49:26,172 - __main__ - INFO - Collected job: Product Security Manager, Bengaluru, Karnataka, India, https://jobs.smartrecruiters.com/slice1/743999985537783-product-security-manager
+2024-08-22 23:49:26,173 - __main__ - INFO - Collected job: SDET 2, Bengaluru, Karnataka, India, https://jobs.smartrecruiters.com/slice1/743999976558463-sdet-2
+2024-08-22 23:49:26,235 - __main__ - INFO - Driver quit, script completed for Slice
+2024-08-22 23:52:10,655 - __main__ - INFO - Starting Tesla scraping script
+2024-08-22 23:52:10,665 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-22 23:52:11,761 - __main__ - INFO - WebDriver initialized for Tesla
+2024-08-22 23:52:12,152 - __main__ - INFO - Accessed URL: https://www.tesla.com/careers/search/?region=5
+2024-08-22 23:52:16,200 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
+2024-08-23 00:03:00,424 - __main__ - INFO - Starting Unacademy scraping script
+2024-08-23 00:03:00,431 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-23 00:03:01,642 - __main__ - INFO - WebDriver initialized for Unacademy
+2024-08-23 00:03:03,471 - __main__ - INFO - Accessed URL: https://unacademy.skillate.com/jobs?page=0&pageSize=50&department=&location=&title=&sortBy=&orderBy=ASC&minExp=0&maxExp=20&jobType=&workplaceType=
+2024-08-23 00:03:05,486 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
+2024-08-23 00:03:05,553 - __main__ - INFO - Driver quit, script completed for Unacademy
+2024-08-23 00:08:12,868 - __main__ - INFO - Starting Unacademy scraping script
+2024-08-23 00:08:12,876 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-23 00:08:14,164 - __main__ - INFO - WebDriver initialized for Unacademy
+2024-08-23 00:08:16,341 - __main__ - INFO - Accessed URL: https://unacademy.darwinbox.in/ms/candidate/careers
+2024-08-23 00:08:18,367 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
+2024-08-23 00:08:18,437 - __main__ - INFO - Driver quit, script completed for Unacademy
