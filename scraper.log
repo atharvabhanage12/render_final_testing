@@ -2198,3 +2198,50 @@ Stacktrace:
 2024-08-23 00:08:16,341 - __main__ - INFO - Accessed URL: https://unacademy.darwinbox.in/ms/candidate/careers
 2024-08-23 00:08:18,367 - __main__ - INFO - Page source obtained and parsed with BeautifulSoup
 2024-08-23 00:08:18,437 - __main__ - INFO - Driver quit, script completed for Unacademy
+2024-08-23 01:16:04,301 - __main__ - INFO - Starting script
+2024-08-23 01:16:04,309 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-23 01:16:05,651 - __main__ - INFO - WebDriver initialized
+2024-08-23 01:16:10,399 - __main__ - INFO - Accessed URL: https://careers.imc.com/in/en/search-results
+2024-08-23 01:16:12,446 - __main__ - INFO - Accepted cookies
+2024-08-23 01:16:34,464 - __main__ - ERROR - Error selecting 'Technology' category: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='checkbox' and @data-ph-at-text='Technology']"}
+  (Session info: chrome-headless-shell=127.0.6533.120)
+Stacktrace:
+0   chromedriver                        0x000000010447aa0c chromedriver + 4385292
+1   chromedriver                        0x0000000104473318 chromedriver + 4354840
+2   chromedriver                        0x0000000104090b0c chromedriver + 281356
+3   chromedriver                        0x00000001040d32f8 chromedriver + 553720
+4   chromedriver                        0x000000010410bd24 chromedriver + 785700
+5   chromedriver                        0x00000001040c7eec chromedriver + 507628
+6   chromedriver                        0x00000001040c88c4 chromedriver + 510148
+7   chromedriver                        0x00000001044423c8 chromedriver + 4154312
+8   chromedriver                        0x0000000104446e2c chromedriver + 4173356
+9   chromedriver                        0x0000000104427f84 chromedriver + 4046724
+10  chromedriver                        0x0000000104447718 chromedriver + 4175640
+11  chromedriver                        0x000000010441af44 chromedriver + 3993412
+12  chromedriver                        0x00000001044651a8 chromedriver + 4297128
+13  chromedriver                        0x0000000104465324 chromedriver + 4297508
+14  chromedriver                        0x0000000104472f10 chromedriver + 4353808
+15  libsystem_pthread.dylib             0x000000019ed72f94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019ed6dd34 thread_start + 8
+
+2024-08-23 01:16:45,943 - __main__ - INFO - Starting script
+2024-08-23 01:16:45,943 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-23 01:16:46,894 - __main__ - INFO - WebDriver initialized
+2024-08-23 01:16:50,894 - __main__ - INFO - Accessed URL: https://careers.imc.com/in/en/search-results
+2024-08-23 01:16:52,956 - __main__ - INFO - Accepted cookies
+2024-08-23 01:16:54,992 - __main__ - INFO - Total number of jobs: 71
+2024-08-23 01:16:55,047 - __main__ - ERROR - Error parsing job listing: 'NoneType' object has no attribute 'text'
+2024-08-23 01:16:56,608 - __main__ - INFO - Navigated to next page
+2024-08-23 01:17:00,071 - __main__ - INFO - Navigated to next page
+2024-08-23 01:17:03,449 - __main__ - INFO - Navigated to next page
+2024-08-23 01:17:05,530 - __main__ - ERROR - Error parsing job listing: 'NoneType' object has no attribute 'text'
+2024-08-23 01:17:07,011 - __main__ - INFO - Navigated to next page
+2024-08-23 01:17:10,394 - __main__ - INFO - Navigated to next page
+2024-08-23 01:17:13,900 - __main__ - INFO - Navigated to next page
+2024-08-23 01:17:17,217 - __main__ - INFO - Navigated to next page
+2024-08-23 01:17:19,297 - __main__ - INFO - Navigated to next page
+2024-08-23 01:17:21,375 - __main__ - INFO - Navigated to next page
+2024-08-23 01:17:23,438 - __main__ - INFO - Navigated to next page
+2024-08-23 01:17:25,444 - __main__ - INFO - Collected all job listings
+2024-08-23 01:17:25,444 - __main__ - INFO - Data collection complete
+2024-08-23 01:17:25,552 - __main__ - INFO - Driver quit, script completed

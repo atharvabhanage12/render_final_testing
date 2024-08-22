@@ -71,10 +71,10 @@ chrome_options = Options()
 chrome_options.add_argument("--headless")  # Run headless if needed
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-dev-shm-usage")
-chrome_options.binary_location = chrome_binary_path
+# chrome_options.binary_location = chrome_binary_path
 
 # Path to the manually downloaded ChromeDriver
-chrome_driver_path = os.path.expanduser("/opt/render/project/src/chromedriver/chromedriver-linux64/chromedriver")
+chrome_driver_path = os.path.expanduser("driver/chromedriver-mac-arm64/chromedriver")
 logger.info(f"ChromeDriver Path: {chrome_driver_path}")
 
 # Ensure the ChromeDriver is executable
@@ -116,16 +116,16 @@ except Exception as e:
     driver.quit()
     raise
 
-# Select 'Technology' category
-try:
-    category = driver.find_element(By.XPATH, "//input[@type='checkbox' and @data-ph-at-text='Technology']")
-    driver.execute_script('arguments[0].click();', category)
-    logger.info("Selected 'Technology' category")
-    time.sleep(2)
-except Exception as e:
-    logger.error(f"Error selecting 'Technology' category: {e}")
-    driver.quit()
-    raise
+# # Select 'Technology' category
+# try:
+#     category = driver.find_element(By.XPATH, "//input[@type='checkbox' and @data-ph-at-text='Technology']")
+#     driver.execute_script('arguments[0].click();', category)
+#     logger.info("Selected 'Technology' category")
+#     time.sleep(2)
+# except Exception as e:
+#     logger.error(f"Error selecting 'Technology' category: {e}")
+#     driver.quit()
+#     raise
 
 # Get the total number of jobs
 try:
@@ -178,9 +178,9 @@ logger.info("Data collection complete")
 
 # Save the data as JSON and log it
 output_path = "/opt/render/project/src/output1.json"
-with open(output_path, "w") as f:
-    json.dump({'company': 'imc trading', 'data': L}, f, indent=4)
-logger.info(f"Data saved to JSON: {output_path}")
+# with open(output_path, "w") as f:
+#     json.dump({'company': 'imc trading', 'data': L}, f, indent=4)
+# logger.info(f"Data saved to JSON: {output_path}")
 
 print(L)
 # Quit the driver
