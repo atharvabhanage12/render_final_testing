@@ -36,6 +36,7 @@ job_positions = scrape_job_positions()
 # save_to_json(job_positions, "BraveData.json")
 fin = json.dumps({"company":"brave","data":job_positions})
 print(fin)
+L=json.loads(fin)
 output_path = "/opt/render/project/src/output1.json"
 with open(output_path, "w") as f:
-    json.dump({"company": "brave", "data": fin}, f, indent=4)
+    json.dump({"company": "brave", "data": L}, f, indent=4)
