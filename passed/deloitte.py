@@ -28,4 +28,3 @@ json_data = json.dumps({"company":"deloitte","data":data})
 output_path = "/opt/render/project/src/output1.json"
 with open(output_path, "w") as f:
     json.dump({"company": "deloitte", "data": json_data}, f, indent=4)
-print(L)
