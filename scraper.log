@@ -2245,3 +2245,55 @@ Stacktrace:
 2024-08-23 01:17:25,444 - __main__ - INFO - Collected all job listings
 2024-08-23 01:17:25,444 - __main__ - INFO - Data collection complete
 2024-08-23 01:17:25,552 - __main__ - INFO - Driver quit, script completed
+2024-08-23 13:48:54,776 - __main__ - INFO - Starting script
+2024-08-23 13:48:54,785 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-23 13:49:01,894 - __main__ - ERROR - Error initializing WebDriver: Message: session not created: This version of ChromeDriver only supports Chrome version 126
+Current browser version is 128.0.6613.84 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+Stacktrace:
+0   chromedriver                        0x000000010310ea0c chromedriver + 4385292
+1   chromedriver                        0x0000000103107318 chromedriver + 4354840
+2   chromedriver                        0x0000000102d24b0c chromedriver + 281356
+3   chromedriver                        0x0000000102d58e4c chromedriver + 495180
+4   chromedriver                        0x0000000102d5811c chromedriver + 491804
+5   chromedriver                        0x0000000102d53688 chromedriver + 472712
+6   chromedriver                        0x0000000102d5060c chromedriver + 460300
+7   chromedriver                        0x0000000102d8fa78 chromedriver + 719480
+8   chromedriver                        0x0000000102d5beec chromedriver + 507628
+9   chromedriver                        0x0000000102d5c8c4 chromedriver + 510148
+10  chromedriver                        0x00000001030d63c8 chromedriver + 4154312
+11  chromedriver                        0x00000001030dae2c chromedriver + 4173356
+12  chromedriver                        0x00000001030bbf84 chromedriver + 4046724
+13  chromedriver                        0x00000001030db718 chromedriver + 4175640
+14  chromedriver                        0x00000001030aef44 chromedriver + 3993412
+15  chromedriver                        0x00000001030f91a8 chromedriver + 4297128
+16  chromedriver                        0x00000001030f9324 chromedriver + 4297508
+17  chromedriver                        0x0000000103106f10 chromedriver + 4353808
+18  libsystem_pthread.dylib             0x000000019ed72f94 _pthread_start + 136
+19  libsystem_pthread.dylib             0x000000019ed6dd34 thread_start + 8
+
+2024-08-23 13:49:39,826 - __main__ - INFO - Starting script
+2024-08-23 13:49:39,833 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-23 13:49:41,388 - __main__ - ERROR - Error initializing WebDriver: Message: session not created: This version of ChromeDriver only supports Chrome version 126
+Current browser version is 128.0.6613.84 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+Stacktrace:
+0   chromedriver                        0x0000000102fdaa0c chromedriver + 4385292
+1   chromedriver                        0x0000000102fd3318 chromedriver + 4354840
+2   chromedriver                        0x0000000102bf0b0c chromedriver + 281356
+3   chromedriver                        0x0000000102c24e4c chromedriver + 495180
+4   chromedriver                        0x0000000102c2411c chromedriver + 491804
+5   chromedriver                        0x0000000102c1f688 chromedriver + 472712
+6   chromedriver                        0x0000000102c1c60c chromedriver + 460300
+7   chromedriver                        0x0000000102c5ba78 chromedriver + 719480
+8   chromedriver                        0x0000000102c27eec chromedriver + 507628
+9   chromedriver                        0x0000000102c288c4 chromedriver + 510148
+10  chromedriver                        0x0000000102fa23c8 chromedriver + 4154312
+11  chromedriver                        0x0000000102fa6e2c chromedriver + 4173356
+12  chromedriver                        0x0000000102f87f84 chromedriver + 4046724
+13  chromedriver                        0x0000000102fa7718 chromedriver + 4175640
+14  chromedriver                        0x0000000102f7af44 chromedriver + 3993412
+15  chromedriver                        0x0000000102fc51a8 chromedriver + 4297128
+16  chromedriver                        0x0000000102fc5324 chromedriver + 4297508
+17  chromedriver                        0x0000000102fd2f10 chromedriver + 4353808
+18  libsystem_pthread.dylib             0x000000019ed72f94 _pthread_start + 136
+19  libsystem_pthread.dylib             0x000000019ed6dd34 thread_start + 8
+

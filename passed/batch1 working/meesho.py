@@ -30,10 +30,10 @@ chrome_options = Options()
 chrome_options.add_argument("--headless")  # Run headless if needed
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-dev-shm-usage")
-chrome_options.binary_location = chrome_binary_path
+# chrome_options.binary_location = chrome_binary_path
 
 # Path to the manually downloaded ChromeDriver
-chrome_driver_path = os.path.expanduser("/opt/render/project/src/chromedriver/chromedriver-linux64/chromedriver")
+chrome_driver_path = os.path.expanduser("driver/chromedriver-mac-arm64/chromedriver")
 logger.info(f"ChromeDriver Path: {chrome_driver_path}")
 
 # Ensure the ChromeDriver is executable
@@ -101,32 +101,33 @@ for i in job_elements:
     final_data.append({"job_title": job_title, "job_category": job_category, "job_location": job_location, "job_link": job_link})
     logger.info(f"Collected job: {job_title} in {job_location}")
 
-# Switch to internships and collect data
-try:
-    driver.find_element(By.XPATH, "//button[@id='headlessui-switch-3']").click()
-    logger.info("Switched to internships")
-    time.sleep(3)
+# # Switch to internships and collect data
+# try:
+#     driver.find_element(By.XPATH, "//button[@id='headlessui-switch-3']").click()
+#     logger.info("Switched to internships")
+#     time.sleep(3)
     
-    soup = BeautifulSoup(driver.page_source, "html.parser")
-    job_elements = soup.find_all("div", class_='job')
+#     soup = BeautifulSoup(driver.page_source, "html.parser")
+#     job_elements = soup.find_all("div", class_='job')
     
-    for i in job_elements:
-        soup2 = BeautifulSoup(str(i), "html.parser")
-        job_link = url + soup2.find("a", attrs={"rel": "noreferrer"})["href"][5:]
-        job_title = soup2.find("div", class_='col-span-5 py-4 text-md lg:text-lg text-dark lg:text-primary').text
-        job_category = soup2.find("div", class_='col-span-4 py-4 text-sm lg:text-lg text-dark').text
-        job_location = soup2.find("div", class_='flex').text
-        final_data.append({"job_title": job_title, "job_category": job_category, "job_location": job_location, "job_link": job_link})
-        logger.info(f"Collected internship: {job_title} in {job_location}")
-except Exception as e:
-    logger.error(f"Error collecting internship data: {e}")
+#     for i in job_elements:
+#         soup2 = BeautifulSoup(str(i), "html.parser")
+#         job_link = url + soup2.find("a", attrs={"rel": "noreferrer"})["href"][5:]
+#         job_title = soup2.find("div", class_='col-span-5 py-4 text-md lg:text-lg text-dark lg:text-primary').text
+#         job_category = soup2.find("div", class_='col-span-4 py-4 text-sm lg:text-lg text-dark').text
+#         job_location = soup2.find("div", class_='flex').text
+#         final_data.append({"job_title": job_title, "job_category": job_category, "job_location": job_location, "job_link": job_link})
+#         logger.info(f"Collected internship: {job_title} in {job_location}")
+# except Exception as e:
+#     logger.error(f"Error collecting internship data: {e}")
 
 # Save the data as JSON and log it
 output_path = "/opt/render/project/src/output1.json"
-with open(output_path, "w") as f:
-    json.dump({"company": "meesho", "data": final_data}, f, indent=4)
-logger.info(f"Data saved to JSON: {output_path}")
+# with open(output_path, "w") as f:
+#     json.dump({"company": "meesho", "data": final_data}, f, indent=4)
+# logger.info(f"Data saved to JSON: {output_path}")
 
+print(final_data)
 # Quit the driver
 driver.quit()
 logger.info("Driver quit, script completed")
