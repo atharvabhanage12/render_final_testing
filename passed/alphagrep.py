@@ -38,4 +38,4 @@ L=json.loads(json_data)
 
 output_path = "/opt/render/project/src/output1.json"
 with open(output_path, "w") as f:
-    json.dump(json.loads({"company": "alphagrep", "data": L}), f, indent=4)
+    json.dump({"company": "alphagrep", "data": L}, f, indent=4)
