@@ -21,7 +21,7 @@ print(json_data)
 L=json.loads(json_data)
 output_path = "/opt/render/project/src/output1.json"
 with open(output_path, "w") as f:
-    json.dump({"company": "clevertap", "data": L}, f, indent=4)
+    json.dump(json.loads({"company": "clevertap", "data": L}), f, indent=4)
 
 
 
