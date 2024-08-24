@@ -25,3 +25,29 @@
 2024-08-23 00:27:42,935 - __main__ - INFO - Collected job: Software Development Engineer (Education), Flex
 2024-08-23 00:29:22,999 - __main__ - INFO - No more pages or encountered error moving to next page.
 2024-08-23 00:29:23,084 - __main__ - INFO - Driver quit, script completed for Workday
+2024-08-24 12:04:10,949 - __main__ - INFO - Starting Workday scraping script
+2024-08-24 12:04:10,950 - __main__ - INFO - ChromeDriver Path: driver/chromedriver-mac-arm64/chromedriver
+2024-08-24 12:04:18,363 - __main__ - ERROR - Error initializing WebDriver: Message: session not created: This version of ChromeDriver only supports Chrome version 126
+Current browser version is 128.0.6613.84 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+Stacktrace:
+0   chromedriver                        0x0000000100e32a0c chromedriver + 4385292
+1   chromedriver                        0x0000000100e2b318 chromedriver + 4354840
+2   chromedriver                        0x0000000100a48b0c chromedriver + 281356
+3   chromedriver                        0x0000000100a7ce4c chromedriver + 495180
+4   chromedriver                        0x0000000100a7c11c chromedriver + 491804
+5   chromedriver                        0x0000000100a77688 chromedriver + 472712
+6   chromedriver                        0x0000000100a7460c chromedriver + 460300
+7   chromedriver                        0x0000000100ab3a78 chromedriver + 719480
+8   chromedriver                        0x0000000100a7feec chromedriver + 507628
+9   chromedriver                        0x0000000100a808c4 chromedriver + 510148
+10  chromedriver                        0x0000000100dfa3c8 chromedriver + 4154312
+11  chromedriver                        0x0000000100dfee2c chromedriver + 4173356
+12  chromedriver                        0x0000000100ddff84 chromedriver + 4046724
+13  chromedriver                        0x0000000100dff718 chromedriver + 4175640
+14  chromedriver                        0x0000000100dd2f44 chromedriver + 3993412
+15  chromedriver                        0x0000000100e1d1a8 chromedriver + 4297128
+16  chromedriver                        0x0000000100e1d324 chromedriver + 4297508
+17  chromedriver                        0x0000000100e2af10 chromedriver + 4353808
+18  libsystem_pthread.dylib             0x000000019ed72f94 _pthread_start + 136
+19  libsystem_pthread.dylib             0x000000019ed6dd34 thread_start + 8
+
