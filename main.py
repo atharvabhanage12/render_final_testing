@@ -26,6 +26,18 @@ result_dict = {
 
 L = [os.path.join(folder_path, i) for i in file_list if i.endswith(".py")]
 
+def append_jobs_data( jobs_data):
+    if isinstance(jobs_data, str):
+        try:
+            # Attempt to parse the string as JSON
+            jobs_data = json.loads(jobs_data)
+        except json.JSONDecodeError:
+            # Handle the case where jobs_data is a string but not a valid JSON
+            print("jobs_data is a string but not a valid JSON")
+            return  # Or handle this situation as required
+    # Append the (possibly converted) jobs_data to the array
+    result_dict['company_posting_array'].append(jobs_data)
+
 async def run_check():
     global result_dict
 
@@ -58,7 +70,8 @@ async def run_check():
                     # else:
                     if((count==0) or ((count>0) and (company_name !=result_dict['company_name_list'][-1]))):
                         result_dict['company_name_list'].append(company_name)
-                        result_dict['company_posting_array'].append(jobs_data)
+                        # result_dict['company_posting_array'].append(jobs_data)
+                        append_jobs_data(jobs_data)
                         logger.info(f"Data collected for {company_name}")
                         logger.info(jobs_data)
             except json.JSONDecodeError:
