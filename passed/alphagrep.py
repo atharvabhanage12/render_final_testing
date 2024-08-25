@@ -30,7 +30,7 @@ for i in finalsections:
         job_department=j.get('department_id')  
         data.append({'job_title':job_title,'job_location':job_location,'job_department':dict[str(job_department)],'job_link':'https://boards.greenhouse.io'+job_link})
 
-json_data=json.dumps({'company':'Alphagrep', 'data': data})
+json_data=json.dumps( data)
 print(json_data)
 
 
