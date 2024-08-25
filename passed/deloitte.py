@@ -22,9 +22,9 @@ for i in range(len(data_row)):
 
     }
     data.append(jobs)
-json_data = json.dumps({"company":"deloitte","data":data})
+json_data = json.dumps(data)
 # L= json.loads(json_data)
 # print(json_data)
 output_path = "/opt/render/project/src/output1.json"
 with open(output_path, "w") as f:
-    json.dump(json_data, f, indent=4)
+    json.dump({"company": "deloitte", "data": json_data}, f, indent=4)
